@@ -1,0 +1,16 @@
+2025-04-16 16:55:42,839 - master.gui - INFO - Master应用已启动
+2025-04-16 16:55:50,961 - master.gui - INFO - 应用已关闭
+2025-04-16 16:57:56,436 - master.gui - INFO - Master应用已启动
+2025-04-16 17:15:37,085 - master.network - INFO - 监听线程已启动
+2025-04-16 17:15:37,085 - master.network - INFO - 服务器已启动，监听 0.0.0.0:12345
+2025-04-16 17:15:48,787 - master.network - INFO - 服务器已停止
+2025-04-16 17:15:55,525 - master.network - INFO - 监听线程已启动
+2025-04-16 17:15:55,526 - master.network - INFO - 服务器已启动，监听 0.0.0.0:12345
+2025-04-16 17:15:56,027 - master.network - INFO - 客户端连接超时
+2025-04-16 17:16:01,037 - master.network - INFO - 服务器已停止
+2025-04-16 17:16:04,060 - master.network - INFO - 监听线程已启动
+2025-04-16 17:16:04,060 - master.network - INFO - 服务器已启动，监听 0.0.0.0:12345
+2025-04-16 17:16:05,332 - master.network - INFO - 服务器已停止
+2025-04-16 17:16:28,901 - master.gui - INFO - 应用已关闭
+2025-04-16 22:08:40,522 - master.gui - INFO - Master应用已启动
+2025-04-16 22:09:42,052 - master.gui - INFO - 应用已关闭

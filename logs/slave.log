@@ -1,0 +1,110 @@
+2025-04-16 16:55:11,150 - slave.clock - INFO - 软件时钟已初始化
+2025-04-16 16:55:11,150 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-16 16:55:11,151 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-16 16:55:11,151 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-16 16:55:11,211 - slave.gui - INFO - Slave应用已启动
+2025-04-16 16:55:37,939 - slave.gui - INFO - 应用已关闭
+2025-04-16 16:57:58,600 - slave.clock - INFO - 软件时钟已初始化
+2025-04-16 16:57:58,600 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-16 16:57:58,600 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-16 16:57:58,600 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-16 16:57:58,635 - slave.gui - INFO - Slave应用已启动
+2025-04-16 17:15:40,259 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-16 17:15:40,259 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-16 17:15:40,261 - slave.network - WARNING - 序列号不匹配: 预期=18452, 实际=1
+2025-04-16 17:15:40,261 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 17:15:40,261 - slave.network - WARNING - 序列号不匹配: 预期=18453, 实际=2
+2025-04-16 17:15:40,262 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 17:15:40,263 - slave.network - WARNING - 序列号不匹配: 预期=18454, 实际=3
+2025-04-16 17:15:40,263 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 17:15:40,263 - slave.network - WARNING - 序列号不匹配: 预期=18455, 实际=4
+2025-04-16 17:15:40,263 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 17:15:40,264 - slave.network - WARNING - 序列号不匹配: 预期=18456, 实际=5
+2025-04-16 17:15:40,264 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 17:15:40,265 - slave.network - WARNING - 序列号不匹配: 预期=18457, 实际=6
+2025-04-16 17:15:40,265 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 17:15:40,265 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 17:15:40,265 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 17:15:40,265 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 17:15:45,274 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 17:15:45,275 - slave.network - WARNING - 序列号不匹配: 预期=18458, 实际=7
+2025-04-16 17:15:45,275 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 17:15:45,276 - slave.network - WARNING - 序列号不匹配: 预期=18459, 实际=8
+2025-04-16 17:15:45,276 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 17:15:45,277 - slave.network - WARNING - 序列号不匹配: 预期=18460, 实际=9
+2025-04-16 17:15:45,277 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 17:15:45,277 - slave.network - WARNING - 序列号不匹配: 预期=18461, 实际=10
+2025-04-16 17:15:45,277 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 17:15:45,279 - slave.network - WARNING - 序列号不匹配: 预期=18462, 实际=11
+2025-04-16 17:15:45,279 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 17:15:45,280 - slave.network - WARNING - 序列号不匹配: 预期=18463, 实际=12
+2025-04-16 17:15:45,280 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 17:15:45,280 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 17:15:45,280 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 17:15:45,280 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 17:15:50,294 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 17:15:51,297 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:15:51,298 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 17:15:52,299 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:15:52,300 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 17:15:53,301 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:15:53,302 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 17:15:54,304 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:15:54,304 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 17:15:55,307 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:15:55,307 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 17:15:56,309 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:15:56,309 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 17:15:56,309 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 17:15:56,309 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 17:15:56,310 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 17:16:01,320 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 17:16:02,323 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:02,323 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 17:16:03,325 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:03,325 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 17:16:04,327 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:04,328 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 17:16:04,328 - slave.network - WARNING - 序列号不匹配: 预期=18473, 实际=1
+2025-04-16 17:16:04,328 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 17:16:04,329 - slave.network - WARNING - 序列号不匹配: 预期=18474, 实际=2
+2025-04-16 17:16:04,329 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 17:16:04,329 - slave.network - WARNING - 序列号不匹配: 预期=18475, 实际=3
+2025-04-16 17:16:04,330 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 17:16:04,330 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 17:16:04,330 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 17:16:04,330 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 17:16:09,340 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 17:16:10,342 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:10,343 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 17:16:11,344 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:11,345 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 17:16:12,346 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:12,347 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 17:16:13,349 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:13,350 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 17:16:14,352 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:14,353 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 17:16:15,355 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:15,355 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 17:16:15,355 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 17:16:15,355 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 17:16:15,356 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 17:16:20,366 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 17:16:21,368 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:21,368 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 17:16:22,370 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:22,370 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 17:16:23,372 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:23,372 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 17:16:24,373 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:24,373 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 17:16:25,375 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:25,375 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 17:16:26,377 - slave.network - WARNING - 同步请求超时
+2025-04-16 17:16:26,377 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 17:16:26,378 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 17:16:26,378 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 17:16:26,378 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 17:16:30,888 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-16 17:16:33,006 - slave.gui - INFO - 应用已关闭

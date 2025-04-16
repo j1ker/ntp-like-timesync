@@ -1,0 +1,556 @@
+2025-04-16 21:08:58,542 - slave.clock - INFO - 软件时钟已初始化
+2025-04-16 21:08:58,542 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-16 21:08:58,543 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-16 21:08:58,543 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-16 21:08:58,632 - slave.gui - INFO - Slave应用已启动
+2025-04-16 21:09:46,748 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-16 21:09:46,749 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-16 21:09:47,752 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:09:47,753 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:09:48,754 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:09:48,754 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:09:49,755 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:09:49,756 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:09:50,756 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:09:50,757 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:09:51,759 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:09:51,759 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:09:51,759 - slave.network - WARNING - 序列号不匹配: 预期=9895, 实际=1
+2025-04-16 21:09:51,759 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:09:51,760 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:09:51,760 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:09:51,760 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:09:56,770 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:09:56,770 - slave.network - WARNING - 序列号不匹配: 预期=9896, 实际=2
+2025-04-16 21:09:56,770 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:09:56,771 - slave.network - WARNING - 序列号不匹配: 预期=9897, 实际=3
+2025-04-16 21:09:56,771 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:09:56,772 - slave.network - WARNING - 序列号不匹配: 预期=9898, 实际=4
+2025-04-16 21:09:56,772 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:09:56,772 - slave.network - WARNING - 序列号不匹配: 预期=9899, 实际=5
+2025-04-16 21:09:56,772 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:09:56,773 - slave.network - WARNING - 序列号不匹配: 预期=9900, 实际=6
+2025-04-16 21:09:56,773 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:09:56,774 - slave.network - WARNING - 序列号不匹配: 预期=9901, 实际=7
+2025-04-16 21:09:56,774 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:09:56,774 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:09:56,774 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:09:56,774 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:01,783 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:01,784 - slave.network - WARNING - 序列号不匹配: 预期=9902, 实际=8
+2025-04-16 21:10:01,784 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:01,785 - slave.network - WARNING - 序列号不匹配: 预期=9903, 实际=9
+2025-04-16 21:10:01,785 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:01,785 - slave.network - WARNING - 序列号不匹配: 预期=9904, 实际=10
+2025-04-16 21:10:01,785 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:01,786 - slave.network - WARNING - 序列号不匹配: 预期=9905, 实际=11
+2025-04-16 21:10:01,786 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:01,786 - slave.network - WARNING - 序列号不匹配: 预期=9906, 实际=12
+2025-04-16 21:10:01,786 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:01,786 - slave.network - WARNING - 序列号不匹配: 预期=9907, 实际=13
+2025-04-16 21:10:01,787 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:01,787 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:01,787 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:01,787 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:06,795 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:06,796 - slave.network - WARNING - 序列号不匹配: 预期=9908, 实际=14
+2025-04-16 21:10:06,796 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:06,797 - slave.network - WARNING - 序列号不匹配: 预期=9909, 实际=15
+2025-04-16 21:10:06,798 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:06,798 - slave.network - WARNING - 序列号不匹配: 预期=9910, 实际=16
+2025-04-16 21:10:06,798 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:06,798 - slave.network - WARNING - 序列号不匹配: 预期=9911, 实际=17
+2025-04-16 21:10:06,799 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:06,799 - slave.network - WARNING - 序列号不匹配: 预期=9912, 实际=18
+2025-04-16 21:10:06,799 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:06,800 - slave.network - WARNING - 序列号不匹配: 预期=9913, 实际=19
+2025-04-16 21:10:06,800 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:06,801 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:06,801 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:06,801 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:11,810 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:11,811 - slave.network - WARNING - 序列号不匹配: 预期=9914, 实际=20
+2025-04-16 21:10:11,812 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:11,812 - slave.network - WARNING - 序列号不匹配: 预期=9915, 实际=21
+2025-04-16 21:10:11,812 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:11,812 - slave.network - WARNING - 序列号不匹配: 预期=9916, 实际=22
+2025-04-16 21:10:11,813 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:11,813 - slave.network - WARNING - 序列号不匹配: 预期=9917, 实际=23
+2025-04-16 21:10:11,813 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:11,813 - slave.network - WARNING - 序列号不匹配: 预期=9918, 实际=24
+2025-04-16 21:10:11,813 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:11,814 - slave.network - WARNING - 序列号不匹配: 预期=9919, 实际=25
+2025-04-16 21:10:11,814 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:11,814 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:11,814 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:11,814 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:16,823 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:16,825 - slave.network - WARNING - 序列号不匹配: 预期=9920, 实际=26
+2025-04-16 21:10:16,825 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:16,826 - slave.network - WARNING - 序列号不匹配: 预期=9921, 实际=27
+2025-04-16 21:10:16,826 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:16,827 - slave.network - WARNING - 序列号不匹配: 预期=9922, 实际=28
+2025-04-16 21:10:16,827 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:16,827 - slave.network - WARNING - 序列号不匹配: 预期=9923, 实际=29
+2025-04-16 21:10:16,827 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:16,828 - slave.network - WARNING - 序列号不匹配: 预期=9924, 实际=30
+2025-04-16 21:10:16,828 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:16,828 - slave.network - WARNING - 序列号不匹配: 预期=9925, 实际=31
+2025-04-16 21:10:16,828 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:16,828 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:16,829 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:16,829 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:21,838 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:21,839 - slave.network - WARNING - 序列号不匹配: 预期=9926, 实际=32
+2025-04-16 21:10:21,839 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:21,839 - slave.network - WARNING - 序列号不匹配: 预期=9927, 实际=33
+2025-04-16 21:10:21,839 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:21,840 - slave.network - WARNING - 序列号不匹配: 预期=9928, 实际=34
+2025-04-16 21:10:21,840 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:21,840 - slave.network - WARNING - 序列号不匹配: 预期=9929, 实际=35
+2025-04-16 21:10:21,840 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:21,841 - slave.network - WARNING - 序列号不匹配: 预期=9930, 实际=36
+2025-04-16 21:10:21,841 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:21,841 - slave.network - WARNING - 序列号不匹配: 预期=9931, 实际=37
+2025-04-16 21:10:21,841 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:21,841 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:21,841 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:21,841 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:26,850 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:26,851 - slave.network - WARNING - 序列号不匹配: 预期=9932, 实际=38
+2025-04-16 21:10:26,851 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:26,851 - slave.network - WARNING - 序列号不匹配: 预期=9933, 实际=39
+2025-04-16 21:10:26,851 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:26,852 - slave.network - WARNING - 序列号不匹配: 预期=9934, 实际=40
+2025-04-16 21:10:26,852 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:26,853 - slave.network - WARNING - 序列号不匹配: 预期=9935, 实际=41
+2025-04-16 21:10:26,853 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:26,854 - slave.network - WARNING - 序列号不匹配: 预期=9936, 实际=42
+2025-04-16 21:10:26,854 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:26,855 - slave.network - WARNING - 序列号不匹配: 预期=9937, 实际=43
+2025-04-16 21:10:26,855 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:26,855 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:26,855 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:26,855 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:31,865 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:31,866 - slave.network - WARNING - 序列号不匹配: 预期=9938, 实际=44
+2025-04-16 21:10:31,866 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:31,867 - slave.network - WARNING - 序列号不匹配: 预期=9939, 实际=45
+2025-04-16 21:10:31,867 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:31,867 - slave.network - WARNING - 序列号不匹配: 预期=9940, 实际=46
+2025-04-16 21:10:31,867 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:31,867 - slave.network - WARNING - 序列号不匹配: 预期=9941, 实际=47
+2025-04-16 21:10:31,867 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:31,868 - slave.network - WARNING - 序列号不匹配: 预期=9942, 实际=48
+2025-04-16 21:10:31,868 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:31,868 - slave.network - WARNING - 序列号不匹配: 预期=9943, 实际=49
+2025-04-16 21:10:31,868 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:31,868 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:31,868 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:31,868 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:36,878 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:36,879 - slave.network - WARNING - 序列号不匹配: 预期=9944, 实际=50
+2025-04-16 21:10:36,879 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:36,880 - slave.network - WARNING - 序列号不匹配: 预期=9945, 实际=51
+2025-04-16 21:10:36,880 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:36,880 - slave.network - WARNING - 序列号不匹配: 预期=9946, 实际=52
+2025-04-16 21:10:36,881 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:36,881 - slave.network - WARNING - 序列号不匹配: 预期=9947, 实际=53
+2025-04-16 21:10:36,881 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:36,882 - slave.network - WARNING - 序列号不匹配: 预期=9948, 实际=54
+2025-04-16 21:10:36,882 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:36,882 - slave.network - WARNING - 序列号不匹配: 预期=9949, 实际=55
+2025-04-16 21:10:36,882 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:36,883 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:36,883 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:36,883 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:41,893 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:41,894 - slave.network - WARNING - 序列号不匹配: 预期=9950, 实际=56
+2025-04-16 21:10:41,894 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:41,895 - slave.network - WARNING - 序列号不匹配: 预期=9951, 实际=57
+2025-04-16 21:10:41,895 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:41,896 - slave.network - WARNING - 序列号不匹配: 预期=9952, 实际=58
+2025-04-16 21:10:41,896 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:41,896 - slave.network - WARNING - 序列号不匹配: 预期=9953, 实际=59
+2025-04-16 21:10:41,896 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:41,896 - slave.network - WARNING - 序列号不匹配: 预期=9954, 实际=60
+2025-04-16 21:10:41,896 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:41,897 - slave.network - WARNING - 序列号不匹配: 预期=9955, 实际=61
+2025-04-16 21:10:41,897 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:41,897 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:41,897 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:41,897 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:46,906 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:46,907 - slave.network - WARNING - 序列号不匹配: 预期=9956, 实际=62
+2025-04-16 21:10:46,907 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:46,908 - slave.network - WARNING - 序列号不匹配: 预期=9957, 实际=63
+2025-04-16 21:10:46,908 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:46,908 - slave.network - WARNING - 序列号不匹配: 预期=9958, 实际=64
+2025-04-16 21:10:46,909 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:46,909 - slave.network - WARNING - 序列号不匹配: 预期=9959, 实际=65
+2025-04-16 21:10:46,909 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:46,909 - slave.network - WARNING - 序列号不匹配: 预期=9960, 实际=66
+2025-04-16 21:10:46,909 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:46,910 - slave.network - WARNING - 序列号不匹配: 预期=9961, 实际=67
+2025-04-16 21:10:46,910 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:46,910 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:46,910 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:46,911 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:51,920 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:51,921 - slave.network - WARNING - 序列号不匹配: 预期=9962, 实际=68
+2025-04-16 21:10:51,921 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:51,922 - slave.network - WARNING - 序列号不匹配: 预期=9963, 实际=69
+2025-04-16 21:10:51,922 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:51,922 - slave.network - WARNING - 序列号不匹配: 预期=9964, 实际=70
+2025-04-16 21:10:51,922 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:51,923 - slave.network - WARNING - 序列号不匹配: 预期=9965, 实际=71
+2025-04-16 21:10:51,923 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:51,924 - slave.network - WARNING - 序列号不匹配: 预期=9966, 实际=72
+2025-04-16 21:10:51,924 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:51,924 - slave.network - WARNING - 序列号不匹配: 预期=9967, 实际=73
+2025-04-16 21:10:51,925 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:51,925 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:51,925 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:51,925 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:56,931 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:10:56,932 - slave.network - WARNING - 序列号不匹配: 预期=9968, 实际=74
+2025-04-16 21:10:56,932 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:10:56,933 - slave.network - WARNING - 序列号不匹配: 预期=9969, 实际=75
+2025-04-16 21:10:56,933 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:10:56,934 - slave.network - WARNING - 序列号不匹配: 预期=9970, 实际=76
+2025-04-16 21:10:56,934 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:10:56,935 - slave.network - WARNING - 序列号不匹配: 预期=9971, 实际=77
+2025-04-16 21:10:56,935 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:10:56,935 - slave.network - WARNING - 序列号不匹配: 预期=9972, 实际=78
+2025-04-16 21:10:56,935 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:10:56,936 - slave.network - WARNING - 序列号不匹配: 预期=9973, 实际=79
+2025-04-16 21:10:56,936 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:10:56,936 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:10:56,936 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:10:56,936 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:10:59,940 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-16 21:11:44,441 - slave.gui - INFO - 应用已关闭
+2025-04-16 21:11:48,322 - slave.clock - INFO - 软件时钟已初始化
+2025-04-16 21:11:48,322 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-16 21:11:48,323 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-16 21:11:48,323 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-16 21:11:48,356 - slave.gui - INFO - Slave应用已启动
+2025-04-16 21:12:18,641 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-16 21:12:18,641 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-16 21:12:18,643 - slave.network - WARNING - 序列号不匹配: 预期=20431, 实际=80
+2025-04-16 21:12:18,643 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:18,644 - slave.network - WARNING - 序列号不匹配: 预期=20432, 实际=81
+2025-04-16 21:12:18,644 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:18,644 - slave.network - WARNING - 序列号不匹配: 预期=20433, 实际=82
+2025-04-16 21:12:18,644 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:18,644 - slave.network - WARNING - 序列号不匹配: 预期=20434, 实际=83
+2025-04-16 21:12:18,645 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:18,645 - slave.network - WARNING - 序列号不匹配: 预期=20435, 实际=84
+2025-04-16 21:12:18,645 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:12:18,645 - slave.network - WARNING - 序列号不匹配: 预期=20436, 实际=85
+2025-04-16 21:12:18,645 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:12:18,646 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:12:18,646 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:12:18,646 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:12:23,655 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:12:23,656 - slave.network - WARNING - 序列号不匹配: 预期=20437, 实际=86
+2025-04-16 21:12:23,656 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:23,657 - slave.network - WARNING - 序列号不匹配: 预期=20438, 实际=87
+2025-04-16 21:12:23,657 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:23,657 - slave.network - WARNING - 序列号不匹配: 预期=20439, 实际=88
+2025-04-16 21:12:23,657 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:23,658 - slave.network - WARNING - 序列号不匹配: 预期=20440, 实际=89
+2025-04-16 21:12:23,658 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:23,658 - slave.network - WARNING - 序列号不匹配: 预期=20441, 实际=90
+2025-04-16 21:12:23,658 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:12:23,659 - slave.network - WARNING - 序列号不匹配: 预期=20442, 实际=91
+2025-04-16 21:12:23,659 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:12:23,659 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:12:23,659 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:12:23,659 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:12:28,669 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:12:28,670 - slave.network - WARNING - 序列号不匹配: 预期=20443, 实际=92
+2025-04-16 21:12:28,671 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:28,671 - slave.network - WARNING - 序列号不匹配: 预期=20444, 实际=93
+2025-04-16 21:12:28,671 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:28,671 - slave.network - WARNING - 序列号不匹配: 预期=20445, 实际=94
+2025-04-16 21:12:28,672 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:28,672 - slave.network - WARNING - 序列号不匹配: 预期=20446, 实际=95
+2025-04-16 21:12:28,672 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:28,673 - slave.network - WARNING - 序列号不匹配: 预期=20447, 实际=96
+2025-04-16 21:12:28,673 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:12:28,674 - slave.network - WARNING - 序列号不匹配: 预期=20448, 实际=97
+2025-04-16 21:12:28,674 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:12:28,675 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:12:28,675 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:12:28,675 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:12:33,683 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:12:33,684 - slave.network - WARNING - 序列号不匹配: 预期=20449, 实际=98
+2025-04-16 21:12:33,684 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:33,684 - slave.network - WARNING - 序列号不匹配: 预期=20450, 实际=99
+2025-04-16 21:12:33,685 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:33,685 - slave.network - WARNING - 序列号不匹配: 预期=20451, 实际=100
+2025-04-16 21:12:33,685 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:33,685 - slave.network - WARNING - 序列号不匹配: 预期=20452, 实际=101
+2025-04-16 21:12:33,685 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:33,686 - slave.network - WARNING - 序列号不匹配: 预期=20453, 实际=102
+2025-04-16 21:12:33,686 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:12:33,686 - slave.network - WARNING - 序列号不匹配: 预期=20454, 实际=103
+2025-04-16 21:12:33,686 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:12:33,686 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:12:33,686 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:12:33,687 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:12:38,695 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:12:38,696 - slave.network - WARNING - 序列号不匹配: 预期=20455, 实际=104
+2025-04-16 21:12:38,697 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:38,697 - slave.network - WARNING - 序列号不匹配: 预期=20456, 实际=105
+2025-04-16 21:12:38,697 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:38,697 - slave.network - WARNING - 序列号不匹配: 预期=20457, 实际=106
+2025-04-16 21:12:38,697 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:38,698 - slave.network - WARNING - 序列号不匹配: 预期=20458, 实际=107
+2025-04-16 21:12:38,698 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:38,698 - slave.network - WARNING - 序列号不匹配: 预期=20459, 实际=108
+2025-04-16 21:12:38,698 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:12:38,698 - slave.network - WARNING - 序列号不匹配: 预期=20460, 实际=109
+2025-04-16 21:12:38,698 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:12:38,698 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:12:38,699 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:12:38,699 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:12:43,706 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:12:44,708 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:44,708 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:45,716 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:45,716 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:46,719 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:46,719 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:47,721 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:47,721 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:48,723 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:48,723 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:12:49,725 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:49,725 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:12:49,725 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:12:49,725 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:12:49,725 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:12:54,736 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:12:55,737 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:55,738 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:12:56,739 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:56,739 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:12:57,740 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:57,741 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:12:58,742 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:58,742 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:12:59,743 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:12:59,744 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:13:00,745 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:13:00,745 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:13:00,745 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:13:00,745 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:13:00,745 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:13:02,750 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-16 21:13:03,649 - slave.gui - INFO - 应用已关闭
+2025-04-16 21:30:31,883 - slave.clock - INFO - 软件时钟已初始化
+2025-04-16 21:30:31,883 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-16 21:30:31,883 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-16 21:30:31,883 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-16 21:30:31,923 - slave.gui - INFO - Slave应用已启动
+2025-04-16 21:30:39,482 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-16 21:30:39,482 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-16 21:30:40,484 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:30:40,485 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-16 21:30:41,486 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:30:41,486 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-16 21:30:42,487 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:30:42,488 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-16 21:30:43,490 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:30:43,490 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-16 21:30:44,492 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:30:44,492 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-16 21:30:45,494 - slave.network - WARNING - 同步请求超时
+2025-04-16 21:30:45,495 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-16 21:30:45,495 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-16 21:30:45,496 - slave.sync_controller - WARNING - 同步失败
+2025-04-16 21:30:45,496 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
+2025-04-16 21:30:50,506 - slave.sync_monitor - INFO - 同步状态变更: ERROR -> SYNCING
+2025-04-16 21:30:50,508 - slave.network - INFO - 过滤后结果: offset=-0.000001669, delay=0.000087500
+2025-04-16 21:30:50,508 - slave.sync_monitor - INFO - 偏移量: -0.000001669 秒, 已达标
+2025-04-16 21:30:50,509 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-16 21:30:50,509 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:30:50,509 - slave.sync_controller - INFO - 同步成功: offset=-0.000001669, delay=0.000087500
+2025-04-16 21:30:55,517 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:30:55,519 - slave.network - INFO - 过滤后结果: offset=0.000005603, delay=0.000087857
+2025-04-16 21:30:55,520 - slave.sync_monitor - INFO - 偏移量: 0.000005603 秒, 已达标
+2025-04-16 21:30:55,520 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:30:55,520 - slave.sync_controller - INFO - 同步成功: offset=0.000005603, delay=0.000087857
+2025-04-16 21:31:00,529 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:00,532 - slave.network - INFO - 过滤后结果: offset=-0.000000715, delay=0.000075340
+2025-04-16 21:31:00,532 - slave.sync_monitor - INFO - 偏移量: -0.000000715 秒, 已达标
+2025-04-16 21:31:00,532 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:00,532 - slave.sync_controller - INFO - 同步成功: offset=-0.000000715, delay=0.000075340
+2025-04-16 21:31:05,540 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:05,544 - slave.network - INFO - 过滤后结果: offset=0.000029564, delay=0.000086784
+2025-04-16 21:31:05,544 - slave.sync_monitor - INFO - 偏移量: 0.000029564 秒, 已达标
+2025-04-16 21:31:05,544 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:05,544 - slave.sync_controller - INFO - 同步成功: offset=0.000029564, delay=0.000086784
+2025-04-16 21:31:10,553 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:10,555 - slave.network - INFO - 过滤后结果: offset=-0.000002861, delay=0.000094175
+2025-04-16 21:31:10,555 - slave.sync_monitor - INFO - 偏移量: -0.000002861 秒, 已达标
+2025-04-16 21:31:10,555 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:10,556 - slave.sync_controller - INFO - 同步成功: offset=-0.000002861, delay=0.000094175
+2025-04-16 21:31:15,563 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:15,566 - slave.network - INFO - 过滤后结果: offset=-0.000024915, delay=0.000083089
+2025-04-16 21:31:15,566 - slave.sync_monitor - INFO - 偏移量: -0.000024915 秒, 已达标
+2025-04-16 21:31:15,566 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:15,567 - slave.sync_controller - INFO - 同步成功: offset=-0.000024915, delay=0.000083089
+2025-04-16 21:31:20,576 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:20,578 - slave.network - INFO - 过滤后结果: offset=0.000023007, delay=0.000053287
+2025-04-16 21:31:20,578 - slave.sync_monitor - INFO - 偏移量: 0.000023007 秒, 已达标
+2025-04-16 21:31:20,579 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:20,579 - slave.sync_controller - INFO - 同步成功: offset=0.000023007, delay=0.000053287
+2025-04-16 21:31:25,587 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:25,590 - slave.network - INFO - 过滤后结果: offset=0.000001311, delay=0.000073791
+2025-04-16 21:31:25,590 - slave.sync_monitor - INFO - 偏移量: 0.000001311 秒, 已达标
+2025-04-16 21:31:25,590 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:25,590 - slave.sync_controller - INFO - 同步成功: offset=0.000001311, delay=0.000073791
+2025-04-16 21:31:30,599 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:30,601 - slave.network - INFO - 过滤后结果: offset=0.000005722, delay=0.000076532
+2025-04-16 21:31:30,601 - slave.sync_monitor - INFO - 偏移量: 0.000005722 秒, 已达标
+2025-04-16 21:31:30,601 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:30,601 - slave.sync_controller - INFO - 同步成功: offset=0.000005722, delay=0.000076532
+2025-04-16 21:31:35,609 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:35,611 - slave.network - INFO - 过滤后结果: offset=0.000010610, delay=0.000044227
+2025-04-16 21:31:35,611 - slave.sync_monitor - INFO - 偏移量: 0.000010610 秒, 已达标
+2025-04-16 21:31:35,611 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:35,612 - slave.sync_controller - INFO - 同步成功: offset=0.000010610, delay=0.000044227
+2025-04-16 21:31:40,620 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:40,623 - slave.network - INFO - 过滤后结果: offset=0.000005364, delay=0.000037074
+2025-04-16 21:31:40,623 - slave.sync_monitor - INFO - 偏移量: 0.000005364 秒, 已达标
+2025-04-16 21:31:40,623 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:40,623 - slave.sync_controller - INFO - 同步成功: offset=0.000005364, delay=0.000037074
+2025-04-16 21:31:45,632 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:45,634 - slave.network - INFO - 过滤后结果: offset=-0.000000477, delay=0.000072241
+2025-04-16 21:31:45,635 - slave.sync_monitor - INFO - 偏移量: -0.000000477 秒, 已达标
+2025-04-16 21:31:45,635 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:45,635 - slave.sync_controller - INFO - 同步成功: offset=-0.000000477, delay=0.000072241
+2025-04-16 21:31:50,644 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:50,646 - slave.network - INFO - 过滤后结果: offset=0.000008583, delay=0.000118971
+2025-04-16 21:31:50,646 - slave.sync_monitor - INFO - 偏移量: 0.000008583 秒, 已达标
+2025-04-16 21:31:50,647 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:50,647 - slave.sync_controller - INFO - 同步成功: offset=0.000008583, delay=0.000118971
+2025-04-16 21:31:55,654 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:31:55,657 - slave.network - INFO - 过滤后结果: offset=-0.000000834, delay=0.000097156
+2025-04-16 21:31:55,657 - slave.sync_monitor - INFO - 偏移量: -0.000000834 秒, 已达标
+2025-04-16 21:31:55,657 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:31:55,658 - slave.sync_controller - INFO - 同步成功: offset=-0.000000834, delay=0.000097156
+2025-04-16 21:32:00,668 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:32:00,671 - slave.network - INFO - 过滤后结果: offset=0.000000954, delay=0.000098228
+2025-04-16 21:32:00,671 - slave.sync_monitor - INFO - 偏移量: 0.000000954 秒, 已达标
+2025-04-16 21:32:00,672 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:32:00,672 - slave.sync_controller - INFO - 同步成功: offset=0.000000954, delay=0.000098228
+2025-04-16 21:32:04,676 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-16 21:32:05,290 - slave.gui - INFO - 应用已关闭
+2025-04-16 21:39:52,352 - slave.clock - INFO - 软件时钟已初始化
+2025-04-16 21:39:52,353 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-16 21:39:52,353 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-16 21:39:52,353 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-16 21:39:52,393 - slave.gui - INFO - Slave应用已启动
+2025-04-16 21:40:12,699 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-16 21:40:12,699 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-16 21:40:12,705 - slave.network - INFO - 过滤后结果: offset=0.000003219, delay=0.000024676
+2025-04-16 21:40:12,705 - slave.sync_monitor - INFO - 偏移量: 0.000003219 秒, 已达标
+2025-04-16 21:40:12,705 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-16 21:40:12,706 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:12,706 - slave.sync_controller - INFO - 同步成功: offset=0.000003219, delay=0.000024676
+2025-04-16 21:40:17,714 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:17,717 - slave.network - INFO - 过滤后结果: offset=0.000001311, delay=0.000081420
+2025-04-16 21:40:17,717 - slave.sync_monitor - INFO - 偏移量: 0.000001311 秒, 已达标
+2025-04-16 21:40:17,717 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:17,717 - slave.sync_controller - INFO - 同步成功: offset=0.000001311, delay=0.000081420
+2025-04-16 21:40:22,726 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:22,728 - slave.network - INFO - 过滤后结果: offset=0.000006914, delay=0.000075579
+2025-04-16 21:40:22,728 - slave.sync_monitor - INFO - 偏移量: 0.000006914 秒, 已达标
+2025-04-16 21:40:22,728 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:22,728 - slave.sync_controller - INFO - 同步成功: offset=0.000006914, delay=0.000075579
+2025-04-16 21:40:27,739 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:27,741 - slave.network - INFO - 过滤后结果: offset=-0.000010848, delay=0.000083566
+2025-04-16 21:40:27,742 - slave.sync_monitor - INFO - 偏移量: -0.000010848 秒, 已达标
+2025-04-16 21:40:27,742 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:27,742 - slave.sync_controller - INFO - 同步成功: offset=-0.000010848, delay=0.000083566
+2025-04-16 21:40:32,749 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:32,751 - slave.network - INFO - 过滤后结果: offset=3548.210744143, delay=0.000056744
+2025-04-16 21:40:32,751 - slave.sync_monitor - INFO - 偏移量: 3548.210744143 秒, 未达标
+2025-04-16 21:40:32,751 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:32,752 - slave.sync_controller - INFO - 同步成功: offset=3548.210744143, delay=0.000056744
+2025-04-16 21:40:37,764 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:37,766 - slave.network - INFO - 过滤后结果: offset=3548.210760951, delay=0.000021100
+2025-04-16 21:40:37,766 - slave.sync_monitor - INFO - 偏移量: 3548.210760951 秒, 未达标
+2025-04-16 21:40:37,766 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:37,766 - slave.sync_controller - INFO - 同步成功: offset=3548.210760951, delay=0.000021100
+2025-04-16 21:40:42,775 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:42,777 - slave.network - INFO - 过滤后结果: offset=3548.210766077, delay=0.000092030
+2025-04-16 21:40:42,777 - slave.sync_monitor - INFO - 偏移量: 3548.210766077 秒, 未达标
+2025-04-16 21:40:42,777 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:42,777 - slave.sync_controller - INFO - 同步成功: offset=3548.210766077, delay=0.000092030
+2025-04-16 21:40:47,786 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:47,787 - slave.network - INFO - 过滤后结果: offset=3548.210792422, delay=0.000063539
+2025-04-16 21:40:47,787 - slave.sync_monitor - INFO - 偏移量: 3548.210792422 秒, 未达标
+2025-04-16 21:40:47,788 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:47,788 - slave.sync_controller - INFO - 同步成功: offset=3548.210792422, delay=0.000063539
+2025-04-16 21:40:52,796 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:52,798 - slave.network - INFO - 过滤后结果: offset=3548.210766435, delay=0.000069976
+2025-04-16 21:40:52,798 - slave.sync_monitor - INFO - 偏移量: 3548.210766435 秒, 未达标
+2025-04-16 21:40:52,798 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:52,798 - slave.sync_controller - INFO - 同步成功: offset=3548.210766435, delay=0.000069976
+2025-04-16 21:40:57,806 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:40:57,808 - slave.network - INFO - 过滤后结果: offset=3548.210760117, delay=0.000117302
+2025-04-16 21:40:57,809 - slave.sync_monitor - INFO - 偏移量: 3548.210760117 秒, 未达标
+2025-04-16 21:40:57,809 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:40:57,809 - slave.sync_controller - INFO - 同步成功: offset=3548.210760117, delay=0.000117302
+2025-04-16 21:41:02,818 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:02,821 - slave.network - INFO - 过滤后结果: offset=3548.210753798, delay=0.000109553
+2025-04-16 21:41:02,821 - slave.sync_monitor - INFO - 偏移量: 3548.210753798 秒, 未达标
+2025-04-16 21:41:02,822 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:02,822 - slave.sync_controller - INFO - 同步成功: offset=3548.210753798, delay=0.000109553
+2025-04-16 21:41:07,830 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:07,831 - slave.network - INFO - 过滤后结果: offset=3548.210767984, delay=0.000018120
+2025-04-16 21:41:07,831 - slave.sync_monitor - INFO - 偏移量: 3548.210767984 秒, 未达标
+2025-04-16 21:41:07,831 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:07,832 - slave.sync_controller - INFO - 同步成功: offset=3548.210767984, delay=0.000018120
+2025-04-16 21:41:12,838 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:12,840 - slave.network - INFO - 过滤后结果: offset=3548.210757971, delay=0.000034809
+2025-04-16 21:41:12,840 - slave.sync_monitor - INFO - 偏移量: 3548.210757971 秒, 未达标
+2025-04-16 21:41:12,840 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:12,840 - slave.sync_controller - INFO - 同步成功: offset=3548.210757971, delay=0.000034809
+2025-04-16 21:41:17,849 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:17,851 - slave.network - INFO - 过滤后结果: offset=3548.210722685, delay=0.000116825
+2025-04-16 21:41:17,852 - slave.sync_monitor - INFO - 偏移量: 3548.210722685 秒, 未达标
+2025-04-16 21:41:17,852 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:17,852 - slave.sync_controller - INFO - 同步成功: offset=3548.210722685, delay=0.000116825
+2025-04-16 21:41:22,861 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:22,863 - slave.network - INFO - 过滤后结果: offset=3548.210724711, delay=0.000070930
+2025-04-16 21:41:22,863 - slave.sync_monitor - INFO - 偏移量: 3548.210724711 秒, 未达标
+2025-04-16 21:41:22,863 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:22,863 - slave.sync_controller - INFO - 同步成功: offset=3548.210724711, delay=0.000070930
+2025-04-16 21:41:27,872 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:27,874 - slave.network - INFO - 过滤后结果: offset=3548.210743546, delay=0.000070691
+2025-04-16 21:41:27,874 - slave.sync_monitor - INFO - 偏移量: 3548.210743546 秒, 未达标
+2025-04-16 21:41:27,874 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:27,874 - slave.sync_controller - INFO - 同步成功: offset=3548.210743546, delay=0.000070691
+2025-04-16 21:41:32,886 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:32,888 - slave.network - INFO - 过滤后结果: offset=3548.210759997, delay=0.000046134
+2025-04-16 21:41:32,888 - slave.sync_monitor - INFO - 偏移量: 3548.210759997 秒, 未达标
+2025-04-16 21:41:32,889 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:32,889 - slave.sync_controller - INFO - 同步成功: offset=3548.210759997, delay=0.000046134
+2025-04-16 21:41:37,900 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:37,902 - slave.network - INFO - 过滤后结果: offset=3548.210771322, delay=0.000082254
+2025-04-16 21:41:37,903 - slave.sync_monitor - INFO - 偏移量: 3548.210771322 秒, 未达标
+2025-04-16 21:41:37,903 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:37,903 - slave.sync_controller - INFO - 同步成功: offset=3548.210771322, delay=0.000082254
+2025-04-16 21:41:42,911 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-16 21:41:42,914 - slave.network - INFO - 过滤后结果: offset=3548.210707545, delay=0.000101924
+2025-04-16 21:41:42,914 - slave.sync_monitor - INFO - 偏移量: 3548.210707545 秒, 未达标
+2025-04-16 21:41:42,914 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-16 21:41:42,914 - slave.sync_controller - INFO - 同步成功: offset=3548.210707545, delay=0.000101924
+2025-04-16 21:41:45,920 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-16 21:41:46,440 - slave.gui - INFO - 应用已关闭

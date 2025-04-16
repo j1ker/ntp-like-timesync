@@ -1,0 +1,108 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+1. 项目概述
+本项目旨在创建一个使用自定义协议 (ScapySync) 的时间同步演示系统，其核心目标是在两个独立的软件应用（Master 和 Slave）间同步一个由 Master 随意设定的、可能不准确的时间。该系统通过模拟 NTP/PTP 的四次时间戳交换 (T1/T2/T3/T4) 来计算时钟偏移和网络延迟。为了提高测量的可靠性，采用 6 轮 时间戳交换并进行统计过滤。系统包含两个独立的 PyQt5 应用：Master (服务器) 和 Slave (客户端)，在本地通过 UDP (端口 12345) 进行通信。启动后，Slave 的内部时钟显示将基于与 Master 计算出的偏移量，并通过 PID 控制器进行平滑的频率驯化调整，最终使其内部时钟的“运行速率”与 Master（概念上）保持一致，且整个时间演示过程与真实系统时钟隔离。
+Master 软件: (基本不变) 作为一个简单的 ScapySync 服务器，监听 UDP 端口 12345，处理 Slave 请求并回复时间戳。
+Slave 软件: 作为一个 ScapySync 客户端，定期执行 6 轮时间戳交换，过滤测量结果，计算最终的 offset 和 delay。使用计算出的 offset 作为 PID 控制器的输入，以动态计算并调整其内部 SoftwareClock 的运行频率（速率），使其平滑地趋向于与 Master 时间保持零偏移。GUI 提供启动/停止同步、同步状态指示、偏移图表和日志功能。
+2. 核心目标
+任意时间同步: 实现 Master 应用设定一个时间基准（或隐式地以其自身时钟为基准），Slave 应用通过同步机制使其内部时钟与 Master 的时间基准保持一致，无论该基准是否为真实准确时间。
+自定义协议: 实现基于 Scapy 的 ScapySync 协议，完成 T1/T2/T3/T4 时间戳交换。
+Offset/Delay 计算: Slave 能够根据 T1-T4 时间戳计算偏移和延迟。
+统计过滤: 通过 6 轮交换和过滤（选择最小延迟样本）提高计算的可靠性。
+时钟频率驯化 (PID): Slave 的 SoftwareClock 使用 PID 控制器根据过滤后的 offset 进行平滑的频率调整。
+时钟隔离: Master 和 Slave 的时钟在初始化后，其显示和演变完全独立于系统时钟。
+状态监控: Slave 能显示同步状态（例如：同步中、已同步、过滤失败/错误）。
+可视化: Slave GUI 提供内部时钟显示、同步状态指示、偏移图表（展示计算出的 offset）和详细日志。
+3. 技术栈
+语言: Python 3
+GUI 框架: PyQt5
+网络包处理: Scapy (pip install scapy)
+核心库: socket, struct, threading, datetime, logging, os, time, collections
+4. ScapySync 协议与包设计
+传输: UDP，端口 12345。
+时间戳: 使用 time.time() 获取 Unix 时间戳（浮点数，秒），通过 struct.pack('>d', timestamp) 打包为 8 字节网络序 (big-endian) 双精度浮点数。精度满足 >100ms 要求。
+核心包结构 (共 27 字节):
+Flags (1 Byte): 0x01=Request, 0x02=Reply。
+Sequence Number (2 Bytes, Unsigned Short, Network Order): 用于匹配请求和响应。
+Timestamp 1 (t1) (8 Bytes, Double, Network Order): Slave 发送请求的时间。
+Timestamp 2 (t2) (8 Bytes, Double, Network Order): Master 收到请求的时间 (Reply 包有效)。
+Timestamp 3 (t3) (8 Bytes, Double, Network Order): Master 发送回复的时间 (Reply 包有效)。
+6 轮交换与过滤流程: (保持不变)
+Slave 在同步周期内完成 6 次 Request-Reply 交换尝试。
+收集有效的 (t1, t2, t3, t4) 四元组。
+过滤：计算每个有效四元组的往返延迟 rtd_i，选择延迟最小的样本 (t1_best, t2_best, t3_best, t4_best)。
+计算最终 Offset/Delay: 使用最佳样本计算 filtered_delay 和 filtered_offset。
+应用: 将 filtered_offset 传递给 SoftwareClock 的 PID 控制器。
+5. 架构设计
+一、Master 应用:
+main_window.py: (保持不变)
+master_controller.py: (保持不变)
+二、Slave 应用:
+main_window.py: (保持不变)
+slave_controller.py: (保持不变)
+sync_monitor.py: (保持不变)
+software_clock.py: 核心修改
+__init__:
+记录 self.init_system_time = time.time()
+记录 self.init_perf_counter = time.perf_counter()
+self.current_offset = 0.0 (记录最后一次计算出的偏移，主要用于显示或调试)
+PID 控制器状态:
+self.Kp = 0.8
+self.Ki = 0.5
+self.Kd = 0.1
+self.integral = 0.0
+self.prev_error = 0.0
+频率调整因子: self.rate_adjustment = 0.0 (单位: ppm 或直接的乘数因子，初始为 0 表示无调整)
+discipline(self, current_filtered_offset):
+计算误差 error = current_filtered_offset (目标是使偏移趋于 0)
+更新积分项: self.integral += error (考虑添加抗饱和逻辑，例如限制积分项的范围)
+计算微分项: derivative = error - self.prev_error
+计算 PID 输出 (频率调整量): adjustment = self.Kp * error + self.Ki * self.integral + self.Kd * derivative
+应用调整: 将 PID 输出 adjustment 更新到 self.rate_adjustment。这个值将影响时钟前进的速率。例如，如果 adjustment 表示 ppm (百万分之一)，则速率乘数为 1 + adjustment / 1e6。或者更直接地，adjustment 可以直接作为一个小的速率修正值。（具体应用方式需在实现时确定，关键是它影响 current_time_val 的计算）
+更新 self.prev_error = error
+记录 self.current_offset = current_filtered_offset (可选)
+current_time_val(self) -> float:
+计算基于性能计数器的流逝时间: elapsed_perf = time.perf_counter() - self.init_perf_counter
+应用频率调整: 计算调整后的流逝时间。例如，如果 rate_adjustment 是一个直接的乘数修正 (接近 0)，则 adjusted_elapsed = elapsed_perf * (1.0 + self.rate_adjustment)。
+返回最终的软件时钟值: return self.init_system_time + adjusted_elapsed (注意：这里不再直接加上 self.offset，因为偏移是通过调整速率来消除的)
+提供 time_string(self, format) 和 current_timestamp_ms(self) 方法，它们内部调用 current_time_val() 来获取当前时间值。
+chart_widget.py: (保持不变) 显示 sync_monitor 提供的 filtered_offset 历史。
+三、通信方式: 自定义 ScapySync 协议，UDP 端口 12345。
+四、配置文件: 无。
+6. 工作流程
+(更新 Slave 同步循环部分)
+同步循环 (Slave):
+... (6 轮交换、过滤) ...
+如果过滤成功：
+计算 filtered_offset, filtered_delay。
+调用 software_clock.discipline(filtered_offset)。
+... (通知 sync_monitor) ...
+... (处理过滤失败/错误) ...
+7. 关键实现细节
+Scapy 使用: ...
+监听与发送: ...
+线程优化: ...
+时钟隔离: SoftwareClock 使用 time.perf_counter() 并通过 PID 调整运行速率。
+统计过滤: ...
+PID 控制:
+实现 PID 计算。
+将 PID 输出应用于频率调整: 在 SoftwareClock.current_time_val() 中根据 self.rate_adjustment 修改 elapsed_perf 的计算方式。
+需要实验调整 Kp, Ki, Kd 以获得良好性能。
+错误处理: ...
+8. 配置与运行
+依赖: Python 3, PyQt5, PyQtChart, Scapy (pip install scapy)。
+配置: 端口号 (12345) 和 Master IP (127.0.0.1) 在代码中设定。
+运行: 先启动 Master 应用并启动服务，然后启动 Slave 应用并启动同步。
+9. 验证标准
+Master 启动后，Slave 能成功发送请求并收到回复。
+Slave 能正确计算 filtered_offset 和 filtered_delay 并记录日志。
+验证核心: Slave 的 SoftwareClock 时间应平滑地趋向于与 Master 的时间（概念上，即 filtered_offset 趋向于 0），调整过程不应出现剧烈跳变。
+Slave 的偏移图表能显示 filtered_offset 随时间逐渐减小并稳定在零附近。
+停止 Master 服务后，Slave 应能检测到超时并更新状态指示灯，时钟将根据最后一次的频率调整继续运行。
+日志应能反映 6 轮交换的结果、过滤决策和 PID 控制器的活动（例如记录计算出的 adjustment 值）。
+这份文档现在应该更完整地反映了您的设计思路，包括使用 Scapy、6 轮过滤和 PID 频率驯化来实现任意时间的同步演示。
