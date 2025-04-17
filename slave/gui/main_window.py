@@ -13,7 +13,7 @@ import datetime
 from PyQt5.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
     QPushButton, QLabel, QTextEdit, QGroupBox, QFrame, QSplitter,
-    QStatusBar
+    QStatusBar, QTabWidget
 )
 from PyQt5.QtCore import QTimer, QDateTime, Qt, pyqtSlot
 from PyQt5.QtGui import QIcon, QColor, QFont, QPainter
@@ -30,6 +30,7 @@ from slave.core.software_clock import SoftwareClock
 from slave.core.sync_monitor import SyncMonitor
 from slave.core.sync_controller import SyncController, SyncStatus
 from slave.gui.chart_widget import SyncChartView
+from slave.gui.performance_widget import PerformanceWidget
 
 
 class StatusIndicator(QFrame):
@@ -194,9 +195,17 @@ class SlaveMainWindow(QMainWindow):
         status_group.setLayout(status_layout)
         main_layout.addWidget(status_group)
         
+        # 创建标签页控件
+        self.tab_widget = QTabWidget()
+        main_layout.addWidget(self.tab_widget, 1)  # 1表示拉伸因子
+        
+        # 创建图表和日志的容器部件
+        chart_log_widget = QWidget()
+        chart_log_layout = QVBoxLayout(chart_log_widget)
+        
         # 创建分割器
         splitter = QSplitter(Qt.Vertical)
-        main_layout.addWidget(splitter, 1)  # 1表示拉伸因子
+        chart_log_layout.addWidget(splitter, 1)  # 1表示拉伸因子
         
         # 图表显示区域
         chart_group = QGroupBox("偏移量图表")
@@ -221,6 +230,13 @@ class SlaveMainWindow(QMainWindow):
         
         # 设置分割器初始大小
         splitter.setSizes([400, 200])
+        
+        # 添加图表和日志标签页
+        self.tab_widget.addTab(chart_log_widget, "图表和日志")
+        
+        # 创建性能指标页面
+        self.performance_widget = PerformanceWidget(self.sync_monitor)
+        self.tab_widget.addTab(self.performance_widget, "性能指标")
         
         # 状态栏
         self.statusBar = QStatusBar()

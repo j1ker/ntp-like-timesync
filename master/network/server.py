@@ -17,7 +17,8 @@ import struct
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-from common.protocol import create_reply_packet, FLAG_REQUEST
+# 导入修改后的函数
+from common.protocol import create_reply_packet, parse_request_packet
 from common.config import SYNC_PORT
 from common.utils.logger import setup_logger
 
@@ -47,7 +48,6 @@ class NetworkServer:
         
         # 统计数据
         self.total_requests = 0
-        self.sequence_counter = 0
     
     def start(self, host='0.0.0.0', port=SYNC_PORT):
         """启动服务器
@@ -69,7 +69,6 @@ class NetworkServer:
             self.server_socket.settimeout(0.5)  # 设置超时，便于停止
             
             self.running = True
-            self.sequence_counter = 0
             self.total_requests = 0
             
             # 创建并启动监听线程
@@ -116,13 +115,15 @@ class NetworkServer:
             try:
                 # 接收数据包
                 data, client_addr = self.server_socket.recvfrom(1024)
+                # 立即记录 T2 
+                t2 = self.time_source.current_time()
                 
-                # 处理请求
-                self._handle_request(data, client_addr)
+                # 处理请求，传入 t2
+                self._handle_request(data, client_addr, t2)
                 
                 # 更新客户端连接状态
                 self.client_connected = True
-                self.last_client_time = time.time()
+                self.last_client_time = time.time() # 使用系统时间跟踪最后活动时间
                 
             except socket.timeout:
                 # 检查客户端连接状态
@@ -135,48 +136,48 @@ class NetworkServer:
                 if self.running:  # 仅在正常运行时记录错误
                     self.logger.error(f"处理请求时出错: {e}")
     
-    def _handle_request(self, data, client_addr):
+    def _handle_request(self, data, client_addr, t2):
         """处理同步请求
         
         Args:
             data: 请求数据
             client_addr: 客户端地址
+            t2: Master接收到请求的时间戳 (由 _listen_loop 传入)
         """
-        # 检查数据包长度
-        if len(data) < 27:  # 至少包含flag(1) + seq(2) + t1(8) + t2(8) + t3(8)
-            self.logger.warning(f"收到无效数据包: 长度不足, {len(data)} bytes")
+        # 解析请求包获取 sequence 和 t1
+        parsed_request = parse_request_packet(data)
+        if not parsed_request:
+            self.logger.warning(f"收到无效或无法解析的请求包 from {client_addr}")
             return
         
-        # 检查是否为请求包
-        if data[0] != FLAG_REQUEST:
-            self.logger.warning(f"收到无效数据包: 非请求包, flags={data[0]}")
-            return
-        
-        # 从请求包中提取序列号
-        try:
-            _, orig_seq, _, _, _ = struct.unpack('>BHddd', data[:27])
-        except struct.error:
-            self.logger.warning("解析请求包序列号失败")
-            return
+        orig_seq, t1 = parsed_request
             
-        # 创建响应包，使用原始序列号，传入时间源
-        reply_packet, t2, t3 = create_reply_packet(data, orig_seq, self.time_source)
+        # 在发送前记录 T3 
+        t3 = self.time_source.current_time()
+        
+        # 创建响应包，传入所有时间戳
+        reply_packet = create_reply_packet(orig_seq, t1, t2, t3)
         
         if reply_packet:
             # 发送响应
-            self.server_socket.sendto(reply_packet, client_addr)
-            
-            # 更新统计
-            self.total_requests += 1
-            
-            # 记录日志
-            current_time = self.time_source.time_string()
-            self.logger.debug(f"处理同步请求: seq={orig_seq}, client={client_addr}, time={current_time}")
-            
-            # 每100个请求记录一次统计
-            if self.total_requests % 100 == 0:
-                self.logger.info(f"已处理 {self.total_requests} 个同步请求")
-    
+            try:
+                self.server_socket.sendto(reply_packet, client_addr)
+                
+                # 更新统计
+                self.total_requests += 1
+                
+                # 记录日志
+                self.logger.debug(f"处理同步请求: seq={orig_seq}, client={client_addr}, t1={t1:.6f}, t2={t2:.6f}, t3={t3:.6f}")
+                
+                # 每100个请求记录一次统计
+                if self.total_requests % 100 == 0:
+                    self.logger.info(f"已处理 {self.total_requests} 个同步请求")
+                    
+            except Exception as send_error:
+                self.logger.error(f"发送响应失败 to {client_addr}: {send_error}")
+        else:
+            self.logger.error(f"创建响应包失败 for seq={orig_seq}")
+
     def is_running(self):
         """获取服务器运行状态
         

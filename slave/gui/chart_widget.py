@@ -108,19 +108,49 @@ class SyncChartWidget(QChart):
         # 设置X轴范围
         self.count_axis.setRange(1, len(recent_history) + 1)
         
-        # 动态调整Y轴范围，确保数据在合适的范围内显示
+        # 始终动态调整Y轴范围以更好地显示当前偏移波动
         if min_value != float('inf') and max_value != float('-inf'):
-            # 检查是否需要调整Y轴
-            if min_value < CHART_Y_MIN or max_value > CHART_Y_MAX:
-                # 如果数据超出了配置的范围，动态调整
-                y_range = max_value - min_value
-                padding = y_range * 0.2
-                new_min = min(CHART_Y_MIN, min_value - padding)
-                new_max = max(CHART_Y_MAX, max_value + padding)
-                self.offset_axis.setRange(new_min, new_max)
+            # 计算数据范围
+            y_range = max_value - min_value
+            
+            # 设置最小显示范围，确保即使所有值都相同时也能看到波动
+            min_display_range = 0.000002  # 2微秒的最小显示范围
+            
+            if y_range < min_display_range:
+                # 如果数据范围过小，居中扩展到最小显示范围
+                mid_point = (min_value + max_value) / 2
+                min_value = mid_point - min_display_range / 2
+                max_value = mid_point + min_display_range / 2
+                y_range = min_display_range
+            
+            # 添加边距，使数据点不太靠近坐标轴边缘
+            padding = y_range * 0.3  # 30%的边距
+            new_min = min_value - padding
+            new_max = max_value + padding
+            
+            # 设置Y轴范围
+            self.offset_axis.setRange(new_min, new_max)
+            
+            # 更新Y轴刻度数量，确保刻度间隔合理
+            range_magnitude = max(abs(new_min), abs(new_max))
+            if range_magnitude < 0.0001:  # 小于0.1毫秒
+                self.offset_axis.setLabelFormat("%.9f")
+                self.offset_axis.setTickCount(5)
+            elif range_magnitude < 0.001:  # 小于1毫秒
+                self.offset_axis.setLabelFormat("%.6f")
+                self.offset_axis.setTickCount(5)
+            elif range_magnitude < 0.01:  # 小于10毫秒
+                self.offset_axis.setLabelFormat("%.5f")
+                self.offset_axis.setTickCount(5)
+            elif range_magnitude < 0.1:  # 小于100毫秒
+                self.offset_axis.setLabelFormat("%.4f")
+                self.offset_axis.setTickCount(5)
+            elif range_magnitude < 1.0:  # 小于1秒
+                self.offset_axis.setLabelFormat("%.3f")
+                self.offset_axis.setTickCount(5)
             else:
-                # 否则使用配置的范围
-                self.offset_axis.setRange(CHART_Y_MIN, CHART_Y_MAX)
+                self.offset_axis.setLabelFormat("%.2f")
+                self.offset_axis.setTickCount(7)
 
 
 class SyncChartView(QChartView):

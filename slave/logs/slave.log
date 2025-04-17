@@ -554,3 +554,2140 @@
 2025-04-16 21:41:42,914 - slave.sync_controller - INFO - 同步成功: offset=3548.210707545, delay=0.000101924
 2025-04-16 21:41:45,920 - slave.sync_controller - INFO - 同步控制器已停止
 2025-04-16 21:41:46,440 - slave.gui - INFO - 应用已关闭
+2025-04-17 08:48:25,737 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 08:48:25,737 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 08:48:25,737 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 08:48:25,738 - slave.sync_monitor - INFO - 偏移量阈值: 1000.0 秒
+2025-04-17 08:48:25,771 - slave.gui - INFO - Slave应用已启动
+2025-04-17 08:48:36,112 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 08:48:36,112 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 08:48:37,114 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:48:37,114 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 08:48:38,116 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:48:38,116 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 08:48:39,118 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:48:39,118 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 08:48:40,119 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:48:40,119 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-17 08:48:40,120 - slave.network - INFO - 过滤后结果: offset=0.000003934, delay=0.000099778
+2025-04-17 08:48:40,120 - slave.sync_monitor - INFO - 偏移量: 0.000003934 秒, 已达标
+2025-04-17 08:48:40,120 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 08:48:40,121 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:48:40,121 - slave.sync_controller - INFO - 同步成功: offset=0.000003934, delay=0.000099778
+2025-04-17 08:48:45,129 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:48:45,132 - slave.network - INFO - 过滤后结果: offset=-0.000007510, delay=0.000084043
+2025-04-17 08:48:45,132 - slave.sync_monitor - INFO - 偏移量: -0.000007510 秒, 已达标
+2025-04-17 08:48:45,132 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:48:45,132 - slave.sync_controller - INFO - 同步成功: offset=-0.000007510, delay=0.000084043
+2025-04-17 08:48:50,140 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:48:50,141 - slave.network - INFO - 过滤后结果: offset=0.000002027, delay=0.000017047
+2025-04-17 08:48:50,141 - slave.sync_monitor - INFO - 偏移量: 0.000002027 秒, 已达标
+2025-04-17 08:48:50,142 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:48:50,142 - slave.sync_controller - INFO - 同步成功: offset=0.000002027, delay=0.000017047
+2025-04-17 08:48:55,149 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:48:55,151 - slave.network - INFO - 过滤后结果: offset=-0.000027180, delay=0.000080347
+2025-04-17 08:48:55,151 - slave.sync_monitor - INFO - 偏移量: -0.000027180 秒, 已达标
+2025-04-17 08:48:55,151 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:48:55,152 - slave.sync_controller - INFO - 同步成功: offset=-0.000027180, delay=0.000080347
+2025-04-17 08:49:00,161 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:00,164 - slave.network - INFO - 过滤后结果: offset=0.000037432, delay=0.000129223
+2025-04-17 08:49:00,164 - slave.sync_monitor - INFO - 偏移量: 0.000037432 秒, 已达标
+2025-04-17 08:49:00,165 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:00,165 - slave.sync_controller - INFO - 同步成功: offset=0.000037432, delay=0.000129223
+2025-04-17 08:49:05,174 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:05,176 - slave.network - INFO - 过滤后结果: offset=0.049983978, delay=0.000065565
+2025-04-17 08:49:05,176 - slave.sync_monitor - INFO - 偏移量: 0.049983978 秒, 已达标
+2025-04-17 08:49:05,176 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:05,176 - slave.sync_controller - INFO - 同步成功: offset=0.049983978, delay=0.000065565
+2025-04-17 08:49:10,184 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:10,186 - slave.network - INFO - 过滤后结果: offset=0.050009370, delay=0.000086904
+2025-04-17 08:49:10,187 - slave.sync_monitor - INFO - 偏移量: 0.050009370 秒, 已达标
+2025-04-17 08:49:10,187 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:10,187 - slave.sync_controller - INFO - 同步成功: offset=0.050009370, delay=0.000086904
+2025-04-17 08:49:15,196 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:15,199 - slave.network - INFO - 过滤后结果: offset=0.049991012, delay=0.000082374
+2025-04-17 08:49:15,199 - slave.sync_monitor - INFO - 偏移量: 0.049991012 秒, 已达标
+2025-04-17 08:49:15,199 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:15,199 - slave.sync_controller - INFO - 同步成功: offset=0.049991012, delay=0.000082374
+2025-04-17 08:49:20,208 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:20,210 - slave.network - INFO - 过滤后结果: offset=0.050011873, delay=0.000091553
+2025-04-17 08:49:20,210 - slave.sync_monitor - INFO - 偏移量: 0.050011873 秒, 已达标
+2025-04-17 08:49:20,210 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:20,210 - slave.sync_controller - INFO - 同步成功: offset=0.050011873, delay=0.000091553
+2025-04-17 08:49:25,219 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:25,220 - slave.network - INFO - 过滤后结果: offset=0.049974322, delay=0.000069737
+2025-04-17 08:49:25,221 - slave.sync_monitor - INFO - 偏移量: 0.049974322 秒, 已达标
+2025-04-17 08:49:25,221 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:25,221 - slave.sync_controller - INFO - 同步成功: offset=0.049974322, delay=0.000069737
+2025-04-17 08:49:30,230 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:30,232 - slave.network - INFO - 过滤后结果: offset=0.049985409, delay=0.000086784
+2025-04-17 08:49:30,232 - slave.sync_monitor - INFO - 偏移量: 0.049985409 秒, 已达标
+2025-04-17 08:49:30,232 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:30,232 - slave.sync_controller - INFO - 同步成功: offset=0.049985409, delay=0.000086784
+2025-04-17 08:49:35,241 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:35,243 - slave.network - INFO - 过滤后结果: offset=0.050001264, delay=0.000093341
+2025-04-17 08:49:35,243 - slave.sync_monitor - INFO - 偏移量: 0.050001264 秒, 已达标
+2025-04-17 08:49:35,243 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:35,244 - slave.sync_controller - INFO - 同步成功: offset=0.050001264, delay=0.000093341
+2025-04-17 08:49:40,253 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:40,255 - slave.network - INFO - 过滤后结果: offset=0.050003767, delay=0.000084877
+2025-04-17 08:49:40,255 - slave.sync_monitor - INFO - 偏移量: 0.050003767 秒, 已达标
+2025-04-17 08:49:40,255 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:40,255 - slave.sync_controller - INFO - 同步成功: offset=0.050003767, delay=0.000084877
+2025-04-17 08:49:45,264 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:45,266 - slave.network - INFO - 过滤后结果: offset=-0.000037551, delay=0.000074267
+2025-04-17 08:49:45,266 - slave.sync_monitor - INFO - 偏移量: -0.000037551 秒, 已达标
+2025-04-17 08:49:45,267 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:45,267 - slave.sync_controller - INFO - 同步成功: offset=-0.000037551, delay=0.000074267
+2025-04-17 08:49:50,276 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:50,278 - slave.network - INFO - 过滤后结果: offset=0.000002623, delay=0.000074863
+2025-04-17 08:49:50,278 - slave.sync_monitor - INFO - 偏移量: 0.000002623 秒, 已达标
+2025-04-17 08:49:50,278 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:50,278 - slave.sync_controller - INFO - 同步成功: offset=0.000002623, delay=0.000074863
+2025-04-17 08:49:55,287 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:49:55,290 - slave.network - INFO - 过滤后结果: offset=-0.000003815, delay=0.000080109
+2025-04-17 08:49:55,290 - slave.sync_monitor - INFO - 偏移量: -0.000003815 秒, 已达标
+2025-04-17 08:49:55,290 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:49:55,290 - slave.sync_controller - INFO - 同步成功: offset=-0.000003815, delay=0.000080109
+2025-04-17 08:50:00,298 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:00,300 - slave.network - INFO - 过滤后结果: offset=0.000001550, delay=0.000022292
+2025-04-17 08:50:00,301 - slave.sync_monitor - INFO - 偏移量: 0.000001550 秒, 已达标
+2025-04-17 08:50:00,301 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:00,301 - slave.sync_controller - INFO - 同步成功: offset=0.000001550, delay=0.000022292
+2025-04-17 08:50:05,309 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:05,311 - slave.network - INFO - 过滤后结果: offset=-0.000006199, delay=0.000078201
+2025-04-17 08:50:05,311 - slave.sync_monitor - INFO - 偏移量: -0.000006199 秒, 已达标
+2025-04-17 08:50:05,312 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:05,312 - slave.sync_controller - INFO - 同步成功: offset=-0.000006199, delay=0.000078201
+2025-04-17 08:50:10,320 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:10,322 - slave.network - INFO - 过滤后结果: offset=-0.000007391, delay=0.000084877
+2025-04-17 08:50:10,322 - slave.sync_monitor - INFO - 偏移量: -0.000007391 秒, 已达标
+2025-04-17 08:50:10,323 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:10,323 - slave.sync_controller - INFO - 同步成功: offset=-0.000007391, delay=0.000084877
+2025-04-17 08:50:15,332 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:15,333 - slave.network - INFO - 过滤后结果: offset=0.000002027, delay=0.000018239
+2025-04-17 08:50:15,333 - slave.sync_monitor - INFO - 偏移量: 0.000002027 秒, 已达标
+2025-04-17 08:50:15,333 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:15,334 - slave.sync_controller - INFO - 同步成功: offset=0.000002027, delay=0.000018239
+2025-04-17 08:50:20,342 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:20,344 - slave.network - INFO - 过滤后结果: offset=-0.000004649, delay=0.000020385
+2025-04-17 08:50:20,344 - slave.sync_monitor - INFO - 偏移量: -0.000004649 秒, 已达标
+2025-04-17 08:50:20,344 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:20,345 - slave.sync_controller - INFO - 同步成功: offset=-0.000004649, delay=0.000020385
+2025-04-17 08:50:25,353 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:25,354 - slave.network - INFO - 过滤后结果: offset=0.000002742, delay=0.000022054
+2025-04-17 08:50:25,355 - slave.sync_monitor - INFO - 偏移量: 0.000002742 秒, 已达标
+2025-04-17 08:50:25,355 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:25,355 - slave.sync_controller - INFO - 同步成功: offset=0.000002742, delay=0.000022054
+2025-04-17 08:50:30,364 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:30,366 - slave.network - INFO - 过滤后结果: offset=-0.000007033, delay=0.000092387
+2025-04-17 08:50:30,366 - slave.sync_monitor - INFO - 偏移量: -0.000007033 秒, 已达标
+2025-04-17 08:50:30,366 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:30,366 - slave.sync_controller - INFO - 同步成功: offset=-0.000007033, delay=0.000092387
+2025-04-17 08:50:35,374 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:35,377 - slave.network - INFO - 过滤后结果: offset=-0.000002980, delay=0.000036597
+2025-04-17 08:50:35,377 - slave.sync_monitor - INFO - 偏移量: -0.000002980 秒, 已达标
+2025-04-17 08:50:35,377 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:35,378 - slave.sync_controller - INFO - 同步成功: offset=-0.000002980, delay=0.000036597
+2025-04-17 08:50:40,385 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:40,387 - slave.network - INFO - 过滤后结果: offset=-0.000001788, delay=0.000102162
+2025-04-17 08:50:40,388 - slave.sync_monitor - INFO - 偏移量: -0.000001788 秒, 已达标
+2025-04-17 08:50:40,388 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:40,388 - slave.sync_controller - INFO - 同步成功: offset=-0.000001788, delay=0.000102162
+2025-04-17 08:50:45,397 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:45,400 - slave.network - INFO - 过滤后结果: offset=-0.000018716, delay=0.000066876
+2025-04-17 08:50:45,400 - slave.sync_monitor - INFO - 偏移量: -0.000018716 秒, 已达标
+2025-04-17 08:50:45,400 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:45,400 - slave.sync_controller - INFO - 同步成功: offset=-0.000018716, delay=0.000066876
+2025-04-17 08:50:50,411 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:50,412 - slave.network - INFO - 过滤后结果: offset=0.000025868, delay=0.000064492
+2025-04-17 08:50:50,412 - slave.sync_monitor - INFO - 偏移量: 0.000025868 秒, 已达标
+2025-04-17 08:50:50,413 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:50,413 - slave.sync_controller - INFO - 同步成功: offset=0.000025868, delay=0.000064492
+2025-04-17 08:50:55,422 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:50:55,423 - slave.network - INFO - 过滤后结果: offset=0.000029922, delay=0.000083804
+2025-04-17 08:50:55,424 - slave.sync_monitor - INFO - 偏移量: 0.000029922 秒, 已达标
+2025-04-17 08:50:55,424 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:50:55,424 - slave.sync_controller - INFO - 同步成功: offset=0.000029922, delay=0.000083804
+2025-04-17 08:51:00,444 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:00,446 - slave.network - INFO - 过滤后结果: offset=-0.099997759, delay=0.000087261
+2025-04-17 08:51:00,446 - slave.sync_monitor - INFO - 偏移量: -0.099997759 秒, 已达标
+2025-04-17 08:51:00,446 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:00,446 - slave.sync_controller - INFO - 同步成功: offset=-0.099997759, delay=0.000087261
+2025-04-17 08:51:05,454 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:05,456 - slave.network - INFO - 过滤后结果: offset=0.000028968, delay=0.000073075
+2025-04-17 08:51:05,457 - slave.sync_monitor - INFO - 偏移量: 0.000028968 秒, 已达标
+2025-04-17 08:51:05,457 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:05,457 - slave.sync_controller - INFO - 同步成功: offset=0.000028968, delay=0.000073075
+2025-04-17 08:51:10,466 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:10,468 - slave.network - INFO - 过滤后结果: offset=-0.000034690, delay=0.000071883
+2025-04-17 08:51:10,468 - slave.sync_monitor - INFO - 偏移量: -0.000034690 秒, 已达标
+2025-04-17 08:51:10,468 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:10,469 - slave.sync_controller - INFO - 同步成功: offset=-0.000034690, delay=0.000071883
+2025-04-17 08:51:15,479 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:15,481 - slave.network - INFO - 过滤后结果: offset=-0.000013351, delay=0.000058889
+2025-04-17 08:51:15,481 - slave.sync_monitor - INFO - 偏移量: -0.000013351 秒, 已达标
+2025-04-17 08:51:15,481 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:15,481 - slave.sync_controller - INFO - 同步成功: offset=-0.000013351, delay=0.000058889
+2025-04-17 08:51:20,489 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:20,491 - slave.network - INFO - 过滤后结果: offset=-0.000003576, delay=0.000065804
+2025-04-17 08:51:20,491 - slave.sync_monitor - INFO - 偏移量: -0.000003576 秒, 已达标
+2025-04-17 08:51:20,491 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:20,492 - slave.sync_controller - INFO - 同步成功: offset=-0.000003576, delay=0.000065804
+2025-04-17 08:51:25,500 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:26,502 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:51:26,502 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 08:51:27,503 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:51:27,503 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 08:51:28,504 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:51:28,504 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 08:51:28,505 - slave.network - INFO - 过滤后结果: offset=0.000000596, delay=0.000100970
+2025-04-17 08:51:28,505 - slave.sync_monitor - INFO - 偏移量: 0.000000596 秒, 已达标
+2025-04-17 08:51:28,506 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:28,506 - slave.sync_controller - INFO - 同步成功: offset=0.000000596, delay=0.000100970
+2025-04-17 08:51:33,515 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:33,517 - slave.network - INFO - 过滤后结果: offset=0.000000477, delay=0.000066996
+2025-04-17 08:51:33,517 - slave.sync_monitor - INFO - 偏移量: 0.000000477 秒, 已达标
+2025-04-17 08:51:33,517 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:33,517 - slave.sync_controller - INFO - 同步成功: offset=0.000000477, delay=0.000066996
+2025-04-17 08:51:38,526 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:38,528 - slave.network - INFO - 过滤后结果: offset=-0.000000596, delay=0.000094295
+2025-04-17 08:51:38,528 - slave.sync_monitor - INFO - 偏移量: -0.000000596 秒, 已达标
+2025-04-17 08:51:38,528 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:38,529 - slave.sync_controller - INFO - 同步成功: offset=-0.000000596, delay=0.000094295
+2025-04-17 08:51:43,538 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:44,540 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:51:44,540 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 08:51:44,541 - slave.network - INFO - 过滤后结果: offset=0.099992990, delay=0.000081301
+2025-04-17 08:51:44,542 - slave.sync_monitor - INFO - 偏移量: 0.099992990 秒, 已达标
+2025-04-17 08:51:44,542 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:44,542 - slave.sync_controller - INFO - 同步成功: offset=0.099992990, delay=0.000081301
+2025-04-17 08:51:49,551 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:49,553 - slave.network - INFO - 过滤后结果: offset=0.100001812, delay=0.000075579
+2025-04-17 08:51:49,553 - slave.sync_monitor - INFO - 偏移量: 0.100001812 秒, 已达标
+2025-04-17 08:51:49,553 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:49,554 - slave.sync_controller - INFO - 同步成功: offset=0.100001812, delay=0.000075579
+2025-04-17 08:51:54,563 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:54,565 - slave.network - INFO - 过滤后结果: offset=0.099990726, delay=0.000095963
+2025-04-17 08:51:54,565 - slave.sync_monitor - INFO - 偏移量: 0.099990726 秒, 已达标
+2025-04-17 08:51:54,566 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:54,566 - slave.sync_controller - INFO - 同步成功: offset=0.099990726, delay=0.000095963
+2025-04-17 08:51:59,574 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:51:59,576 - slave.network - INFO - 过滤后结果: offset=0.099991202, delay=0.000113845
+2025-04-17 08:51:59,577 - slave.sync_monitor - INFO - 偏移量: 0.099991202 秒, 已达标
+2025-04-17 08:51:59,577 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:51:59,577 - slave.sync_controller - INFO - 同步成功: offset=0.099991202, delay=0.000113845
+2025-04-17 08:52:04,584 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:52:04,586 - slave.network - INFO - 过滤后结果: offset=0.099975705, delay=0.000048518
+2025-04-17 08:52:04,586 - slave.sync_monitor - INFO - 偏移量: 0.099975705 秒, 已达标
+2025-04-17 08:52:04,587 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:52:04,587 - slave.sync_controller - INFO - 同步成功: offset=0.099975705, delay=0.000048518
+2025-04-17 08:52:09,600 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 08:52:10,602 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:52:10,602 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 08:52:11,603 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:52:11,603 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 08:52:12,604 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:52:12,604 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-17 08:52:13,605 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:52:13,605 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-17 08:52:14,606 - slave.network - WARNING - 同步请求超时
+2025-04-17 08:52:14,606 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-17 08:52:14,606 - slave.network - INFO - 过滤后结果: offset=0.099879503, delay=0.000241041
+2025-04-17 08:52:14,606 - slave.sync_monitor - INFO - 偏移量: 0.099879503 秒, 已达标
+2025-04-17 08:52:14,607 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 08:52:14,607 - slave.sync_controller - INFO - 同步成功: offset=0.099879503, delay=0.000241041
+2025-04-17 08:52:19,616 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 08:52:26,032 - slave.gui - INFO - 应用已关闭
+2025-04-17 09:28:38,817 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 09:28:38,817 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 09:28:38,817 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 09:28:38,817 - slave.sync_monitor - INFO - 偏移量阈值: 1000.0 秒
+2025-04-17 09:28:38,847 - slave.gui - INFO - Slave应用已启动
+2025-04-17 09:29:00,894 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 09:29:00,894 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 09:29:01,895 - slave.network - WARNING - 同步请求超时
+2025-04-17 09:29:01,896 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 09:29:02,897 - slave.network - WARNING - 同步请求超时
+2025-04-17 09:29:02,898 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 09:29:03,900 - slave.network - WARNING - 同步请求超时
+2025-04-17 09:29:03,900 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 09:29:04,901 - slave.network - WARNING - 同步请求超时
+2025-04-17 09:29:04,902 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-17 09:29:04,903 - slave.network - INFO - 过滤后结果: offset=-0.000108480, delay=0.000218630
+2025-04-17 09:29:04,903 - slave.sync_monitor - INFO - 偏移量: -0.000108480 秒, 已达标
+2025-04-17 09:29:04,903 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 09:29:04,904 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:04,904 - slave.sync_controller - INFO - 同步成功: offset=-0.000108480, delay=0.000218630
+2025-04-17 09:29:09,914 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:09,915 - slave.network - INFO - 过滤后结果: offset=-0.000007033, delay=0.000093818
+2025-04-17 09:29:09,916 - slave.sync_monitor - INFO - 偏移量: -0.000007033 秒, 已达标
+2025-04-17 09:29:09,916 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:09,916 - slave.sync_controller - INFO - 同步成功: offset=-0.000007033, delay=0.000093818
+2025-04-17 09:29:14,924 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:14,926 - slave.network - INFO - 过滤后结果: offset=0.000009418, delay=0.000089765
+2025-04-17 09:29:14,926 - slave.sync_monitor - INFO - 偏移量: 0.000009418 秒, 已达标
+2025-04-17 09:29:14,926 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:14,927 - slave.sync_controller - INFO - 同步成功: offset=0.000009418, delay=0.000089765
+2025-04-17 09:29:19,936 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:19,938 - slave.network - INFO - 过滤后结果: offset=0.000000477, delay=0.000015020
+2025-04-17 09:29:19,938 - slave.sync_monitor - INFO - 偏移量: 0.000000477 秒, 已达标
+2025-04-17 09:29:19,938 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:19,939 - slave.sync_controller - INFO - 同步成功: offset=0.000000477, delay=0.000015020
+2025-04-17 09:29:24,946 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:24,948 - slave.network - INFO - 过滤后结果: offset=0.000004649, delay=0.000080943
+2025-04-17 09:29:24,948 - slave.sync_monitor - INFO - 偏移量: 0.000004649 秒, 已达标
+2025-04-17 09:29:24,948 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:24,949 - slave.sync_controller - INFO - 同步成功: offset=0.000004649, delay=0.000080943
+2025-04-17 09:29:29,956 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:29,958 - slave.network - INFO - 过滤后结果: offset=-0.000002742, delay=0.000029445
+2025-04-17 09:29:29,958 - slave.sync_monitor - INFO - 偏移量: -0.000002742 秒, 已达标
+2025-04-17 09:29:29,958 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:29,958 - slave.sync_controller - INFO - 同步成功: offset=-0.000002742, delay=0.000029445
+2025-04-17 09:29:34,968 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:34,970 - slave.network - INFO - 过滤后结果: offset=0.000008702, delay=0.000089526
+2025-04-17 09:29:34,970 - slave.sync_monitor - INFO - 偏移量: 0.000008702 秒, 已达标
+2025-04-17 09:29:34,970 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:34,971 - slave.sync_controller - INFO - 同步成功: offset=0.000008702, delay=0.000089526
+2025-04-17 09:29:39,979 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:39,981 - slave.network - INFO - 过滤后结果: offset=0.000007629, delay=0.000088930
+2025-04-17 09:29:39,982 - slave.sync_monitor - INFO - 偏移量: 0.000007629 秒, 已达标
+2025-04-17 09:29:39,982 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:39,982 - slave.sync_controller - INFO - 同步成功: offset=0.000007629, delay=0.000088930
+2025-04-17 09:29:44,990 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:44,992 - slave.network - INFO - 过滤后结果: offset=0.000012994, delay=0.000078321
+2025-04-17 09:29:44,993 - slave.sync_monitor - INFO - 偏移量: 0.000012994 秒, 已达标
+2025-04-17 09:29:44,993 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:44,993 - slave.sync_controller - INFO - 同步成功: offset=0.000012994, delay=0.000078321
+2025-04-17 09:29:50,000 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:50,002 - slave.network - INFO - 过滤后结果: offset=0.050002933, delay=0.000072598
+2025-04-17 09:29:50,002 - slave.sync_monitor - INFO - 偏移量: 0.050002933 秒, 已达标
+2025-04-17 09:29:50,002 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:50,002 - slave.sync_controller - INFO - 同步成功: offset=0.050002933, delay=0.000072598
+2025-04-17 09:29:55,009 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:29:55,011 - slave.network - INFO - 过滤后结果: offset=0.050009489, delay=0.000088453
+2025-04-17 09:29:55,011 - slave.sync_monitor - INFO - 偏移量: 0.050009489 秒, 已达标
+2025-04-17 09:29:55,012 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:29:55,012 - slave.sync_controller - INFO - 同步成功: offset=0.050009489, delay=0.000088453
+2025-04-17 09:30:00,019 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:00,021 - slave.network - INFO - 过滤后结果: offset=-0.000008106, delay=0.000075817
+2025-04-17 09:30:00,021 - slave.sync_monitor - INFO - 偏移量: -0.000008106 秒, 已达标
+2025-04-17 09:30:00,022 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:00,022 - slave.sync_controller - INFO - 同步成功: offset=-0.000008106, delay=0.000075817
+2025-04-17 09:30:05,029 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:05,032 - slave.network - INFO - 过滤后结果: offset=0.000001311, delay=0.000094771
+2025-04-17 09:30:05,032 - slave.sync_monitor - INFO - 偏移量: 0.000001311 秒, 已达标
+2025-04-17 09:30:05,032 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:05,032 - slave.sync_controller - INFO - 同步成功: offset=0.000001311, delay=0.000094771
+2025-04-17 09:30:10,042 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:10,044 - slave.network - INFO - 过滤后结果: offset=-0.000004411, delay=0.000088334
+2025-04-17 09:30:10,044 - slave.sync_monitor - INFO - 偏移量: -0.000004411 秒, 已达标
+2025-04-17 09:30:10,044 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:10,044 - slave.sync_controller - INFO - 同步成功: offset=-0.000004411, delay=0.000088334
+2025-04-17 09:30:15,052 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:15,054 - slave.network - INFO - 过滤后结果: offset=-0.000006437, delay=0.000084639
+2025-04-17 09:30:15,054 - slave.sync_monitor - INFO - 偏移量: -0.000006437 秒, 已达标
+2025-04-17 09:30:15,054 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:15,055 - slave.sync_controller - INFO - 同步成功: offset=-0.000006437, delay=0.000084639
+2025-04-17 09:30:20,063 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:20,065 - slave.network - INFO - 过滤后结果: offset=0.000003457, delay=0.000084281
+2025-04-17 09:30:20,065 - slave.sync_monitor - INFO - 偏移量: 0.000003457 秒, 已达标
+2025-04-17 09:30:20,066 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:20,066 - slave.sync_controller - INFO - 同步成功: offset=0.000003457, delay=0.000084281
+2025-04-17 09:30:25,074 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:25,075 - slave.network - INFO - 过滤后结果: offset=-0.000009298, delay=0.000036240
+2025-04-17 09:30:25,075 - slave.sync_monitor - INFO - 偏移量: -0.000009298 秒, 已达标
+2025-04-17 09:30:25,076 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:25,076 - slave.sync_controller - INFO - 同步成功: offset=-0.000009298, delay=0.000036240
+2025-04-17 09:30:30,083 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:30,085 - slave.network - INFO - 过滤后结果: offset=-0.000002503, delay=0.000105739
+2025-04-17 09:30:30,086 - slave.sync_monitor - INFO - 偏移量: -0.000002503 秒, 已达标
+2025-04-17 09:30:30,086 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:30,086 - slave.sync_controller - INFO - 同步成功: offset=-0.000002503, delay=0.000105739
+2025-04-17 09:30:35,096 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:35,098 - slave.network - INFO - 过滤后结果: offset=0.000002623, delay=0.000108004
+2025-04-17 09:30:35,099 - slave.sync_monitor - INFO - 偏移量: 0.000002623 秒, 已达标
+2025-04-17 09:30:35,099 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:35,099 - slave.sync_controller - INFO - 同步成功: offset=0.000002623, delay=0.000108004
+2025-04-17 09:30:40,109 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:40,111 - slave.network - INFO - 过滤后结果: offset=-0.000005841, delay=0.000069737
+2025-04-17 09:30:40,111 - slave.sync_monitor - INFO - 偏移量: -0.000005841 秒, 已达标
+2025-04-17 09:30:40,112 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:40,112 - slave.sync_controller - INFO - 同步成功: offset=-0.000005841, delay=0.000069737
+2025-04-17 09:30:45,120 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:45,122 - slave.network - INFO - 过滤后结果: offset=0.000001311, delay=0.000018001
+2025-04-17 09:30:45,122 - slave.sync_monitor - INFO - 偏移量: 0.000001311 秒, 已达标
+2025-04-17 09:30:45,122 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:45,122 - slave.sync_controller - INFO - 同步成功: offset=0.000001311, delay=0.000018001
+2025-04-17 09:30:50,131 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:50,133 - slave.network - INFO - 过滤后结果: offset=0.000004053, delay=0.000081062
+2025-04-17 09:30:50,133 - slave.sync_monitor - INFO - 偏移量: 0.000004053 秒, 已达标
+2025-04-17 09:30:50,134 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:50,134 - slave.sync_controller - INFO - 同步成功: offset=0.000004053, delay=0.000081062
+2025-04-17 09:30:55,150 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:30:55,171 - slave.network - INFO - 过滤后结果: offset=0.000005722, delay=0.000021935
+2025-04-17 09:30:55,171 - slave.sync_monitor - INFO - 偏移量: 0.000005722 秒, 已达标
+2025-04-17 09:30:55,172 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:30:55,172 - slave.sync_controller - INFO - 同步成功: offset=0.000005722, delay=0.000021935
+2025-04-17 09:31:00,180 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:00,182 - slave.network - INFO - 过滤后结果: offset=-0.050002337, delay=0.000118971
+2025-04-17 09:31:00,183 - slave.sync_monitor - INFO - 偏移量: -0.050002337 秒, 已达标
+2025-04-17 09:31:00,183 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:00,183 - slave.sync_controller - INFO - 同步成功: offset=-0.050002337, delay=0.000118971
+2025-04-17 09:31:05,193 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:05,196 - slave.network - INFO - 过滤后结果: offset=-0.049998283, delay=0.000082731
+2025-04-17 09:31:05,196 - slave.sync_monitor - INFO - 偏移量: -0.049998283 秒, 已达标
+2025-04-17 09:31:05,196 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:05,196 - slave.sync_controller - INFO - 同步成功: offset=-0.049998283, delay=0.000082731
+2025-04-17 09:31:10,204 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:10,206 - slave.network - INFO - 过滤后结果: offset=-0.049988747, delay=0.000077486
+2025-04-17 09:31:10,207 - slave.sync_monitor - INFO - 偏移量: -0.049988747 秒, 已达标
+2025-04-17 09:31:10,207 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:10,207 - slave.sync_controller - INFO - 同步成功: offset=-0.049988747, delay=0.000077486
+2025-04-17 09:31:15,216 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:15,218 - slave.network - INFO - 过滤后结果: offset=0.000019312, delay=0.000093222
+2025-04-17 09:31:15,218 - slave.sync_monitor - INFO - 偏移量: 0.000019312 秒, 已达标
+2025-04-17 09:31:15,218 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:15,218 - slave.sync_controller - INFO - 同步成功: offset=0.000019312, delay=0.000093222
+2025-04-17 09:31:20,228 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:20,231 - slave.network - INFO - 过滤后结果: offset=-0.000013351, delay=0.000062704
+2025-04-17 09:31:20,231 - slave.sync_monitor - INFO - 偏移量: -0.000013351 秒, 已达标
+2025-04-17 09:31:20,231 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:20,231 - slave.sync_controller - INFO - 同步成功: offset=-0.000013351, delay=0.000062704
+2025-04-17 09:31:25,238 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:25,240 - slave.network - INFO - 过滤后结果: offset=-0.000007749, delay=0.000095725
+2025-04-17 09:31:25,240 - slave.sync_monitor - INFO - 偏移量: -0.000007749 秒, 已达标
+2025-04-17 09:31:25,241 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:25,241 - slave.sync_controller - INFO - 同步成功: offset=-0.000007749, delay=0.000095725
+2025-04-17 09:31:30,249 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:30,251 - slave.network - INFO - 过滤后结果: offset=0.000006914, delay=0.000074863
+2025-04-17 09:31:30,251 - slave.sync_monitor - INFO - 偏移量: 0.000006914 秒, 已达标
+2025-04-17 09:31:30,252 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:30,252 - slave.sync_controller - INFO - 同步成功: offset=0.000006914, delay=0.000074863
+2025-04-17 09:31:35,260 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:35,262 - slave.network - INFO - 过滤后结果: offset=0.000021219, delay=0.000089884
+2025-04-17 09:31:35,262 - slave.sync_monitor - INFO - 偏移量: 0.000021219 秒, 已达标
+2025-04-17 09:31:35,262 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:35,263 - slave.sync_controller - INFO - 同步成功: offset=0.000021219, delay=0.000089884
+2025-04-17 09:31:40,270 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:40,272 - slave.network - INFO - 过滤后结果: offset=-0.000008702, delay=0.000073314
+2025-04-17 09:31:40,273 - slave.sync_monitor - INFO - 偏移量: -0.000008702 秒, 已达标
+2025-04-17 09:31:40,273 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:40,273 - slave.sync_controller - INFO - 同步成功: offset=-0.000008702, delay=0.000073314
+2025-04-17 09:31:45,282 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:45,286 - slave.network - INFO - 过滤后结果: offset=0.000003219, delay=0.000056148
+2025-04-17 09:31:45,286 - slave.sync_monitor - INFO - 偏移量: 0.000003219 秒, 已达标
+2025-04-17 09:31:45,286 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:45,286 - slave.sync_controller - INFO - 同步成功: offset=0.000003219, delay=0.000056148
+2025-04-17 09:31:50,296 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:50,297 - slave.network - INFO - 过滤后结果: offset=0.000005245, delay=0.000026941
+2025-04-17 09:31:50,298 - slave.sync_monitor - INFO - 偏移量: 0.000005245 秒, 已达标
+2025-04-17 09:31:50,298 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:50,298 - slave.sync_controller - INFO - 同步成功: offset=0.000005245, delay=0.000026941
+2025-04-17 09:31:55,307 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:31:55,308 - slave.network - INFO - 过滤后结果: offset=0.000005007, delay=0.000021696
+2025-04-17 09:31:55,308 - slave.sync_monitor - INFO - 偏移量: 0.000005007 秒, 已达标
+2025-04-17 09:31:55,309 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:31:55,309 - slave.sync_controller - INFO - 同步成功: offset=0.000005007, delay=0.000021696
+2025-04-17 09:32:00,317 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:00,319 - slave.network - INFO - 过滤后结果: offset=0.000001311, delay=0.000064731
+2025-04-17 09:32:00,319 - slave.sync_monitor - INFO - 偏移量: 0.000001311 秒, 已达标
+2025-04-17 09:32:00,319 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:00,320 - slave.sync_controller - INFO - 同步成功: offset=0.000001311, delay=0.000064731
+2025-04-17 09:32:05,327 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:05,329 - slave.network - INFO - 过滤后结果: offset=0.000005007, delay=0.000071526
+2025-04-17 09:32:05,329 - slave.sync_monitor - INFO - 偏移量: 0.000005007 秒, 已达标
+2025-04-17 09:32:05,329 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:05,329 - slave.sync_controller - INFO - 同步成功: offset=0.000005007, delay=0.000071526
+2025-04-17 09:32:10,341 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:10,343 - slave.network - INFO - 过滤后结果: offset=-0.000001669, delay=0.000094891
+2025-04-17 09:32:10,343 - slave.sync_monitor - INFO - 偏移量: -0.000001669 秒, 已达标
+2025-04-17 09:32:10,344 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:10,344 - slave.sync_controller - INFO - 同步成功: offset=-0.000001669, delay=0.000094891
+2025-04-17 09:32:15,356 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:15,358 - slave.network - INFO - 过滤后结果: offset=0.000004768, delay=0.000021219
+2025-04-17 09:32:15,358 - slave.sync_monitor - INFO - 偏移量: 0.000004768 秒, 已达标
+2025-04-17 09:32:15,358 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:15,358 - slave.sync_controller - INFO - 同步成功: offset=0.000004768, delay=0.000021219
+2025-04-17 09:32:20,369 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:20,371 - slave.network - INFO - 过滤后结果: offset=-0.000036478, delay=0.000062466
+2025-04-17 09:32:20,371 - slave.sync_monitor - INFO - 偏移量: -0.000036478 秒, 已达标
+2025-04-17 09:32:20,372 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:20,372 - slave.sync_controller - INFO - 同步成功: offset=-0.000036478, delay=0.000062466
+2025-04-17 09:32:25,381 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:25,383 - slave.network - INFO - 过滤后结果: offset=-0.000007510, delay=0.000029445
+2025-04-17 09:32:25,384 - slave.sync_monitor - INFO - 偏移量: -0.000007510 秒, 已达标
+2025-04-17 09:32:25,384 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:25,384 - slave.sync_controller - INFO - 同步成功: offset=-0.000007510, delay=0.000029445
+2025-04-17 09:32:30,393 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:30,395 - slave.network - INFO - 过滤后结果: offset=0.000003576, delay=0.000083208
+2025-04-17 09:32:30,395 - slave.sync_monitor - INFO - 偏移量: 0.000003576 秒, 已达标
+2025-04-17 09:32:30,395 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:30,395 - slave.sync_controller - INFO - 同步成功: offset=0.000003576, delay=0.000083208
+2025-04-17 09:32:35,404 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:35,406 - slave.network - INFO - 过滤后结果: offset=0.000002742, delay=0.000066876
+2025-04-17 09:32:35,406 - slave.sync_monitor - INFO - 偏移量: 0.000002742 秒, 已达标
+2025-04-17 09:32:35,406 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:35,406 - slave.sync_controller - INFO - 同步成功: offset=0.000002742, delay=0.000066876
+2025-04-17 09:32:40,414 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:40,416 - slave.network - INFO - 过滤后结果: offset=-0.000007510, delay=0.000082850
+2025-04-17 09:32:40,416 - slave.sync_monitor - INFO - 偏移量: -0.000007510 秒, 已达标
+2025-04-17 09:32:40,416 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:40,416 - slave.sync_controller - INFO - 同步成功: offset=-0.000007510, delay=0.000082850
+2025-04-17 09:32:45,426 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:45,428 - slave.network - INFO - 过滤后结果: offset=-0.000004888, delay=0.000096917
+2025-04-17 09:32:45,428 - slave.sync_monitor - INFO - 偏移量: -0.000004888 秒, 已达标
+2025-04-17 09:32:45,428 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:45,429 - slave.sync_controller - INFO - 同步成功: offset=-0.000004888, delay=0.000096917
+2025-04-17 09:32:50,440 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:50,442 - slave.network - INFO - 过滤后结果: offset=-0.000001788, delay=0.000082135
+2025-04-17 09:32:50,442 - slave.sync_monitor - INFO - 偏移量: -0.000001788 秒, 已达标
+2025-04-17 09:32:50,442 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:50,443 - slave.sync_controller - INFO - 同步成功: offset=-0.000001788, delay=0.000082135
+2025-04-17 09:32:55,451 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:32:55,453 - slave.network - INFO - 过滤后结果: offset=-0.000000834, delay=0.000079036
+2025-04-17 09:32:55,453 - slave.sync_monitor - INFO - 偏移量: -0.000000834 秒, 已达标
+2025-04-17 09:32:55,453 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:32:55,454 - slave.sync_controller - INFO - 同步成功: offset=-0.000000834, delay=0.000079036
+2025-04-17 09:33:00,463 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:00,466 - slave.network - INFO - 过滤后结果: offset=0.000000834, delay=0.000078559
+2025-04-17 09:33:00,466 - slave.sync_monitor - INFO - 偏移量: 0.000000834 秒, 已达标
+2025-04-17 09:33:00,466 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:00,467 - slave.sync_controller - INFO - 同步成功: offset=0.000000834, delay=0.000078559
+2025-04-17 09:33:05,475 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:05,477 - slave.network - INFO - 过滤后结果: offset=0.000006080, delay=0.000079989
+2025-04-17 09:33:05,477 - slave.sync_monitor - INFO - 偏移量: 0.000006080 秒, 已达标
+2025-04-17 09:33:05,478 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:05,478 - slave.sync_controller - INFO - 同步成功: offset=0.000006080, delay=0.000079989
+2025-04-17 09:33:10,487 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:10,489 - slave.network - INFO - 过滤后结果: offset=-0.000005841, delay=0.000024915
+2025-04-17 09:33:10,489 - slave.sync_monitor - INFO - 偏移量: -0.000005841 秒, 已达标
+2025-04-17 09:33:10,489 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:10,490 - slave.sync_controller - INFO - 同步成功: offset=-0.000005841, delay=0.000024915
+2025-04-17 09:33:15,497 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:15,499 - slave.network - INFO - 过滤后结果: offset=0.000007868, delay=0.000113487
+2025-04-17 09:33:15,500 - slave.sync_monitor - INFO - 偏移量: 0.000007868 秒, 已达标
+2025-04-17 09:33:15,500 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:15,500 - slave.sync_controller - INFO - 同步成功: offset=0.000007868, delay=0.000113487
+2025-04-17 09:33:20,507 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:20,509 - slave.network - INFO - 过滤后结果: offset=0.000012279, delay=0.000091434
+2025-04-17 09:33:20,509 - slave.sync_monitor - INFO - 偏移量: 0.000012279 秒, 已达标
+2025-04-17 09:33:20,510 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:20,510 - slave.sync_controller - INFO - 同步成功: offset=0.000012279, delay=0.000091434
+2025-04-17 09:33:25,517 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:25,519 - slave.network - INFO - 过滤后结果: offset=-0.000019193, delay=0.000073552
+2025-04-17 09:33:25,519 - slave.sync_monitor - INFO - 偏移量: -0.000019193 秒, 已达标
+2025-04-17 09:33:25,519 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:25,519 - slave.sync_controller - INFO - 同步成功: offset=-0.000019193, delay=0.000073552
+2025-04-17 09:33:30,530 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:30,537 - slave.network - INFO - 过滤后结果: offset=-0.000003695, delay=0.000076652
+2025-04-17 09:33:30,537 - slave.sync_monitor - INFO - 偏移量: -0.000003695 秒, 已达标
+2025-04-17 09:33:30,537 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:30,537 - slave.sync_controller - INFO - 同步成功: offset=-0.000003695, delay=0.000076652
+2025-04-17 09:33:35,544 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:35,546 - slave.network - INFO - 过滤后结果: offset=-0.000007391, delay=0.000029087
+2025-04-17 09:33:35,546 - slave.sync_monitor - INFO - 偏移量: -0.000007391 秒, 已达标
+2025-04-17 09:33:35,546 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:35,546 - slave.sync_controller - INFO - 同步成功: offset=-0.000007391, delay=0.000029087
+2025-04-17 09:33:40,558 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:40,559 - slave.network - INFO - 过滤后结果: offset=-0.000008583, delay=0.000025988
+2025-04-17 09:33:40,559 - slave.sync_monitor - INFO - 偏移量: -0.000008583 秒, 已达标
+2025-04-17 09:33:40,560 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:40,560 - slave.sync_controller - INFO - 同步成功: offset=-0.000008583, delay=0.000025988
+2025-04-17 09:33:45,568 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:45,570 - slave.network - INFO - 过滤后结果: offset=0.000003457, delay=0.000033736
+2025-04-17 09:33:45,570 - slave.sync_monitor - INFO - 偏移量: 0.000003457 秒, 已达标
+2025-04-17 09:33:45,570 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:45,571 - slave.sync_controller - INFO - 同步成功: offset=0.000003457, delay=0.000033736
+2025-04-17 09:33:50,580 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:50,583 - slave.network - INFO - 过滤后结果: offset=-0.000008225, delay=0.000032306
+2025-04-17 09:33:50,583 - slave.sync_monitor - INFO - 偏移量: -0.000008225 秒, 已达标
+2025-04-17 09:33:50,583 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:50,584 - slave.sync_controller - INFO - 同步成功: offset=-0.000008225, delay=0.000032306
+2025-04-17 09:33:55,592 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:33:55,593 - slave.network - INFO - 过滤后结果: offset=0.000003338, delay=0.000020742
+2025-04-17 09:33:55,594 - slave.sync_monitor - INFO - 偏移量: 0.000003338 秒, 已达标
+2025-04-17 09:33:55,595 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:33:55,595 - slave.sync_controller - INFO - 同步成功: offset=0.000003338, delay=0.000020742
+2025-04-17 09:34:00,606 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:34:00,608 - slave.network - INFO - 过滤后结果: offset=0.000002742, delay=0.000027061
+2025-04-17 09:34:00,608 - slave.sync_monitor - INFO - 偏移量: 0.000002742 秒, 已达标
+2025-04-17 09:34:00,608 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:34:00,609 - slave.sync_controller - INFO - 同步成功: offset=0.000002742, delay=0.000027061
+2025-04-17 09:34:05,617 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:34:05,618 - slave.network - INFO - 过滤后结果: offset=-0.000032187, delay=0.000061989
+2025-04-17 09:34:05,619 - slave.sync_monitor - INFO - 偏移量: -0.000032187 秒, 已达标
+2025-04-17 09:34:05,619 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:34:05,619 - slave.sync_controller - INFO - 同步成功: offset=-0.000032187, delay=0.000061989
+2025-04-17 09:34:10,625 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:34:10,627 - slave.network - INFO - 过滤后结果: offset=0.000010967, delay=0.000067234
+2025-04-17 09:34:10,627 - slave.sync_monitor - INFO - 偏移量: 0.000010967 秒, 已达标
+2025-04-17 09:34:10,627 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:34:10,627 - slave.sync_controller - INFO - 同步成功: offset=0.000010967, delay=0.000067234
+2025-04-17 09:34:15,644 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:34:15,646 - slave.network - INFO - 过滤后结果: offset=-0.000001907, delay=0.000043631
+2025-04-17 09:34:15,646 - slave.sync_monitor - INFO - 偏移量: -0.000001907 秒, 已达标
+2025-04-17 09:34:15,646 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:34:15,647 - slave.sync_controller - INFO - 同步成功: offset=-0.000001907, delay=0.000043631
+2025-04-17 09:34:17,650 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 09:34:19,465 - slave.gui - INFO - 应用已关闭
+2025-04-17 09:35:24,599 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 09:35:24,600 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 09:35:24,600 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 09:35:24,600 - slave.sync_monitor - INFO - 偏移量阈值: 1000.0 秒
+2025-04-17 09:35:24,631 - slave.gui - INFO - Slave应用已启动
+2025-04-17 09:40:22,822 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 09:40:22,822 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 09:40:23,823 - slave.network - WARNING - 同步请求超时
+2025-04-17 09:40:23,824 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 09:40:23,826 - slave.network - INFO - 过滤后结果: offset=-0.000038981, delay=0.000125051
+2025-04-17 09:40:23,826 - slave.sync_monitor - INFO - 偏移量: -0.000038981 秒, 已达标
+2025-04-17 09:40:23,826 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 09:40:23,826 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:23,826 - slave.sync_controller - INFO - 同步成功: offset=-0.000038981, delay=0.000125051
+2025-04-17 09:40:28,833 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:28,835 - slave.network - INFO - 过滤后结果: offset=1.199957609, delay=0.000075340
+2025-04-17 09:40:28,835 - slave.sync_monitor - INFO - 偏移量: 1.199957609 秒, 已达标
+2025-04-17 09:40:28,835 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:28,835 - slave.sync_controller - INFO - 同步成功: offset=1.199957609, delay=0.000075340
+2025-04-17 09:40:33,843 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:33,844 - slave.network - INFO - 过滤后结果: offset=1.200001001, delay=0.000016212
+2025-04-17 09:40:33,845 - slave.sync_monitor - INFO - 偏移量: 1.200001001 秒, 已达标
+2025-04-17 09:40:33,845 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:33,845 - slave.sync_controller - INFO - 同步成功: offset=1.200001001, delay=0.000016212
+2025-04-17 09:40:38,854 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:38,856 - slave.network - INFO - 过滤后结果: offset=1.199998617, delay=0.000078917
+2025-04-17 09:40:38,857 - slave.sync_monitor - INFO - 偏移量: 1.199998617 秒, 已达标
+2025-04-17 09:40:38,857 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:38,857 - slave.sync_controller - INFO - 同步成功: offset=1.199998617, delay=0.000078917
+2025-04-17 09:40:43,866 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:43,868 - slave.network - INFO - 过滤后结果: offset=1.200000763, delay=0.000087738
+2025-04-17 09:40:43,868 - slave.sync_monitor - INFO - 偏移量: 1.200000763 秒, 已达标
+2025-04-17 09:40:43,868 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:43,868 - slave.sync_controller - INFO - 同步成功: offset=1.200000763, delay=0.000087738
+2025-04-17 09:40:48,879 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:48,881 - slave.network - INFO - 过滤后结果: offset=1.200006485, delay=0.000061989
+2025-04-17 09:40:48,881 - slave.sync_monitor - INFO - 偏移量: 1.200006485 秒, 已达标
+2025-04-17 09:40:48,881 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:48,881 - slave.sync_controller - INFO - 同步成功: offset=1.200006485, delay=0.000061989
+2025-04-17 09:40:53,890 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:53,891 - slave.network - INFO - 过滤后结果: offset=2.199996114, delay=0.000067830
+2025-04-17 09:40:53,892 - slave.sync_monitor - INFO - 偏移量: 2.199996114 秒, 已达标
+2025-04-17 09:40:53,892 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:53,892 - slave.sync_controller - INFO - 同步成功: offset=2.199996114, delay=0.000067830
+2025-04-17 09:40:58,901 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:40:58,903 - slave.network - INFO - 过滤后结果: offset=3.200002551, delay=0.000075459
+2025-04-17 09:40:58,903 - slave.sync_monitor - INFO - 偏移量: 3.200002551 秒, 已达标
+2025-04-17 09:40:58,903 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:40:58,903 - slave.sync_controller - INFO - 同步成功: offset=3.200002551, delay=0.000075459
+2025-04-17 09:41:03,913 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:03,915 - slave.network - INFO - 过滤后结果: offset=3.199973702, delay=0.000055671
+2025-04-17 09:41:03,915 - slave.sync_monitor - INFO - 偏移量: 3.199973702 秒, 已达标
+2025-04-17 09:41:03,915 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:03,915 - slave.sync_controller - INFO - 同步成功: offset=3.199973702, delay=0.000055671
+2025-04-17 09:41:08,924 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:08,927 - slave.network - INFO - 过滤后结果: offset=3.200000763, delay=0.000099182
+2025-04-17 09:41:08,927 - slave.sync_monitor - INFO - 偏移量: 3.200000763 秒, 已达标
+2025-04-17 09:41:08,927 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:08,927 - slave.sync_controller - INFO - 同步成功: offset=3.200000763, delay=0.000099182
+2025-04-17 09:41:13,937 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:13,939 - slave.network - INFO - 过滤后结果: offset=2.199997663, delay=0.000051022
+2025-04-17 09:41:13,939 - slave.sync_monitor - INFO - 偏移量: 2.199997663 秒, 已达标
+2025-04-17 09:41:13,939 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:13,939 - slave.sync_controller - INFO - 同步成功: offset=2.199997663, delay=0.000051022
+2025-04-17 09:41:18,950 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:18,952 - slave.network - INFO - 过滤后结果: offset=2.199992180, delay=0.000103235
+2025-04-17 09:41:18,953 - slave.sync_monitor - INFO - 偏移量: 2.199992180 秒, 已达标
+2025-04-17 09:41:18,953 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:18,953 - slave.sync_controller - INFO - 同步成功: offset=2.199992180, delay=0.000103235
+2025-04-17 09:41:23,961 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:23,963 - slave.network - INFO - 过滤后结果: offset=-0.799998999, delay=0.000018835
+2025-04-17 09:41:23,964 - slave.sync_monitor - INFO - 偏移量: -0.799998999 秒, 已达标
+2025-04-17 09:41:23,964 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:23,964 - slave.sync_controller - INFO - 同步成功: offset=-0.799998999, delay=0.000018835
+2025-04-17 09:41:28,975 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:28,977 - slave.network - INFO - 过滤后结果: offset=-0.800009370, delay=0.000084519
+2025-04-17 09:41:28,977 - slave.sync_monitor - INFO - 偏移量: -0.800009370 秒, 已达标
+2025-04-17 09:41:28,978 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:28,978 - slave.sync_controller - INFO - 同步成功: offset=-0.800009370, delay=0.000084519
+2025-04-17 09:41:33,986 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:33,988 - slave.network - INFO - 过滤后结果: offset=-0.800006986, delay=0.000090957
+2025-04-17 09:41:33,988 - slave.sync_monitor - INFO - 偏移量: -0.800006986 秒, 已达标
+2025-04-17 09:41:33,988 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:33,988 - slave.sync_controller - INFO - 同步成功: offset=-0.800006986, delay=0.000090957
+2025-04-17 09:41:38,998 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:39,001 - slave.network - INFO - 过滤后结果: offset=-0.800009251, delay=0.000033140
+2025-04-17 09:41:39,001 - slave.sync_monitor - INFO - 偏移量: -0.800009251 秒, 已达标
+2025-04-17 09:41:39,002 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:39,002 - slave.sync_controller - INFO - 同步成功: offset=-0.800009251, delay=0.000033140
+2025-04-17 09:41:44,012 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:44,014 - slave.network - INFO - 过滤后结果: offset=-0.799997211, delay=0.000024199
+2025-04-17 09:41:44,014 - slave.sync_monitor - INFO - 偏移量: -0.799997211 秒, 已达标
+2025-04-17 09:41:44,014 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:44,014 - slave.sync_controller - INFO - 同步成功: offset=-0.799997211, delay=0.000024199
+2025-04-17 09:41:49,022 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:49,024 - slave.network - INFO - 过滤后结果: offset=-0.800001025, delay=0.000041127
+2025-04-17 09:41:49,024 - slave.sync_monitor - INFO - 偏移量: -0.800001025 秒, 已达标
+2025-04-17 09:41:49,024 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:49,024 - slave.sync_controller - INFO - 同步成功: offset=-0.800001025, delay=0.000041127
+2025-04-17 09:41:54,034 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:54,036 - slave.network - INFO - 过滤后结果: offset=-0.799997449, delay=0.000076413
+2025-04-17 09:41:54,036 - slave.sync_monitor - INFO - 偏移量: -0.799997449 秒, 已达标
+2025-04-17 09:41:54,036 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:54,036 - slave.sync_controller - INFO - 同步成功: offset=-0.799997449, delay=0.000076413
+2025-04-17 09:41:59,045 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:41:59,047 - slave.network - INFO - 过滤后结果: offset=-0.800002813, delay=0.000037432
+2025-04-17 09:41:59,047 - slave.sync_monitor - INFO - 偏移量: -0.800002813 秒, 已达标
+2025-04-17 09:41:59,048 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:41:59,048 - slave.sync_controller - INFO - 同步成功: offset=-0.800002813, delay=0.000037432
+2025-04-17 09:42:04,057 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:04,059 - slave.network - INFO - 过滤后结果: offset=-0.799993157, delay=0.000080943
+2025-04-17 09:42:04,059 - slave.sync_monitor - INFO - 偏移量: -0.799993157 秒, 已达标
+2025-04-17 09:42:04,060 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:04,060 - slave.sync_controller - INFO - 同步成功: offset=-0.799993157, delay=0.000080943
+2025-04-17 09:42:09,069 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:09,071 - slave.network - INFO - 过滤后结果: offset=-0.800011516, delay=0.000082612
+2025-04-17 09:42:09,071 - slave.sync_monitor - INFO - 偏移量: -0.800011516 秒, 已达标
+2025-04-17 09:42:09,071 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:09,071 - slave.sync_controller - INFO - 同步成功: offset=-0.800011516, delay=0.000082612
+2025-04-17 09:42:14,079 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:14,080 - slave.network - INFO - 过滤后结果: offset=-0.799996972, delay=0.000078559
+2025-04-17 09:42:14,081 - slave.sync_monitor - INFO - 偏移量: -0.799996972 秒, 已达标
+2025-04-17 09:42:14,081 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:14,081 - slave.sync_controller - INFO - 同步成功: offset=-0.799996972, delay=0.000078559
+2025-04-17 09:42:19,090 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:19,092 - slave.network - INFO - 过滤后结果: offset=-0.800002217, delay=0.000042558
+2025-04-17 09:42:19,092 - slave.sync_monitor - INFO - 偏移量: -0.800002217 秒, 已达标
+2025-04-17 09:42:19,092 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:19,092 - slave.sync_controller - INFO - 同步成功: offset=-0.800002217, delay=0.000042558
+2025-04-17 09:42:24,126 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:24,128 - slave.network - INFO - 过滤后结果: offset=-0.799992800, delay=0.000081301
+2025-04-17 09:42:24,128 - slave.sync_monitor - INFO - 偏移量: -0.799992800 秒, 已达标
+2025-04-17 09:42:24,128 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:24,128 - slave.sync_controller - INFO - 同步成功: offset=-0.799992800, delay=0.000081301
+2025-04-17 09:42:29,137 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:29,139 - slave.network - INFO - 过滤后结果: offset=-0.800102472, delay=0.000137568
+2025-04-17 09:42:29,139 - slave.sync_monitor - INFO - 偏移量: -0.800102472 秒, 已达标
+2025-04-17 09:42:29,140 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:29,140 - slave.sync_controller - INFO - 同步成功: offset=-0.800102472, delay=0.000137568
+2025-04-17 09:42:34,147 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:34,149 - slave.network - INFO - 过滤后结果: offset=-0.800007224, delay=0.000034690
+2025-04-17 09:42:34,149 - slave.sync_monitor - INFO - 偏移量: -0.800007224 秒, 已达标
+2025-04-17 09:42:34,150 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:34,150 - slave.sync_controller - INFO - 同步成功: offset=-0.800007224, delay=0.000034690
+2025-04-17 09:42:39,158 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:39,159 - slave.network - INFO - 过滤后结果: offset=-0.800005436, delay=0.000019789
+2025-04-17 09:42:39,159 - slave.sync_monitor - INFO - 偏移量: -0.800005436 秒, 已达标
+2025-04-17 09:42:39,160 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:39,160 - slave.sync_controller - INFO - 同步成功: offset=-0.800005436, delay=0.000019789
+2025-04-17 09:42:44,165 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:44,168 - slave.network - INFO - 过滤后结果: offset=-0.799989939, delay=0.000118017
+2025-04-17 09:42:44,168 - slave.sync_monitor - INFO - 偏移量: -0.799989939 秒, 已达标
+2025-04-17 09:42:44,169 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:44,169 - slave.sync_controller - INFO - 同步成功: offset=-0.799989939, delay=0.000118017
+2025-04-17 09:42:49,177 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:49,179 - slave.network - INFO - 过滤后结果: offset=-0.799978495, delay=0.000078678
+2025-04-17 09:42:49,179 - slave.sync_monitor - INFO - 偏移量: -0.799978495 秒, 已达标
+2025-04-17 09:42:49,180 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:49,180 - slave.sync_controller - INFO - 同步成功: offset=-0.799978495, delay=0.000078678
+2025-04-17 09:42:54,188 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:54,190 - slave.network - INFO - 过滤后结果: offset=-0.800001621, delay=0.000036240
+2025-04-17 09:42:54,190 - slave.sync_monitor - INFO - 偏移量: -0.800001621 秒, 已达标
+2025-04-17 09:42:54,191 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:54,191 - slave.sync_controller - INFO - 同步成功: offset=-0.800001621, delay=0.000036240
+2025-04-17 09:42:59,197 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:42:59,199 - slave.network - INFO - 过滤后结果: offset=-0.800048113, delay=0.000060797
+2025-04-17 09:42:59,199 - slave.sync_monitor - INFO - 偏移量: -0.800048113 秒, 已达标
+2025-04-17 09:42:59,200 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:42:59,200 - slave.sync_controller - INFO - 同步成功: offset=-0.800048113, delay=0.000060797
+2025-04-17 09:43:04,206 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:04,209 - slave.network - INFO - 过滤后结果: offset=-0.800070167, delay=0.000095248
+2025-04-17 09:43:04,210 - slave.sync_monitor - INFO - 偏移量: -0.800070167 秒, 已达标
+2025-04-17 09:43:04,210 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:04,210 - slave.sync_controller - INFO - 同步成功: offset=-0.800070167, delay=0.000095248
+2025-04-17 09:43:09,218 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:09,222 - slave.network - INFO - 过滤后结果: offset=-0.800012827, delay=0.000094891
+2025-04-17 09:43:09,223 - slave.sync_monitor - INFO - 偏移量: -0.800012827 秒, 已达标
+2025-04-17 09:43:09,223 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:09,223 - slave.sync_controller - INFO - 同步成功: offset=-0.800012827, delay=0.000094891
+2025-04-17 09:43:14,234 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:14,236 - slave.network - INFO - 过滤后结果: offset=-0.800008893, delay=0.000081420
+2025-04-17 09:43:14,236 - slave.sync_monitor - INFO - 偏移量: -0.800008893 秒, 已达标
+2025-04-17 09:43:14,236 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:14,236 - slave.sync_controller - INFO - 同步成功: offset=-0.800008893, delay=0.000081420
+2025-04-17 09:43:19,244 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:19,246 - slave.network - INFO - 过滤后结果: offset=-0.799991846, delay=0.000100851
+2025-04-17 09:43:19,246 - slave.sync_monitor - INFO - 偏移量: -0.799991846 秒, 已达标
+2025-04-17 09:43:19,247 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:19,247 - slave.sync_controller - INFO - 同步成功: offset=-0.799991846, delay=0.000100851
+2025-04-17 09:43:24,263 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:24,265 - slave.network - INFO - 过滤后结果: offset=-0.800036669, delay=0.000096798
+2025-04-17 09:43:24,266 - slave.sync_monitor - INFO - 偏移量: -0.800036669 秒, 已达标
+2025-04-17 09:43:24,266 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:24,267 - slave.sync_controller - INFO - 同步成功: offset=-0.800036669, delay=0.000096798
+2025-04-17 09:43:29,276 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:29,278 - slave.network - INFO - 过滤后结果: offset=-0.800004840, delay=0.000085473
+2025-04-17 09:43:29,278 - slave.sync_monitor - INFO - 偏移量: -0.800004840 秒, 已达标
+2025-04-17 09:43:29,278 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:29,279 - slave.sync_controller - INFO - 同步成功: offset=-0.800004840, delay=0.000085473
+2025-04-17 09:43:34,287 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:34,289 - slave.network - INFO - 过滤后结果: offset=-0.800002456, delay=0.000095487
+2025-04-17 09:43:34,289 - slave.sync_monitor - INFO - 偏移量: -0.800002456 秒, 已达标
+2025-04-17 09:43:34,290 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:34,290 - slave.sync_controller - INFO - 同步成功: offset=-0.800002456, delay=0.000095487
+2025-04-17 09:43:39,297 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:39,299 - slave.network - INFO - 过滤后结果: offset=-0.799974918, delay=0.000046968
+2025-04-17 09:43:39,299 - slave.sync_monitor - INFO - 偏移量: -0.799974918 秒, 已达标
+2025-04-17 09:43:39,299 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:39,300 - slave.sync_controller - INFO - 同步成功: offset=-0.799974918, delay=0.000046968
+2025-04-17 09:43:44,307 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:44,310 - slave.network - INFO - 过滤后结果: offset=-0.800028443, delay=0.000067115
+2025-04-17 09:43:44,310 - slave.sync_monitor - INFO - 偏移量: -0.800028443 秒, 已达标
+2025-04-17 09:43:44,310 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:44,310 - slave.sync_controller - INFO - 同步成功: offset=-0.800028443, delay=0.000067115
+2025-04-17 09:43:49,319 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:49,321 - slave.network - INFO - 过滤后结果: offset=-0.800018311, delay=0.000095129
+2025-04-17 09:43:49,322 - slave.sync_monitor - INFO - 偏移量: -0.800018311 秒, 已达标
+2025-04-17 09:43:49,322 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:49,322 - slave.sync_controller - INFO - 同步成功: offset=-0.800018311, delay=0.000095129
+2025-04-17 09:43:54,334 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:54,336 - slave.network - INFO - 过滤后结果: offset=-0.799995303, delay=0.000096440
+2025-04-17 09:43:54,336 - slave.sync_monitor - INFO - 偏移量: -0.799995303 秒, 已达标
+2025-04-17 09:43:54,336 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:54,337 - slave.sync_controller - INFO - 同步成功: offset=-0.799995303, delay=0.000096440
+2025-04-17 09:43:59,345 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:43:59,347 - slave.network - INFO - 过滤后结果: offset=-0.799994707, delay=0.000083208
+2025-04-17 09:43:59,348 - slave.sync_monitor - INFO - 偏移量: -0.799994707 秒, 已达标
+2025-04-17 09:43:59,348 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:43:59,348 - slave.sync_controller - INFO - 同步成功: offset=-0.799994707, delay=0.000083208
+2025-04-17 09:44:04,355 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:04,358 - slave.network - INFO - 过滤后结果: offset=-0.800003648, delay=0.000099540
+2025-04-17 09:44:04,358 - slave.sync_monitor - INFO - 偏移量: -0.800003648 秒, 已达标
+2025-04-17 09:44:04,358 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:04,358 - slave.sync_controller - INFO - 同步成功: offset=-0.800003648, delay=0.000099540
+2025-04-17 09:44:09,366 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:09,368 - slave.network - INFO - 过滤后结果: offset=-0.800003767, delay=0.000088453
+2025-04-17 09:44:09,368 - slave.sync_monitor - INFO - 偏移量: -0.800003767 秒, 已达标
+2025-04-17 09:44:09,369 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:09,369 - slave.sync_controller - INFO - 同步成功: offset=-0.800003767, delay=0.000088453
+2025-04-17 09:44:14,377 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:14,379 - slave.network - INFO - 过滤后结果: offset=-0.800003767, delay=0.000077248
+2025-04-17 09:44:14,379 - slave.sync_monitor - INFO - 偏移量: -0.800003767 秒, 已达标
+2025-04-17 09:44:14,379 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:14,380 - slave.sync_controller - INFO - 同步成功: offset=-0.800003767, delay=0.000077248
+2025-04-17 09:44:19,389 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:19,391 - slave.network - INFO - 过滤后结果: offset=-0.799989343, delay=0.000082612
+2025-04-17 09:44:19,391 - slave.sync_monitor - INFO - 偏移量: -0.799989343 秒, 已达标
+2025-04-17 09:44:19,391 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:19,391 - slave.sync_controller - INFO - 同步成功: offset=-0.799989343, delay=0.000082612
+2025-04-17 09:44:24,399 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:24,402 - slave.network - INFO - 过滤后结果: offset=-0.799997568, delay=0.000083447
+2025-04-17 09:44:24,402 - slave.sync_monitor - INFO - 偏移量: -0.799997568 秒, 已达标
+2025-04-17 09:44:24,402 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:24,403 - slave.sync_controller - INFO - 同步成功: offset=-0.799997568, delay=0.000083447
+2025-04-17 09:44:29,410 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:29,416 - slave.network - INFO - 过滤后结果: offset=0.000034332, delay=0.000095367
+2025-04-17 09:44:29,416 - slave.sync_monitor - INFO - 偏移量: 0.000034332 秒, 已达标
+2025-04-17 09:44:29,416 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:29,417 - slave.sync_controller - INFO - 同步成功: offset=0.000034332, delay=0.000095367
+2025-04-17 09:44:34,424 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:34,427 - slave.network - INFO - 过滤后结果: offset=0.000006795, delay=0.000117660
+2025-04-17 09:44:34,427 - slave.sync_monitor - INFO - 偏移量: 0.000006795 秒, 已达标
+2025-04-17 09:44:34,428 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:34,428 - slave.sync_controller - INFO - 同步成功: offset=0.000006795, delay=0.000117660
+2025-04-17 09:44:39,441 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:39,443 - slave.network - INFO - 过滤后结果: offset=0.000003338, delay=0.000082016
+2025-04-17 09:44:39,443 - slave.sync_monitor - INFO - 偏移量: 0.000003338 秒, 已达标
+2025-04-17 09:44:39,443 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:39,444 - slave.sync_controller - INFO - 同步成功: offset=0.000003338, delay=0.000082016
+2025-04-17 09:44:44,453 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:44,455 - slave.network - INFO - 过滤后结果: offset=0.000007868, delay=0.000051975
+2025-04-17 09:44:44,455 - slave.sync_monitor - INFO - 偏移量: 0.000007868 秒, 已达标
+2025-04-17 09:44:44,455 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:44,455 - slave.sync_controller - INFO - 同步成功: offset=0.000007868, delay=0.000051975
+2025-04-17 09:44:49,463 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:49,465 - slave.network - INFO - 过滤后结果: offset=0.000001192, delay=0.000073671
+2025-04-17 09:44:49,465 - slave.sync_monitor - INFO - 偏移量: 0.000001192 秒, 已达标
+2025-04-17 09:44:49,466 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:49,466 - slave.sync_controller - INFO - 同步成功: offset=0.000001192, delay=0.000073671
+2025-04-17 09:44:54,473 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:54,475 - slave.network - INFO - 过滤后结果: offset=-0.000015855, delay=0.000092149
+2025-04-17 09:44:54,475 - slave.sync_monitor - INFO - 偏移量: -0.000015855 秒, 已达标
+2025-04-17 09:44:54,475 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:54,475 - slave.sync_controller - INFO - 同步成功: offset=-0.000015855, delay=0.000092149
+2025-04-17 09:44:59,485 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:44:59,487 - slave.network - INFO - 过滤后结果: offset=-0.000005484, delay=0.000096560
+2025-04-17 09:44:59,487 - slave.sync_monitor - INFO - 偏移量: -0.000005484 秒, 已达标
+2025-04-17 09:44:59,488 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:44:59,488 - slave.sync_controller - INFO - 同步成功: offset=-0.000005484, delay=0.000096560
+2025-04-17 09:45:04,496 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:04,499 - slave.network - INFO - 过滤后结果: offset=0.000001788, delay=0.000057817
+2025-04-17 09:45:04,499 - slave.sync_monitor - INFO - 偏移量: 0.000001788 秒, 已达标
+2025-04-17 09:45:04,502 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:04,502 - slave.sync_controller - INFO - 同步成功: offset=0.000001788, delay=0.000057817
+2025-04-17 09:45:09,512 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:09,516 - slave.network - INFO - 过滤后结果: offset=0.000000358, delay=0.000088811
+2025-04-17 09:45:09,516 - slave.sync_monitor - INFO - 偏移量: 0.000000358 秒, 已达标
+2025-04-17 09:45:09,516 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:09,516 - slave.sync_controller - INFO - 同步成功: offset=0.000000358, delay=0.000088811
+2025-04-17 09:45:14,525 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:14,527 - slave.network - INFO - 过滤后结果: offset=0.000004172, delay=0.000024915
+2025-04-17 09:45:14,527 - slave.sync_monitor - INFO - 偏移量: 0.000004172 秒, 已达标
+2025-04-17 09:45:14,527 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:14,527 - slave.sync_controller - INFO - 同步成功: offset=0.000004172, delay=0.000024915
+2025-04-17 09:45:19,539 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:19,541 - slave.network - INFO - 过滤后结果: offset=0.000004411, delay=0.000069022
+2025-04-17 09:45:19,541 - slave.sync_monitor - INFO - 偏移量: 0.000004411 秒, 已达标
+2025-04-17 09:45:19,542 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:19,542 - slave.sync_controller - INFO - 同步成功: offset=0.000004411, delay=0.000069022
+2025-04-17 09:45:24,550 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:24,552 - slave.network - INFO - 过滤后结果: offset=-0.000004172, delay=0.000031590
+2025-04-17 09:45:24,552 - slave.sync_monitor - INFO - 偏移量: -0.000004172 秒, 已达标
+2025-04-17 09:45:24,552 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:24,552 - slave.sync_controller - INFO - 同步成功: offset=-0.000004172, delay=0.000031590
+2025-04-17 09:45:29,559 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:29,562 - slave.network - INFO - 过滤后结果: offset=0.000008106, delay=0.000029087
+2025-04-17 09:45:29,563 - slave.sync_monitor - INFO - 偏移量: 0.000008106 秒, 已达标
+2025-04-17 09:45:29,564 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:29,564 - slave.sync_controller - INFO - 同步成功: offset=0.000008106, delay=0.000029087
+2025-04-17 09:45:34,573 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:34,575 - slave.network - INFO - 过滤后结果: offset=0.000000238, delay=0.000119925
+2025-04-17 09:45:34,575 - slave.sync_monitor - INFO - 偏移量: 0.000000238 秒, 已达标
+2025-04-17 09:45:34,576 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:34,576 - slave.sync_controller - INFO - 同步成功: offset=0.000000238, delay=0.000119925
+2025-04-17 09:45:39,585 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:39,587 - slave.network - INFO - 过滤后结果: offset=0.000011325, delay=0.000095248
+2025-04-17 09:45:39,587 - slave.sync_monitor - INFO - 偏移量: 0.000011325 秒, 已达标
+2025-04-17 09:45:39,588 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:39,588 - slave.sync_controller - INFO - 同步成功: offset=0.000011325, delay=0.000095248
+2025-04-17 09:45:44,597 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:44,599 - slave.network - INFO - 过滤后结果: offset=0.000001431, delay=0.000017405
+2025-04-17 09:45:44,599 - slave.sync_monitor - INFO - 偏移量: 0.000001431 秒, 已达标
+2025-04-17 09:45:44,599 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:44,600 - slave.sync_controller - INFO - 同步成功: offset=0.000001431, delay=0.000017405
+2025-04-17 09:45:49,620 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:49,622 - slave.network - INFO - 过滤后结果: offset=0.000012636, delay=0.000077248
+2025-04-17 09:45:49,623 - slave.sync_monitor - INFO - 偏移量: 0.000012636 秒, 已达标
+2025-04-17 09:45:49,623 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:49,623 - slave.sync_controller - INFO - 同步成功: offset=0.000012636, delay=0.000077248
+2025-04-17 09:45:54,638 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:54,641 - slave.network - INFO - 过滤后结果: offset=-0.000013828, delay=0.000093222
+2025-04-17 09:45:54,641 - slave.sync_monitor - INFO - 偏移量: -0.000013828 秒, 已达标
+2025-04-17 09:45:54,641 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:54,642 - slave.sync_controller - INFO - 同步成功: offset=-0.000013828, delay=0.000093222
+2025-04-17 09:45:59,651 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:45:59,654 - slave.network - INFO - 过滤后结果: offset=-0.000030518, delay=0.000075102
+2025-04-17 09:45:59,654 - slave.sync_monitor - INFO - 偏移量: -0.000030518 秒, 已达标
+2025-04-17 09:45:59,655 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:45:59,655 - slave.sync_controller - INFO - 同步成功: offset=-0.000030518, delay=0.000075102
+2025-04-17 09:46:04,664 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:04,666 - slave.network - INFO - 过滤后结果: offset=0.000001431, delay=0.000090361
+2025-04-17 09:46:04,666 - slave.sync_monitor - INFO - 偏移量: 0.000001431 秒, 已达标
+2025-04-17 09:46:04,666 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:04,667 - slave.sync_controller - INFO - 同步成功: offset=0.000001431, delay=0.000090361
+2025-04-17 09:46:09,674 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:09,676 - slave.network - INFO - 过滤后结果: offset=-0.000043273, delay=0.000071168
+2025-04-17 09:46:09,677 - slave.sync_monitor - INFO - 偏移量: -0.000043273 秒, 已达标
+2025-04-17 09:46:09,677 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:09,677 - slave.sync_controller - INFO - 同步成功: offset=-0.000043273, delay=0.000071168
+2025-04-17 09:46:14,685 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:14,687 - slave.network - INFO - 过滤后结果: offset=-0.000000596, delay=0.000084758
+2025-04-17 09:46:14,687 - slave.sync_monitor - INFO - 偏移量: -0.000000596 秒, 已达标
+2025-04-17 09:46:14,688 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:14,688 - slave.sync_controller - INFO - 同步成功: offset=-0.000000596, delay=0.000084758
+2025-04-17 09:46:19,697 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:19,699 - slave.network - INFO - 过滤后结果: offset=-0.000015855, delay=0.000104785
+2025-04-17 09:46:19,699 - slave.sync_monitor - INFO - 偏移量: -0.000015855 秒, 已达标
+2025-04-17 09:46:19,699 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:19,699 - slave.sync_controller - INFO - 同步成功: offset=-0.000015855, delay=0.000104785
+2025-04-17 09:46:24,708 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:24,710 - slave.network - INFO - 过滤后结果: offset=-0.000000358, delay=0.000093818
+2025-04-17 09:46:24,710 - slave.sync_monitor - INFO - 偏移量: -0.000000358 秒, 已达标
+2025-04-17 09:46:24,711 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:24,711 - slave.sync_controller - INFO - 同步成功: offset=-0.000000358, delay=0.000093818
+2025-04-17 09:46:29,722 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:29,724 - slave.network - INFO - 过滤后结果: offset=-0.000018120, delay=0.000121593
+2025-04-17 09:46:29,724 - slave.sync_monitor - INFO - 偏移量: -0.000018120 秒, 已达标
+2025-04-17 09:46:29,724 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:29,724 - slave.sync_controller - INFO - 同步成功: offset=-0.000018120, delay=0.000121593
+2025-04-17 09:46:34,741 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:34,743 - slave.network - INFO - 过滤后结果: offset=0.000033617, delay=0.000074387
+2025-04-17 09:46:34,744 - slave.sync_monitor - INFO - 偏移量: 0.000033617 秒, 已达标
+2025-04-17 09:46:34,744 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:34,744 - slave.sync_controller - INFO - 同步成功: offset=0.000033617, delay=0.000074387
+2025-04-17 09:46:39,754 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:39,756 - slave.network - INFO - 过滤后结果: offset=0.000000358, delay=0.000088573
+2025-04-17 09:46:39,756 - slave.sync_monitor - INFO - 偏移量: 0.000000358 秒, 已达标
+2025-04-17 09:46:39,757 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:39,757 - slave.sync_controller - INFO - 同步成功: offset=0.000000358, delay=0.000088573
+2025-04-17 09:46:44,766 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:44,768 - slave.network - INFO - 过滤后结果: offset=-0.000004292, delay=0.000046253
+2025-04-17 09:46:44,768 - slave.sync_monitor - INFO - 偏移量: -0.000004292 秒, 已达标
+2025-04-17 09:46:44,768 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:44,768 - slave.sync_controller - INFO - 同步成功: offset=-0.000004292, delay=0.000046253
+2025-04-17 09:46:49,778 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:49,781 - slave.network - INFO - 过滤后结果: offset=0.000039458, delay=0.000064492
+2025-04-17 09:46:49,782 - slave.sync_monitor - INFO - 偏移量: 0.000039458 秒, 已达标
+2025-04-17 09:46:49,782 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:49,782 - slave.sync_controller - INFO - 同步成功: offset=0.000039458, delay=0.000064492
+2025-04-17 09:46:54,790 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:54,792 - slave.network - INFO - 过滤后结果: offset=0.000014186, delay=0.000090718
+2025-04-17 09:46:54,793 - slave.sync_monitor - INFO - 偏移量: 0.000014186 秒, 已达标
+2025-04-17 09:46:54,793 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:54,793 - slave.sync_controller - INFO - 同步成功: offset=0.000014186, delay=0.000090718
+2025-04-17 09:46:59,801 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:46:59,803 - slave.network - INFO - 过滤后结果: offset=-0.000021458, delay=0.000047207
+2025-04-17 09:46:59,803 - slave.sync_monitor - INFO - 偏移量: -0.000021458 秒, 已达标
+2025-04-17 09:46:59,803 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:46:59,803 - slave.sync_controller - INFO - 同步成功: offset=-0.000021458, delay=0.000047207
+2025-04-17 09:47:04,813 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:04,815 - slave.network - INFO - 过滤后结果: offset=0.000003815, delay=0.000020742
+2025-04-17 09:47:04,815 - slave.sync_monitor - INFO - 偏移量: 0.000003815 秒, 已达标
+2025-04-17 09:47:04,815 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:04,815 - slave.sync_controller - INFO - 同步成功: offset=0.000003815, delay=0.000020742
+2025-04-17 09:47:09,823 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:09,825 - slave.network - INFO - 过滤后结果: offset=-0.000008941, delay=0.000025153
+2025-04-17 09:47:09,825 - slave.sync_monitor - INFO - 偏移量: -0.000008941 秒, 已达标
+2025-04-17 09:47:09,825 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:09,825 - slave.sync_controller - INFO - 同步成功: offset=-0.000008941, delay=0.000025153
+2025-04-17 09:47:14,841 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:14,843 - slave.network - INFO - 过滤后结果: offset=-0.000002265, delay=0.000073552
+2025-04-17 09:47:14,843 - slave.sync_monitor - INFO - 偏移量: -0.000002265 秒, 已达标
+2025-04-17 09:47:14,844 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:14,844 - slave.sync_controller - INFO - 同步成功: offset=-0.000002265, delay=0.000073552
+2025-04-17 09:47:19,851 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:19,853 - slave.network - INFO - 过滤后结果: offset=-0.000017047, delay=0.000062108
+2025-04-17 09:47:19,853 - slave.sync_monitor - INFO - 偏移量: -0.000017047 秒, 已达标
+2025-04-17 09:47:19,853 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:19,853 - slave.sync_controller - INFO - 同步成功: offset=-0.000017047, delay=0.000062108
+2025-04-17 09:47:24,861 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:24,862 - slave.network - INFO - 过滤后结果: offset=0.000002503, delay=0.000018954
+2025-04-17 09:47:24,862 - slave.sync_monitor - INFO - 偏移量: 0.000002503 秒, 已达标
+2025-04-17 09:47:24,863 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:24,863 - slave.sync_controller - INFO - 同步成功: offset=0.000002503, delay=0.000018954
+2025-04-17 09:47:29,869 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:29,871 - slave.network - INFO - 过滤后结果: offset=0.000008345, delay=0.000026941
+2025-04-17 09:47:29,871 - slave.sync_monitor - INFO - 偏移量: 0.000008345 秒, 已达标
+2025-04-17 09:47:29,871 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:29,871 - slave.sync_controller - INFO - 同步成功: offset=0.000008345, delay=0.000026941
+2025-04-17 09:47:34,880 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:34,882 - slave.network - INFO - 过滤后结果: offset=-0.000001192, delay=0.000084639
+2025-04-17 09:47:34,882 - slave.sync_monitor - INFO - 偏移量: -0.000001192 秒, 已达标
+2025-04-17 09:47:34,882 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:34,882 - slave.sync_controller - INFO - 同步成功: offset=-0.000001192, delay=0.000084639
+2025-04-17 09:47:39,889 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:39,891 - slave.network - INFO - 过滤后结果: offset=-0.000001073, delay=0.000097632
+2025-04-17 09:47:39,891 - slave.sync_monitor - INFO - 偏移量: -0.000001073 秒, 已达标
+2025-04-17 09:47:39,892 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:39,892 - slave.sync_controller - INFO - 同步成功: offset=-0.000001073, delay=0.000097632
+2025-04-17 09:47:44,899 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:44,900 - slave.network - INFO - 过滤后结果: offset=0.000008702, delay=0.000069499
+2025-04-17 09:47:44,901 - slave.sync_monitor - INFO - 偏移量: 0.000008702 秒, 已达标
+2025-04-17 09:47:44,901 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:44,901 - slave.sync_controller - INFO - 同步成功: offset=0.000008702, delay=0.000069499
+2025-04-17 09:47:49,909 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:49,911 - slave.network - INFO - 过滤后结果: offset=0.000018239, delay=0.000064969
+2025-04-17 09:47:49,911 - slave.sync_monitor - INFO - 偏移量: 0.000018239 秒, 已达标
+2025-04-17 09:47:49,912 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:49,912 - slave.sync_controller - INFO - 同步成功: offset=0.000018239, delay=0.000064969
+2025-04-17 09:47:54,919 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:54,921 - slave.network - INFO - 过滤后结果: offset=-0.000005245, delay=0.000039816
+2025-04-17 09:47:54,921 - slave.sync_monitor - INFO - 偏移量: -0.000005245 秒, 已达标
+2025-04-17 09:47:54,921 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:54,921 - slave.sync_controller - INFO - 同步成功: offset=-0.000005245, delay=0.000039816
+2025-04-17 09:47:59,928 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:47:59,944 - slave.network - INFO - 过滤后结果: offset=0.000011444, delay=0.000103951
+2025-04-17 09:47:59,944 - slave.sync_monitor - INFO - 偏移量: 0.000011444 秒, 已达标
+2025-04-17 09:47:59,944 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:47:59,944 - slave.sync_controller - INFO - 同步成功: offset=0.000011444, delay=0.000103951
+2025-04-17 09:48:04,951 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:04,953 - slave.network - INFO - 过滤后结果: offset=0.000015378, delay=0.000092626
+2025-04-17 09:48:04,953 - slave.sync_monitor - INFO - 偏移量: 0.000015378 秒, 已达标
+2025-04-17 09:48:04,953 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:04,954 - slave.sync_controller - INFO - 同步成功: offset=0.000015378, delay=0.000092626
+2025-04-17 09:48:09,961 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:09,963 - slave.network - INFO - 过滤后结果: offset=-0.000000358, delay=0.000079989
+2025-04-17 09:48:09,963 - slave.sync_monitor - INFO - 偏移量: -0.000000358 秒, 已达标
+2025-04-17 09:48:09,963 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:09,963 - slave.sync_controller - INFO - 同步成功: offset=-0.000000358, delay=0.000079989
+2025-04-17 09:48:14,971 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:14,973 - slave.network - INFO - 过滤后结果: offset=0.000001431, delay=0.000097990
+2025-04-17 09:48:14,973 - slave.sync_monitor - INFO - 偏移量: 0.000001431 秒, 已达标
+2025-04-17 09:48:14,974 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:14,974 - slave.sync_controller - INFO - 同步成功: offset=0.000001431, delay=0.000097990
+2025-04-17 09:48:19,982 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:19,984 - slave.network - INFO - 过滤后结果: offset=-0.000017285, delay=0.000057578
+2025-04-17 09:48:19,984 - slave.sync_monitor - INFO - 偏移量: -0.000017285 秒, 已达标
+2025-04-17 09:48:19,984 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:19,984 - slave.sync_controller - INFO - 同步成功: offset=-0.000017285, delay=0.000057578
+2025-04-17 09:48:24,992 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:24,994 - slave.network - INFO - 过滤后结果: offset=0.000000238, delay=0.000076771
+2025-04-17 09:48:24,994 - slave.sync_monitor - INFO - 偏移量: 0.000000238 秒, 已达标
+2025-04-17 09:48:24,994 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:24,994 - slave.sync_controller - INFO - 同步成功: offset=0.000000238, delay=0.000076771
+2025-04-17 09:48:30,003 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:30,008 - slave.network - INFO - 过滤后结果: offset=-0.000005722, delay=0.000027418
+2025-04-17 09:48:30,009 - slave.sync_monitor - INFO - 偏移量: -0.000005722 秒, 已达标
+2025-04-17 09:48:30,009 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:30,009 - slave.sync_controller - INFO - 同步成功: offset=-0.000005722, delay=0.000027418
+2025-04-17 09:48:35,017 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:35,019 - slave.network - INFO - 过滤后结果: offset=-0.000015378, delay=0.000056624
+2025-04-17 09:48:35,019 - slave.sync_monitor - INFO - 偏移量: -0.000015378 秒, 已达标
+2025-04-17 09:48:35,019 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:35,019 - slave.sync_controller - INFO - 同步成功: offset=-0.000015378, delay=0.000056624
+2025-04-17 09:48:40,028 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:40,046 - slave.network - INFO - 过滤后结果: offset=-0.000012755, delay=0.000052333
+2025-04-17 09:48:40,046 - slave.sync_monitor - INFO - 偏移量: -0.000012755 秒, 已达标
+2025-04-17 09:48:40,046 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:40,046 - slave.sync_controller - INFO - 同步成功: offset=-0.000012755, delay=0.000052333
+2025-04-17 09:48:45,058 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:45,059 - slave.network - INFO - 过滤后结果: offset=-0.000004172, delay=0.000025630
+2025-04-17 09:48:45,059 - slave.sync_monitor - INFO - 偏移量: -0.000004172 秒, 已达标
+2025-04-17 09:48:45,060 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:45,060 - slave.sync_controller - INFO - 同步成功: offset=-0.000004172, delay=0.000025630
+2025-04-17 09:48:50,068 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:50,070 - slave.network - INFO - 过滤后结果: offset=0.000007033, delay=0.000075221
+2025-04-17 09:48:50,070 - slave.sync_monitor - INFO - 偏移量: 0.000007033 秒, 已达标
+2025-04-17 09:48:50,070 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:50,070 - slave.sync_controller - INFO - 同步成功: offset=0.000007033, delay=0.000075221
+2025-04-17 09:48:55,079 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:48:55,081 - slave.network - INFO - 过滤后结果: offset=-0.000000715, delay=0.000079632
+2025-04-17 09:48:55,081 - slave.sync_monitor - INFO - 偏移量: -0.000000715 秒, 已达标
+2025-04-17 09:48:55,082 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:48:55,082 - slave.sync_controller - INFO - 同步成功: offset=-0.000000715, delay=0.000079632
+2025-04-17 09:49:00,090 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:00,092 - slave.network - INFO - 过滤后结果: offset=-0.000003695, delay=0.000092387
+2025-04-17 09:49:00,092 - slave.sync_monitor - INFO - 偏移量: -0.000003695 秒, 已达标
+2025-04-17 09:49:00,093 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:00,093 - slave.sync_controller - INFO - 同步成功: offset=-0.000003695, delay=0.000092387
+2025-04-17 09:49:05,103 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:05,105 - slave.network - INFO - 过滤后结果: offset=0.000025749, delay=0.000074863
+2025-04-17 09:49:05,105 - slave.sync_monitor - INFO - 偏移量: 0.000025749 秒, 已达标
+2025-04-17 09:49:05,105 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:05,105 - slave.sync_controller - INFO - 同步成功: offset=0.000025749, delay=0.000074863
+2025-04-17 09:49:10,114 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:10,116 - slave.network - INFO - 过滤后结果: offset=0.000000954, delay=0.000085115
+2025-04-17 09:49:10,116 - slave.sync_monitor - INFO - 偏移量: 0.000000954 秒, 已达标
+2025-04-17 09:49:10,117 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:10,117 - slave.sync_controller - INFO - 同步成功: offset=0.000000954, delay=0.000085115
+2025-04-17 09:49:15,125 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:15,126 - slave.network - INFO - 过滤后结果: offset=-0.000008941, delay=0.000028253
+2025-04-17 09:49:15,126 - slave.sync_monitor - INFO - 偏移量: -0.000008941 秒, 已达标
+2025-04-17 09:49:15,126 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:15,127 - slave.sync_controller - INFO - 同步成功: offset=-0.000008941, delay=0.000028253
+2025-04-17 09:49:20,155 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:20,157 - slave.network - INFO - 过滤后结果: offset=-0.000007629, delay=0.000058651
+2025-04-17 09:49:20,157 - slave.sync_monitor - INFO - 偏移量: -0.000007629 秒, 已达标
+2025-04-17 09:49:20,158 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:20,158 - slave.sync_controller - INFO - 同步成功: offset=-0.000007629, delay=0.000058651
+2025-04-17 09:49:25,166 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:25,168 - slave.network - INFO - 过滤后结果: offset=0.000002503, delay=0.000078082
+2025-04-17 09:49:25,168 - slave.sync_monitor - INFO - 偏移量: 0.000002503 秒, 已达标
+2025-04-17 09:49:25,168 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:25,169 - slave.sync_controller - INFO - 同步成功: offset=0.000002503, delay=0.000078082
+2025-04-17 09:49:30,177 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:30,179 - slave.network - INFO - 过滤后结果: offset=0.000001788, delay=0.000065684
+2025-04-17 09:49:30,179 - slave.sync_monitor - INFO - 偏移量: 0.000001788 秒, 已达标
+2025-04-17 09:49:30,179 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:30,180 - slave.sync_controller - INFO - 同步成功: offset=0.000001788, delay=0.000065684
+2025-04-17 09:49:35,187 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:49:35,190 - slave.network - INFO - 过滤后结果: offset=0.000001431, delay=0.000017166
+2025-04-17 09:49:35,190 - slave.sync_monitor - INFO - 偏移量: 0.000001431 秒, 已达标
+2025-04-17 09:49:35,191 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:49:35,191 - slave.sync_controller - INFO - 同步成功: offset=0.000001431, delay=0.000017166
+2025-04-17 09:51:58,495 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 09:51:58,496 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 09:51:58,496 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 09:51:58,496 - slave.sync_monitor - INFO - 偏移量阈值: 1000.0 秒
+2025-04-17 09:51:58,527 - slave.gui - INFO - Slave应用已启动
+2025-04-17 09:52:00,681 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 09:52:00,681 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 09:52:00,683 - slave.network - INFO - 过滤后结果: offset=-0.000016451, delay=0.000034571
+2025-04-17 09:52:00,683 - slave.sync_monitor - INFO - 偏移量: -0.000016451 秒, 已达标
+2025-04-17 09:52:00,683 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 09:52:00,684 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:00,684 - slave.sync_controller - INFO - 同步成功: offset=-0.000016451, delay=0.000034571
+2025-04-17 09:52:05,698 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:05,712 - slave.network - INFO - 过滤后结果: offset=0.000002027, delay=0.000018001
+2025-04-17 09:52:05,713 - slave.sync_monitor - INFO - 偏移量: 0.000002027 秒, 已达标
+2025-04-17 09:52:05,713 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:05,713 - slave.sync_controller - INFO - 同步成功: offset=0.000002027, delay=0.000018001
+2025-04-17 09:52:10,721 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:10,724 - slave.network - INFO - 过滤后结果: offset=-0.000018120, delay=0.000060797
+2025-04-17 09:52:10,724 - slave.sync_monitor - INFO - 偏移量: -0.000018120 秒, 已达标
+2025-04-17 09:52:10,725 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:10,725 - slave.sync_controller - INFO - 同步成功: offset=-0.000018120, delay=0.000060797
+2025-04-17 09:52:15,734 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:15,736 - slave.network - INFO - 过滤后结果: offset=0.000036478, delay=0.000061035
+2025-04-17 09:52:15,737 - slave.sync_monitor - INFO - 偏移量: 0.000036478 秒, 已达标
+2025-04-17 09:52:15,737 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:15,737 - slave.sync_controller - INFO - 同步成功: offset=0.000036478, delay=0.000061035
+2025-04-17 09:52:20,746 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:20,748 - slave.network - INFO - 过滤后结果: offset=0.000006318, delay=0.000031352
+2025-04-17 09:52:20,748 - slave.sync_monitor - INFO - 偏移量: 0.000006318 秒, 已达标
+2025-04-17 09:52:20,748 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:20,749 - slave.sync_controller - INFO - 同步成功: offset=0.000006318, delay=0.000031352
+2025-04-17 09:52:25,757 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:25,759 - slave.network - INFO - 过滤后结果: offset=0.000008702, delay=0.000054955
+2025-04-17 09:52:25,760 - slave.sync_monitor - INFO - 偏移量: 0.000008702 秒, 已达标
+2025-04-17 09:52:25,760 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:25,760 - slave.sync_controller - INFO - 同步成功: offset=0.000008702, delay=0.000054955
+2025-04-17 09:52:30,769 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:30,771 - slave.network - INFO - 过滤后结果: offset=-0.049998522, delay=0.000097752
+2025-04-17 09:52:30,771 - slave.sync_monitor - INFO - 偏移量: -0.049998522 秒, 已达标
+2025-04-17 09:52:30,771 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:30,772 - slave.sync_controller - INFO - 同步成功: offset=-0.049998522, delay=0.000097752
+2025-04-17 09:52:35,780 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:35,782 - slave.network - INFO - 过滤后结果: offset=0.000008106, delay=0.000103474
+2025-04-17 09:52:35,782 - slave.sync_monitor - INFO - 偏移量: 0.000008106 秒, 已达标
+2025-04-17 09:52:35,783 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:35,783 - slave.sync_controller - INFO - 同步成功: offset=0.000008106, delay=0.000103474
+2025-04-17 09:52:40,791 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:40,792 - slave.network - INFO - 过滤后结果: offset=-0.000018954, delay=0.000068307
+2025-04-17 09:52:40,793 - slave.sync_monitor - INFO - 偏移量: -0.000018954 秒, 已达标
+2025-04-17 09:52:40,793 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:40,793 - slave.sync_controller - INFO - 同步成功: offset=-0.000018954, delay=0.000068307
+2025-04-17 09:52:45,802 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:45,804 - slave.network - INFO - 过滤后结果: offset=-0.000016809, delay=0.000046611
+2025-04-17 09:52:45,804 - slave.sync_monitor - INFO - 偏移量: -0.000016809 秒, 已达标
+2025-04-17 09:52:45,804 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:45,804 - slave.sync_controller - INFO - 同步成功: offset=-0.000016809, delay=0.000046611
+2025-04-17 09:52:50,814 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:50,816 - slave.network - INFO - 过滤后结果: offset=-0.000000834, delay=0.000016093
+2025-04-17 09:52:50,817 - slave.sync_monitor - INFO - 偏移量: -0.000000834 秒, 已达标
+2025-04-17 09:52:50,817 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:50,817 - slave.sync_controller - INFO - 同步成功: offset=-0.000000834, delay=0.000016093
+2025-04-17 09:52:55,825 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:52:55,827 - slave.network - INFO - 过滤后结果: offset=-0.000023365, delay=0.000042439
+2025-04-17 09:52:55,827 - slave.sync_monitor - INFO - 偏移量: -0.000023365 秒, 已达标
+2025-04-17 09:52:55,827 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:52:55,827 - slave.sync_controller - INFO - 同步成功: offset=-0.000023365, delay=0.000042439
+2025-04-17 09:53:00,835 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:00,837 - slave.network - INFO - 过滤后结果: offset=-0.000005245, delay=0.000085831
+2025-04-17 09:53:00,837 - slave.sync_monitor - INFO - 偏移量: -0.000005245 秒, 已达标
+2025-04-17 09:53:00,837 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:00,838 - slave.sync_controller - INFO - 同步成功: offset=-0.000005245, delay=0.000085831
+2025-04-17 09:53:05,847 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:05,849 - slave.network - INFO - 过滤后结果: offset=0.000007987, delay=0.000100970
+2025-04-17 09:53:05,850 - slave.sync_monitor - INFO - 偏移量: 0.000007987 秒, 已达标
+2025-04-17 09:53:05,850 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:05,850 - slave.sync_controller - INFO - 同步成功: offset=0.000007987, delay=0.000100970
+2025-04-17 09:53:10,859 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:10,861 - slave.network - INFO - 过滤后结果: offset=0.000005603, delay=0.000024438
+2025-04-17 09:53:10,861 - slave.sync_monitor - INFO - 偏移量: 0.000005603 秒, 已达标
+2025-04-17 09:53:10,861 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:10,862 - slave.sync_controller - INFO - 同步成功: offset=0.000005603, delay=0.000024438
+2025-04-17 09:53:15,871 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:15,872 - slave.network - INFO - 过滤后结果: offset=-0.000029325, delay=0.000070810
+2025-04-17 09:53:15,873 - slave.sync_monitor - INFO - 偏移量: -0.000029325 秒, 已达标
+2025-04-17 09:53:15,873 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:15,873 - slave.sync_controller - INFO - 同步成功: offset=-0.000029325, delay=0.000070810
+2025-04-17 09:53:20,882 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:20,883 - slave.network - INFO - 过滤后结果: offset=-0.000003457, delay=0.000082612
+2025-04-17 09:53:20,883 - slave.sync_monitor - INFO - 偏移量: -0.000003457 秒, 已达标
+2025-04-17 09:53:20,884 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:20,884 - slave.sync_controller - INFO - 同步成功: offset=-0.000003457, delay=0.000082612
+2025-04-17 09:53:25,892 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:25,894 - slave.network - INFO - 过滤后结果: offset=0.000005603, delay=0.000092149
+2025-04-17 09:53:25,894 - slave.sync_monitor - INFO - 偏移量: 0.000005603 秒, 已达标
+2025-04-17 09:53:25,894 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:25,895 - slave.sync_controller - INFO - 同步成功: offset=0.000005603, delay=0.000092149
+2025-04-17 09:53:30,901 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:30,903 - slave.network - INFO - 过滤后结果: offset=0.000002623, delay=0.000083923
+2025-04-17 09:53:30,903 - slave.sync_monitor - INFO - 偏移量: 0.000002623 秒, 已达标
+2025-04-17 09:53:30,903 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:30,904 - slave.sync_controller - INFO - 同步成功: offset=0.000002623, delay=0.000083923
+2025-04-17 09:53:35,912 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:35,913 - slave.network - INFO - 过滤后结果: offset=0.000000834, delay=0.000041604
+2025-04-17 09:53:35,914 - slave.sync_monitor - INFO - 偏移量: 0.000000834 秒, 已达标
+2025-04-17 09:53:35,914 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:35,914 - slave.sync_controller - INFO - 同步成功: offset=0.000000834, delay=0.000041604
+2025-04-17 09:53:40,924 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:40,926 - slave.network - INFO - 过滤后结果: offset=0.000000715, delay=0.000035524
+2025-04-17 09:53:40,926 - slave.sync_monitor - INFO - 偏移量: 0.000000715 秒, 已达标
+2025-04-17 09:53:40,926 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:40,926 - slave.sync_controller - INFO - 同步成功: offset=0.000000715, delay=0.000035524
+2025-04-17 09:53:45,935 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:45,937 - slave.network - INFO - 过滤后结果: offset=-0.000025392, delay=0.000069976
+2025-04-17 09:53:45,937 - slave.sync_monitor - INFO - 偏移量: -0.000025392 秒, 已达标
+2025-04-17 09:53:45,937 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:45,937 - slave.sync_controller - INFO - 同步成功: offset=-0.000025392, delay=0.000069976
+2025-04-17 09:53:50,945 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:50,947 - slave.network - INFO - 过滤后结果: offset=0.000002980, delay=0.000093102
+2025-04-17 09:53:50,947 - slave.sync_monitor - INFO - 偏移量: 0.000002980 秒, 已达标
+2025-04-17 09:53:50,947 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:50,948 - slave.sync_controller - INFO - 同步成功: offset=0.000002980, delay=0.000093102
+2025-04-17 09:53:55,956 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:53:55,957 - slave.network - INFO - 过滤后结果: offset=0.000001073, delay=0.000089049
+2025-04-17 09:53:55,958 - slave.sync_monitor - INFO - 偏移量: 0.000001073 秒, 已达标
+2025-04-17 09:53:55,958 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:53:55,958 - slave.sync_controller - INFO - 同步成功: offset=0.000001073, delay=0.000089049
+2025-04-17 09:54:00,966 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:00,969 - slave.network - INFO - 过滤后结果: offset=0.000006676, delay=0.000079870
+2025-04-17 09:54:00,969 - slave.sync_monitor - INFO - 偏移量: 0.000006676 秒, 已达标
+2025-04-17 09:54:00,969 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:00,970 - slave.sync_controller - INFO - 同步成功: offset=0.000006676, delay=0.000079870
+2025-04-17 09:54:05,978 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:05,980 - slave.network - INFO - 过滤后结果: offset=0.000003338, delay=0.000101805
+2025-04-17 09:54:05,980 - slave.sync_monitor - INFO - 偏移量: 0.000003338 秒, 已达标
+2025-04-17 09:54:05,980 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:05,980 - slave.sync_controller - INFO - 同步成功: offset=0.000003338, delay=0.000101805
+2025-04-17 09:54:10,989 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:10,991 - slave.network - INFO - 过滤后结果: offset=0.000006557, delay=0.000044465
+2025-04-17 09:54:10,991 - slave.sync_monitor - INFO - 偏移量: 0.000006557 秒, 已达标
+2025-04-17 09:54:10,991 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:10,991 - slave.sync_controller - INFO - 同步成功: offset=0.000006557, delay=0.000044465
+2025-04-17 09:54:15,999 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:16,002 - slave.network - INFO - 过滤后结果: offset=0.000000000, delay=0.000109434
+2025-04-17 09:54:16,002 - slave.sync_controller - WARNING - 同步失败
+2025-04-17 09:54:16,003 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:16,003 - slave.sync_monitor - INFO - 主节点状态变更: 离线
+2025-04-17 09:54:21,014 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:21,016 - slave.network - INFO - 过滤后结果: offset=0.000028849, delay=0.000047922
+2025-04-17 09:54:21,016 - slave.sync_monitor - INFO - 偏移量: 0.000028849 秒, 已达标
+2025-04-17 09:54:21,016 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 09:54:21,016 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:21,017 - slave.sync_controller - INFO - 同步成功: offset=0.000028849, delay=0.000047922
+2025-04-17 09:54:26,026 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:26,028 - slave.network - INFO - 过滤后结果: offset=0.000007153, delay=0.000087500
+2025-04-17 09:54:26,028 - slave.sync_monitor - INFO - 偏移量: 0.000007153 秒, 已达标
+2025-04-17 09:54:26,028 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:26,028 - slave.sync_controller - INFO - 同步成功: offset=0.000007153, delay=0.000087500
+2025-04-17 09:54:31,040 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:31,041 - slave.network - INFO - 过滤后结果: offset=-0.000009656, delay=0.000095010
+2025-04-17 09:54:31,042 - slave.sync_monitor - INFO - 偏移量: -0.000009656 秒, 已达标
+2025-04-17 09:54:31,042 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:31,042 - slave.sync_controller - INFO - 同步成功: offset=-0.000009656, delay=0.000095010
+2025-04-17 09:54:36,052 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:36,054 - slave.network - INFO - 过滤后结果: offset=0.000027895, delay=0.000050306
+2025-04-17 09:54:36,054 - slave.sync_monitor - INFO - 偏移量: 0.000027895 秒, 已达标
+2025-04-17 09:54:36,054 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:36,055 - slave.sync_controller - INFO - 同步成功: offset=0.000027895, delay=0.000050306
+2025-04-17 09:54:41,064 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:41,067 - slave.network - INFO - 过滤后结果: offset=0.000010967, delay=0.000125408
+2025-04-17 09:54:41,067 - slave.sync_monitor - INFO - 偏移量: 0.000010967 秒, 已达标
+2025-04-17 09:54:41,067 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:41,067 - slave.sync_controller - INFO - 同步成功: offset=0.000010967, delay=0.000125408
+2025-04-17 09:54:46,076 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:46,077 - slave.network - INFO - 过滤后结果: offset=0.000001550, delay=0.000018239
+2025-04-17 09:54:46,077 - slave.sync_monitor - INFO - 偏移量: 0.000001550 秒, 已达标
+2025-04-17 09:54:46,078 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:46,078 - slave.sync_controller - INFO - 同步成功: offset=0.000001550, delay=0.000018239
+2025-04-17 09:54:51,086 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:51,088 - slave.network - INFO - 过滤后结果: offset=0.000009656, delay=0.000079274
+2025-04-17 09:54:51,088 - slave.sync_monitor - INFO - 偏移量: 0.000009656 秒, 已达标
+2025-04-17 09:54:51,089 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:51,089 - slave.sync_controller - INFO - 同步成功: offset=0.000009656, delay=0.000079274
+2025-04-17 09:54:56,097 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:54:56,099 - slave.network - INFO - 过滤后结果: offset=0.000002146, delay=0.000095844
+2025-04-17 09:54:56,099 - slave.sync_monitor - INFO - 偏移量: 0.000002146 秒, 已达标
+2025-04-17 09:54:56,100 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:54:56,100 - slave.sync_controller - INFO - 同步成功: offset=0.000002146, delay=0.000095844
+2025-04-17 09:55:01,109 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:01,112 - slave.network - INFO - 过滤后结果: offset=0.000013232, delay=0.000126719
+2025-04-17 09:55:01,112 - slave.sync_monitor - INFO - 偏移量: 0.000013232 秒, 已达标
+2025-04-17 09:55:01,112 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:01,112 - slave.sync_controller - INFO - 同步成功: offset=0.000013232, delay=0.000126719
+2025-04-17 09:55:06,120 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:06,123 - slave.network - INFO - 过滤后结果: offset=0.000005364, delay=0.000116467
+2025-04-17 09:55:06,123 - slave.sync_monitor - INFO - 偏移量: 0.000005364 秒, 已达标
+2025-04-17 09:55:06,123 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:06,123 - slave.sync_controller - INFO - 同步成功: offset=0.000005364, delay=0.000116467
+2025-04-17 09:55:11,135 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:11,136 - slave.network - INFO - 过滤后结果: offset=0.000002265, delay=0.000031590
+2025-04-17 09:55:11,137 - slave.sync_monitor - INFO - 偏移量: 0.000002265 秒, 已达标
+2025-04-17 09:55:11,137 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:11,137 - slave.sync_controller - INFO - 同步成功: offset=0.000002265, delay=0.000031590
+2025-04-17 09:55:16,144 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:16,146 - slave.network - INFO - 过滤后结果: offset=-0.000021577, delay=0.000066161
+2025-04-17 09:55:16,146 - slave.sync_monitor - INFO - 偏移量: -0.000021577 秒, 已达标
+2025-04-17 09:55:16,146 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:16,146 - slave.sync_controller - INFO - 同步成功: offset=-0.000021577, delay=0.000066161
+2025-04-17 09:55:21,156 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:21,158 - slave.network - INFO - 过滤后结果: offset=0.000021338, delay=0.000103593
+2025-04-17 09:55:21,158 - slave.sync_monitor - INFO - 偏移量: 0.000021338 秒, 已达标
+2025-04-17 09:55:21,158 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:21,158 - slave.sync_controller - INFO - 同步成功: offset=0.000021338, delay=0.000103593
+2025-04-17 09:55:26,165 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:26,167 - slave.network - INFO - 过滤后结果: offset=-0.000010729, delay=0.000094652
+2025-04-17 09:55:26,167 - slave.sync_monitor - INFO - 偏移量: -0.000010729 秒, 已达标
+2025-04-17 09:55:26,167 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:26,168 - slave.sync_controller - INFO - 同步成功: offset=-0.000010729, delay=0.000094652
+2025-04-17 09:55:31,176 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:31,177 - slave.network - INFO - 过滤后结果: offset=0.000001669, delay=0.000077963
+2025-04-17 09:55:31,178 - slave.sync_monitor - INFO - 偏移量: 0.000001669 秒, 已达标
+2025-04-17 09:55:31,178 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:31,178 - slave.sync_controller - INFO - 同步成功: offset=0.000001669, delay=0.000077963
+2025-04-17 09:55:36,187 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:36,189 - slave.network - INFO - 过滤后结果: offset=0.000039935, delay=0.000093102
+2025-04-17 09:55:36,189 - slave.sync_monitor - INFO - 偏移量: 0.000039935 秒, 已达标
+2025-04-17 09:55:36,189 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:36,190 - slave.sync_controller - INFO - 同步成功: offset=0.000039935, delay=0.000093102
+2025-04-17 09:55:41,198 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:41,199 - slave.network - INFO - 过滤后结果: offset=-0.000002623, delay=0.000035763
+2025-04-17 09:55:41,200 - slave.sync_monitor - INFO - 偏移量: -0.000002623 秒, 已达标
+2025-04-17 09:55:41,200 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:41,200 - slave.sync_controller - INFO - 同步成功: offset=-0.000002623, delay=0.000035763
+2025-04-17 09:55:46,208 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:46,210 - slave.network - INFO - 过滤后结果: offset=-0.000002384, delay=0.000063896
+2025-04-17 09:55:46,210 - slave.sync_monitor - INFO - 偏移量: -0.000002384 秒, 已达标
+2025-04-17 09:55:46,210 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:46,210 - slave.sync_controller - INFO - 同步成功: offset=-0.000002384, delay=0.000063896
+2025-04-17 09:55:51,226 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:51,229 - slave.network - INFO - 过滤后结果: offset=-0.000036359, delay=0.000093102
+2025-04-17 09:55:51,229 - slave.sync_monitor - INFO - 偏移量: -0.000036359 秒, 已达标
+2025-04-17 09:55:51,229 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:51,229 - slave.sync_controller - INFO - 同步成功: offset=-0.000036359, delay=0.000093102
+2025-04-17 09:55:56,240 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:55:56,242 - slave.network - INFO - 过滤后结果: offset=0.000006795, delay=0.000085235
+2025-04-17 09:55:56,242 - slave.sync_monitor - INFO - 偏移量: 0.000006795 秒, 已达标
+2025-04-17 09:55:56,243 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:55:56,243 - slave.sync_controller - INFO - 同步成功: offset=0.000006795, delay=0.000085235
+2025-04-17 09:56:01,252 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:01,254 - slave.network - INFO - 过滤后结果: offset=0.000046849, delay=0.000089526
+2025-04-17 09:56:01,254 - slave.sync_monitor - INFO - 偏移量: 0.000046849 秒, 已达标
+2025-04-17 09:56:01,254 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:01,254 - slave.sync_controller - INFO - 同步成功: offset=0.000046849, delay=0.000089526
+2025-04-17 09:56:06,262 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:06,264 - slave.network - INFO - 过滤后结果: offset=0.000002146, delay=0.000106573
+2025-04-17 09:56:06,264 - slave.sync_monitor - INFO - 偏移量: 0.000002146 秒, 已达标
+2025-04-17 09:56:06,264 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:06,264 - slave.sync_controller - INFO - 同步成功: offset=0.000002146, delay=0.000106573
+2025-04-17 09:56:11,274 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:11,276 - slave.network - INFO - 过滤后结果: offset=0.000007033, delay=0.000075936
+2025-04-17 09:56:11,276 - slave.sync_monitor - INFO - 偏移量: 0.000007033 秒, 已达标
+2025-04-17 09:56:11,276 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:11,277 - slave.sync_controller - INFO - 同步成功: offset=0.000007033, delay=0.000075936
+2025-04-17 09:56:16,285 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:16,287 - slave.network - INFO - 过滤后结果: offset=-0.000035644, delay=0.000078559
+2025-04-17 09:56:16,287 - slave.sync_monitor - INFO - 偏移量: -0.000035644 秒, 已达标
+2025-04-17 09:56:16,287 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:16,287 - slave.sync_controller - INFO - 同步成功: offset=-0.000035644, delay=0.000078559
+2025-04-17 09:56:21,296 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:21,298 - slave.network - INFO - 过滤后结果: offset=0.000003576, delay=0.000020504
+2025-04-17 09:56:21,298 - slave.sync_monitor - INFO - 偏移量: 0.000003576 秒, 已达标
+2025-04-17 09:56:21,299 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:21,299 - slave.sync_controller - INFO - 同步成功: offset=0.000003576, delay=0.000020504
+2025-04-17 09:56:26,307 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:26,309 - slave.network - INFO - 过滤后结果: offset=-0.000022888, delay=0.000047684
+2025-04-17 09:56:26,309 - slave.sync_monitor - INFO - 偏移量: -0.000022888 秒, 已达标
+2025-04-17 09:56:26,309 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:26,309 - slave.sync_controller - INFO - 同步成功: offset=-0.000022888, delay=0.000047684
+2025-04-17 09:56:31,317 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:31,319 - slave.network - INFO - 过滤后结果: offset=-0.000025511, delay=0.000043869
+2025-04-17 09:56:31,319 - slave.sync_monitor - INFO - 偏移量: -0.000025511 秒, 已达标
+2025-04-17 09:56:31,319 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:31,319 - slave.sync_controller - INFO - 同步成功: offset=-0.000025511, delay=0.000043869
+2025-04-17 09:56:36,329 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:36,336 - slave.network - INFO - 过滤后结果: offset=-0.000033259, delay=0.000055671
+2025-04-17 09:56:36,336 - slave.sync_monitor - INFO - 偏移量: -0.000033259 秒, 已达标
+2025-04-17 09:56:36,337 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:36,337 - slave.sync_controller - INFO - 同步成功: offset=-0.000033259, delay=0.000055671
+2025-04-17 09:56:41,344 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:41,346 - slave.network - INFO - 过滤后结果: offset=0.000000596, delay=0.000084996
+2025-04-17 09:56:41,346 - slave.sync_monitor - INFO - 偏移量: 0.000000596 秒, 已达标
+2025-04-17 09:56:41,346 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:41,346 - slave.sync_controller - INFO - 同步成功: offset=0.000000596, delay=0.000084996
+2025-04-17 09:56:46,355 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:46,357 - slave.network - INFO - 过滤后结果: offset=0.000002503, delay=0.000083804
+2025-04-17 09:56:46,358 - slave.sync_monitor - INFO - 偏移量: 0.000002503 秒, 已达标
+2025-04-17 09:56:46,358 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:46,358 - slave.sync_controller - INFO - 同步成功: offset=0.000002503, delay=0.000083804
+2025-04-17 09:56:51,368 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:51,370 - slave.network - INFO - 过滤后结果: offset=-0.000005126, delay=0.000102401
+2025-04-17 09:56:51,370 - slave.sync_monitor - INFO - 偏移量: -0.000005126 秒, 已达标
+2025-04-17 09:56:51,371 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:51,371 - slave.sync_controller - INFO - 同步成功: offset=-0.000005126, delay=0.000102401
+2025-04-17 09:56:56,379 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:56:56,381 - slave.network - INFO - 过滤后结果: offset=0.000026822, delay=0.000067115
+2025-04-17 09:56:56,381 - slave.sync_monitor - INFO - 偏移量: 0.000026822 秒, 已达标
+2025-04-17 09:56:56,382 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:56:56,382 - slave.sync_controller - INFO - 同步成功: offset=0.000026822, delay=0.000067115
+2025-04-17 09:57:01,389 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:57:01,391 - slave.network - INFO - 过滤后结果: offset=-0.000003099, delay=0.000071764
+2025-04-17 09:57:01,391 - slave.sync_monitor - INFO - 偏移量: -0.000003099 秒, 已达标
+2025-04-17 09:57:01,391 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:57:01,391 - slave.sync_controller - INFO - 同步成功: offset=-0.000003099, delay=0.000071764
+2025-04-17 09:57:06,399 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 09:57:06,401 - slave.network - INFO - 过滤后结果: offset=-0.000002742, delay=0.000032544
+2025-04-17 09:57:06,401 - slave.sync_monitor - INFO - 偏移量: -0.000002742 秒, 已达标
+2025-04-17 09:57:06,401 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 09:57:06,401 - slave.sync_controller - INFO - 同步成功: offset=-0.000002742, delay=0.000032544
+2025-04-17 09:57:10,409 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 09:57:10,410 - slave.gui - INFO - 应用已关闭
+2025-04-17 10:02:39,013 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 10:02:39,013 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 10:02:39,013 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 10:02:39,013 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 10:02:39,045 - slave.gui - INFO - Slave应用已启动
+2025-04-17 10:02:48,719 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 10:02:48,720 - slave.network - INFO - 过滤后结果: offset=-0.000004649, delay=0.000019431
+2025-04-17 10:02:48,720 - slave.sync_monitor - INFO - 偏移量: -0.000004649 秒, 已达标
+2025-04-17 10:02:48,720 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 10:02:48,720 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:02:48,720 - slave.sync_controller - INFO - 同步成功: offset=-0.000004649, delay=0.000019431
+2025-04-17 10:02:48,721 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 10:02:53,728 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:02:53,730 - slave.network - INFO - 过滤后结果: offset=0.000018358, delay=0.000088453
+2025-04-17 10:02:53,731 - slave.sync_monitor - INFO - 偏移量: 0.000018358 秒, 已达标
+2025-04-17 10:02:53,731 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:02:53,731 - slave.sync_controller - INFO - 同步成功: offset=0.000018358, delay=0.000088453
+2025-04-17 10:02:58,739 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:02:58,741 - slave.network - INFO - 过滤后结果: offset=0.049999833, delay=0.000091434
+2025-04-17 10:02:58,741 - slave.sync_monitor - INFO - 偏移量: 0.049999833 秒, 未达标
+2025-04-17 10:02:58,742 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:02:58,742 - slave.sync_controller - INFO - 同步成功: offset=0.049999833, delay=0.000091434
+2025-04-17 10:03:03,751 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:03,753 - slave.network - INFO - 过滤后结果: offset=0.049999475, delay=0.000091791
+2025-04-17 10:03:03,753 - slave.sync_monitor - INFO - 偏移量: 0.049999475 秒, 未达标
+2025-04-17 10:03:03,753 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:03,753 - slave.sync_controller - INFO - 同步成功: offset=0.049999475, delay=0.000091791
+2025-04-17 10:03:08,762 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:08,763 - slave.network - INFO - 过滤后结果: offset=0.050009251, delay=0.000031948
+2025-04-17 10:03:08,764 - slave.sync_monitor - INFO - 偏移量: 0.050009251 秒, 未达标
+2025-04-17 10:03:08,764 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:08,764 - slave.sync_controller - INFO - 同步成功: offset=0.050009251, delay=0.000031948
+2025-04-17 10:03:13,773 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:13,776 - slave.network - INFO - 过滤后结果: offset=0.050004005, delay=0.000101328
+2025-04-17 10:03:13,776 - slave.sync_monitor - INFO - 偏移量: 0.050004005 秒, 未达标
+2025-04-17 10:03:13,776 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:13,776 - slave.sync_controller - INFO - 同步成功: offset=0.050004005, delay=0.000101328
+2025-04-17 10:03:18,785 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:18,787 - slave.network - INFO - 过滤后结果: offset=0.049997449, delay=0.000070453
+2025-04-17 10:03:18,787 - slave.sync_monitor - INFO - 偏移量: 0.049997449 秒, 未达标
+2025-04-17 10:03:18,787 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:18,788 - slave.sync_controller - INFO - 同步成功: offset=0.049997449, delay=0.000070453
+2025-04-17 10:03:23,796 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:23,797 - slave.network - INFO - 过滤后结果: offset=0.050004244, delay=0.000020266
+2025-04-17 10:03:23,797 - slave.sync_monitor - INFO - 偏移量: 0.050004244 秒, 未达标
+2025-04-17 10:03:23,798 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:23,798 - slave.sync_controller - INFO - 同步成功: offset=0.050004244, delay=0.000020266
+2025-04-17 10:03:28,806 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:28,808 - slave.network - INFO - 过滤后结果: offset=0.050004244, delay=0.000081778
+2025-04-17 10:03:28,808 - slave.sync_monitor - INFO - 偏移量: 0.050004244 秒, 未达标
+2025-04-17 10:03:28,808 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:28,808 - slave.sync_controller - INFO - 同步成功: offset=0.050004244, delay=0.000081778
+2025-04-17 10:03:33,817 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:33,819 - slave.network - INFO - 过滤后结果: offset=0.050016761, delay=0.000099540
+2025-04-17 10:03:33,819 - slave.sync_monitor - INFO - 偏移量: 0.050016761 秒, 未达标
+2025-04-17 10:03:33,820 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:33,820 - slave.sync_controller - INFO - 同步成功: offset=0.050016761, delay=0.000099540
+2025-04-17 10:03:38,829 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:38,832 - slave.network - INFO - 过滤后结果: offset=0.050003409, delay=0.000059724
+2025-04-17 10:03:38,832 - slave.sync_monitor - INFO - 偏移量: 0.050003409 秒, 未达标
+2025-04-17 10:03:38,832 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:38,833 - slave.sync_controller - INFO - 同步成功: offset=0.050003409, delay=0.000059724
+2025-04-17 10:03:43,841 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:43,843 - slave.network - INFO - 过滤后结果: offset=0.049983978, delay=0.000043392
+2025-04-17 10:03:43,843 - slave.sync_monitor - INFO - 偏移量: 0.049983978 秒, 未达标
+2025-04-17 10:03:43,844 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:43,844 - slave.sync_controller - INFO - 同步成功: offset=0.049983978, delay=0.000043392
+2025-04-17 10:03:48,852 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:48,854 - slave.network - INFO - 过滤后结果: offset=0.049948931, delay=0.000073195
+2025-04-17 10:03:48,854 - slave.sync_monitor - INFO - 偏移量: 0.049948931 秒, 未达标
+2025-04-17 10:03:48,854 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:48,854 - slave.sync_controller - INFO - 同步成功: offset=0.049948931, delay=0.000073195
+2025-04-17 10:03:53,862 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:53,864 - slave.network - INFO - 过滤后结果: offset=0.050011158, delay=0.000090122
+2025-04-17 10:03:53,864 - slave.sync_monitor - INFO - 偏移量: 0.050011158 秒, 未达标
+2025-04-17 10:03:53,865 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:53,865 - slave.sync_controller - INFO - 同步成功: offset=0.050011158, delay=0.000090122
+2025-04-17 10:03:58,874 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:03:58,876 - slave.network - INFO - 过滤后结果: offset=0.050009012, delay=0.000092506
+2025-04-17 10:03:58,877 - slave.sync_monitor - INFO - 偏移量: 0.050009012 秒, 未达标
+2025-04-17 10:03:58,877 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:03:58,877 - slave.sync_controller - INFO - 同步成功: offset=0.050009012, delay=0.000092506
+2025-04-17 10:04:03,886 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:04:03,888 - slave.network - INFO - 过滤后结果: offset=0.049999237, delay=0.000082254
+2025-04-17 10:04:03,888 - slave.sync_monitor - INFO - 偏移量: 0.049999237 秒, 未达标
+2025-04-17 10:04:03,888 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:04:03,888 - slave.sync_controller - INFO - 同步成功: offset=0.049999237, delay=0.000082254
+2025-04-17 10:04:08,897 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:04:09,899 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:04:09,899 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 10:04:10,901 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:04:10,901 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 10:04:11,902 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:04:11,903 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 10:04:12,070 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 10:04:12,073 - slave.gui - INFO - 应用已关闭
+2025-04-17 10:25:35,130 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 10:25:35,130 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 10:25:35,130 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 10:25:35,130 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 10:25:35,164 - slave.gui - INFO - Slave应用已启动
+2025-04-17 10:25:46,450 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 10:25:46,450 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 10:25:47,452 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:25:47,453 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 10:25:47,454 - slave.network - INFO - 过滤后结果: offset=-0.000005960, delay=0.000063658
+2025-04-17 10:25:47,454 - slave.sync_monitor - INFO - 偏移量: -0.000005960 秒, 已达标
+2025-04-17 10:25:47,454 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 10:25:47,454 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:25:47,455 - slave.sync_controller - INFO - 同步成功: offset=-0.000005960, delay=0.000063658
+2025-04-17 10:25:52,463 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:25:52,464 - slave.network - INFO - 过滤后结果: offset=-0.000003219, delay=0.000029922
+2025-04-17 10:25:52,464 - slave.sync_monitor - INFO - 偏移量: -0.000003219 秒, 已达标
+2025-04-17 10:25:52,465 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:25:52,465 - slave.sync_controller - INFO - 同步成功: offset=-0.000003219, delay=0.000029922
+2025-04-17 10:25:57,473 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:25:57,475 - slave.network - INFO - 过滤后结果: offset=0.000016809, delay=0.000100017
+2025-04-17 10:25:57,475 - slave.clock - INFO - 检测到误差符号变化 (-0.000003 -> 0.000017)，重置PID积分项。
+2025-04-17 10:25:57,475 - slave.sync_monitor - INFO - 偏移量: 0.000016809 秒, 已达标
+2025-04-17 10:25:57,476 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:25:57,476 - slave.sync_controller - INFO - 同步成功: offset=0.000016809, delay=0.000100017
+2025-04-17 10:26:02,485 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:02,487 - slave.network - INFO - 过滤后结果: offset=0.000030518, delay=0.000050306
+2025-04-17 10:26:02,487 - slave.sync_monitor - INFO - 偏移量: 0.000030518 秒, 已达标
+2025-04-17 10:26:02,487 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:02,488 - slave.sync_controller - INFO - 同步成功: offset=0.000030518, delay=0.000050306
+2025-04-17 10:26:07,497 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:07,499 - slave.network - INFO - 过滤后结果: offset=0.000009775, delay=0.000097036
+2025-04-17 10:26:07,500 - slave.sync_monitor - INFO - 偏移量: 0.000009775 秒, 已达标
+2025-04-17 10:26:07,500 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:07,500 - slave.sync_controller - INFO - 同步成功: offset=0.000009775, delay=0.000097036
+2025-04-17 10:26:12,508 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:12,510 - slave.network - INFO - 过滤后结果: offset=-0.000015020, delay=0.000061750
+2025-04-17 10:26:12,510 - slave.clock - INFO - 检测到误差符号变化 (0.000010 -> -0.000015)，重置PID积分项。
+2025-04-17 10:26:12,510 - slave.sync_monitor - INFO - 偏移量: -0.000015020 秒, 已达标
+2025-04-17 10:26:12,511 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:12,511 - slave.sync_controller - INFO - 同步成功: offset=-0.000015020, delay=0.000061750
+2025-04-17 10:26:17,516 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:17,517 - slave.network - INFO - 过滤后结果: offset=0.000002384, delay=0.000017881
+2025-04-17 10:26:17,518 - slave.clock - INFO - 检测到误差符号变化 (-0.000015 -> 0.000002)，重置PID积分项。
+2025-04-17 10:26:17,518 - slave.sync_monitor - INFO - 偏移量: 0.000002384 秒, 已达标
+2025-04-17 10:26:17,518 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:17,518 - slave.sync_controller - INFO - 同步成功: offset=0.000002384, delay=0.000017881
+2025-04-17 10:26:22,524 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:22,526 - slave.network - INFO - 过滤后结果: offset=0.049995303, delay=0.000020623
+2025-04-17 10:26:22,526 - slave.sync_monitor - INFO - 偏移量: 0.049995303 秒, 未达标
+2025-04-17 10:26:22,526 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:22,526 - slave.sync_controller - INFO - 同步成功: offset=0.049995303, delay=0.000020623
+2025-04-17 10:26:27,532 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:27,534 - slave.network - INFO - 过滤后结果: offset=0.050008774, delay=0.000027180
+2025-04-17 10:26:27,534 - slave.sync_monitor - INFO - 偏移量: 0.050008774 秒, 未达标
+2025-04-17 10:26:27,534 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:27,534 - slave.sync_controller - INFO - 同步成功: offset=0.050008774, delay=0.000027180
+2025-04-17 10:26:32,541 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:32,543 - slave.network - INFO - 过滤后结果: offset=0.050010920, delay=0.000092983
+2025-04-17 10:26:32,543 - slave.sync_monitor - INFO - 偏移量: 0.050010920 秒, 未达标
+2025-04-17 10:26:32,544 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:32,544 - slave.sync_controller - INFO - 同步成功: offset=0.050010920, delay=0.000092983
+2025-04-17 10:26:37,551 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:37,553 - slave.network - INFO - 过滤后结果: offset=0.050008893, delay=0.000090718
+2025-04-17 10:26:37,553 - slave.sync_monitor - INFO - 偏移量: 0.050008893 秒, 未达标
+2025-04-17 10:26:37,553 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:37,553 - slave.sync_controller - INFO - 同步成功: offset=0.050008893, delay=0.000090718
+2025-04-17 10:26:42,562 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:42,564 - slave.network - INFO - 过滤后结果: offset=0.050003767, delay=0.000072956
+2025-04-17 10:26:42,564 - slave.sync_monitor - INFO - 偏移量: 0.050003767 秒, 未达标
+2025-04-17 10:26:42,564 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:42,564 - slave.sync_controller - INFO - 同步成功: offset=0.050003767, delay=0.000072956
+2025-04-17 10:26:47,573 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:47,576 - slave.network - INFO - 过滤后结果: offset=0.050004363, delay=0.000093818
+2025-04-17 10:26:47,576 - slave.sync_monitor - INFO - 偏移量: 0.050004363 秒, 未达标
+2025-04-17 10:26:47,576 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:47,576 - slave.sync_controller - INFO - 同步成功: offset=0.050004363, delay=0.000093818
+2025-04-17 10:26:52,585 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:52,586 - slave.network - INFO - 过滤后结果: offset=0.050001383, delay=0.000017405
+2025-04-17 10:26:52,586 - slave.sync_monitor - INFO - 偏移量: 0.050001383 秒, 未达标
+2025-04-17 10:26:52,586 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:52,586 - slave.sync_controller - INFO - 同步成功: offset=0.050001383, delay=0.000017405
+2025-04-17 10:26:57,594 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:26:57,596 - slave.network - INFO - 过滤后结果: offset=0.050011516, delay=0.000064969
+2025-04-17 10:26:57,596 - slave.sync_monitor - INFO - 偏移量: 0.050011516 秒, 未达标
+2025-04-17 10:26:57,596 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:26:57,596 - slave.sync_controller - INFO - 同步成功: offset=0.050011516, delay=0.000064969
+2025-04-17 10:27:02,603 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:27:02,605 - slave.network - INFO - 过滤后结果: offset=0.049999237, delay=0.000085831
+2025-04-17 10:27:02,605 - slave.sync_monitor - INFO - 偏移量: 0.049999237 秒, 未达标
+2025-04-17 10:27:02,605 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:27:02,606 - slave.sync_controller - INFO - 同步成功: offset=0.049999237, delay=0.000085831
+2025-04-17 10:27:07,614 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:27:07,616 - slave.network - INFO - 过滤后结果: offset=0.050051332, delay=0.000100017
+2025-04-17 10:27:07,617 - slave.sync_monitor - INFO - 偏移量: 0.050051332 秒, 未达标
+2025-04-17 10:27:07,617 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:27:07,617 - slave.sync_controller - INFO - 同步成功: offset=0.050051332, delay=0.000100017
+2025-04-17 10:27:12,625 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:27:12,627 - slave.network - INFO - 过滤后结果: offset=0.050006986, delay=0.000087142
+2025-04-17 10:27:12,627 - slave.sync_monitor - INFO - 偏移量: 0.050006986 秒, 未达标
+2025-04-17 10:27:12,627 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:27:12,628 - slave.sync_controller - INFO - 同步成功: offset=0.050006986, delay=0.000087142
+2025-04-17 10:27:17,638 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:27:17,640 - slave.network - INFO - 过滤后结果: offset=0.050013185, delay=0.000096440
+2025-04-17 10:27:17,640 - slave.sync_monitor - INFO - 偏移量: 0.050013185 秒, 未达标
+2025-04-17 10:27:17,640 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:27:17,641 - slave.sync_controller - INFO - 同步成功: offset=0.050013185, delay=0.000096440
+2025-04-17 10:27:22,649 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:27:22,650 - slave.network - INFO - 过滤后结果: offset=0.049996495, delay=0.000044703
+2025-04-17 10:27:22,651 - slave.sync_monitor - INFO - 偏移量: 0.049996495 秒, 未达标
+2025-04-17 10:27:22,651 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:27:22,651 - slave.sync_controller - INFO - 同步成功: offset=0.049996495, delay=0.000044703
+2025-04-17 10:27:27,660 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:27:27,662 - slave.network - INFO - 过滤后结果: offset=0.049998760, delay=0.000038624
+2025-04-17 10:27:27,663 - slave.sync_monitor - INFO - 偏移量: 0.049998760 秒, 未达标
+2025-04-17 10:27:27,663 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:27:27,663 - slave.sync_controller - INFO - 同步成功: offset=0.049998760, delay=0.000038624
+2025-04-17 10:27:30,669 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 10:30:25,541 - slave.gui - INFO - 应用已关闭
+2025-04-17 10:30:35,312 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 10:30:35,313 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 10:30:35,313 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 10:30:35,313 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 10:30:35,345 - slave.gui - INFO - Slave应用已启动
+2025-04-17 10:30:38,935 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 10:30:38,934 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 10:30:39,937 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:30:39,937 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 10:30:39,939 - slave.network - INFO - 过滤后结果: offset=0.000020027, delay=0.000129461
+2025-04-17 10:30:39,939 - slave.sync_monitor - INFO - 偏移量: 0.000020027 秒, 已达标
+2025-04-17 10:30:39,939 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 10:30:39,939 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:30:39,940 - slave.sync_controller - INFO - 同步成功: offset=0.000020027, delay=0.000129461
+2025-04-17 10:30:44,947 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:30:44,949 - slave.network - INFO - 过滤后结果: offset=0.000004292, delay=0.000090599
+2025-04-17 10:30:44,949 - slave.sync_monitor - INFO - 偏移量: 0.000004292 秒, 已达标
+2025-04-17 10:30:44,949 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:30:44,949 - slave.sync_controller - INFO - 同步成功: offset=0.000004292, delay=0.000090599
+2025-04-17 10:30:49,958 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:30:49,960 - slave.network - INFO - 过滤后结果: offset=0.049994469, delay=0.000020266
+2025-04-17 10:30:49,960 - slave.sync_monitor - INFO - 偏移量: 0.049994469 秒, 未达标
+2025-04-17 10:30:49,960 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:30:49,960 - slave.sync_controller - INFO - 同步成功: offset=0.049994469, delay=0.000020266
+2025-04-17 10:30:54,967 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:30:54,969 - slave.network - INFO - 过滤后结果: offset=0.049985170, delay=0.000051260
+2025-04-17 10:30:54,969 - slave.sync_monitor - INFO - 偏移量: 0.049985170 秒, 未达标
+2025-04-17 10:30:54,969 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:30:54,969 - slave.sync_controller - INFO - 同步成功: offset=0.049985170, delay=0.000051260
+2025-04-17 10:30:59,978 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:30:59,980 - slave.network - INFO - 过滤后结果: offset=0.049997091, delay=0.000036240
+2025-04-17 10:30:59,980 - slave.sync_monitor - INFO - 偏移量: 0.049997091 秒, 未达标
+2025-04-17 10:30:59,980 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:30:59,980 - slave.sync_controller - INFO - 同步成功: offset=0.049997091, delay=0.000036240
+2025-04-17 10:31:04,989 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:31:04,992 - slave.network - INFO - 过滤后结果: offset=0.050072312, delay=0.000122666
+2025-04-17 10:31:04,992 - slave.sync_monitor - INFO - 偏移量: 0.050072312 秒, 未达标
+2025-04-17 10:31:04,992 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:31:04,993 - slave.sync_controller - INFO - 同步成功: offset=0.050072312, delay=0.000122666
+2025-04-17 10:31:10,000 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:31:10,002 - slave.network - INFO - 过滤后结果: offset=0.049995661, delay=0.000034809
+2025-04-17 10:31:10,002 - slave.sync_monitor - INFO - 偏移量: 0.049995661 秒, 未达标
+2025-04-17 10:31:10,003 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:31:10,003 - slave.sync_controller - INFO - 同步成功: offset=0.049995661, delay=0.000034809
+2025-04-17 10:31:15,014 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:31:15,016 - slave.network - INFO - 过滤后结果: offset=0.049984813, delay=0.000082612
+2025-04-17 10:31:15,016 - slave.sync_monitor - INFO - 偏移量: 0.049984813 秒, 未达标
+2025-04-17 10:31:15,016 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:31:15,017 - slave.sync_controller - INFO - 同步成功: offset=0.049984813, delay=0.000082612
+2025-04-17 10:31:20,025 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:31:20,027 - slave.network - INFO - 过滤后结果: offset=0.049984336, delay=0.000082612
+2025-04-17 10:31:20,027 - slave.sync_monitor - INFO - 偏移量: 0.049984336 秒, 未达标
+2025-04-17 10:31:20,027 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:31:20,027 - slave.sync_controller - INFO - 同步成功: offset=0.049984336, delay=0.000082612
+2025-04-17 10:31:25,034 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:31:25,036 - slave.network - INFO - 过滤后结果: offset=0.050001502, delay=0.000074506
+2025-04-17 10:31:25,036 - slave.sync_monitor - INFO - 偏移量: 0.050001502 秒, 未达标
+2025-04-17 10:31:25,036 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:31:25,036 - slave.sync_controller - INFO - 同步成功: offset=0.050001502, delay=0.000074506
+2025-04-17 10:31:25,537 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 10:55:41,520 - slave.gui - INFO - 应用已关闭
+2025-04-17 10:56:02,604 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 10:56:02,604 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 10:56:02,604 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 10:56:02,604 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 10:56:02,637 - slave.gui - INFO - Slave应用已启动
+2025-04-17 10:56:06,678 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 10:56:06,678 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 10:56:06,680 - slave.network - INFO - 过滤后结果: offset=-0.000017405, delay=0.000066280
+2025-04-17 10:56:06,680 - slave.sync_monitor - INFO - 偏移量: -0.000017405 秒, 已达标
+2025-04-17 10:56:06,680 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 10:56:06,681 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:06,681 - slave.sync_controller - INFO - 同步成功: offset=-0.000017405, delay=0.000066280
+2025-04-17 10:56:11,689 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:11,691 - slave.network - INFO - 过滤后结果: offset=0.050001264, delay=0.000090718
+2025-04-17 10:56:11,691 - slave.clock - INFO - 检测到误差符号变化 (-0.000017 -> 0.050001)，重置PID积分项。
+2025-04-17 10:56:11,691 - slave.sync_monitor - INFO - 偏移量: 0.050001264 秒, 未达标
+2025-04-17 10:56:11,692 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:11,692 - slave.sync_controller - INFO - 同步成功: offset=0.050001264, delay=0.000090718
+2025-04-17 10:56:16,700 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:16,702 - slave.network - INFO - 过滤后结果: offset=0.050006509, delay=0.000072837
+2025-04-17 10:56:16,703 - slave.sync_monitor - INFO - 偏移量: 0.050006509 秒, 未达标
+2025-04-17 10:56:16,703 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:16,703 - slave.sync_controller - INFO - 同步成功: offset=0.050006509, delay=0.000072837
+2025-04-17 10:56:21,712 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:21,714 - slave.network - INFO - 过滤后结果: offset=0.050002694, delay=0.000076652
+2025-04-17 10:56:21,714 - slave.sync_monitor - INFO - 偏移量: 0.050002694 秒, 未达标
+2025-04-17 10:56:21,714 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:21,714 - slave.sync_controller - INFO - 同步成功: offset=0.050002694, delay=0.000076652
+2025-04-17 10:56:26,723 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:26,724 - slave.network - INFO - 过滤后结果: offset=0.049966812, delay=0.000069857
+2025-04-17 10:56:26,725 - slave.sync_monitor - INFO - 偏移量: 0.049966812 秒, 未达标
+2025-04-17 10:56:26,725 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:26,725 - slave.sync_controller - INFO - 同步成功: offset=0.049966812, delay=0.000069857
+2025-04-17 10:56:31,734 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:31,735 - slave.network - INFO - 过滤后结果: offset=0.050002098, delay=0.000075340
+2025-04-17 10:56:31,736 - slave.sync_monitor - INFO - 偏移量: 0.050002098 秒, 未达标
+2025-04-17 10:56:31,736 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:31,736 - slave.sync_controller - INFO - 同步成功: offset=0.050002098, delay=0.000075340
+2025-04-17 10:56:36,746 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:36,747 - slave.network - INFO - 过滤后结果: offset=0.049999237, delay=0.000017405
+2025-04-17 10:56:36,747 - slave.sync_monitor - INFO - 偏移量: 0.049999237 秒, 未达标
+2025-04-17 10:56:36,748 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:36,748 - slave.sync_controller - INFO - 同步成功: offset=0.049999237, delay=0.000017405
+2025-04-17 10:56:41,756 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:41,758 - slave.network - INFO - 过滤后结果: offset=0.049995065, delay=0.000082374
+2025-04-17 10:56:41,758 - slave.sync_monitor - INFO - 偏移量: 0.049995065 秒, 未达标
+2025-04-17 10:56:41,758 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 10:56:41,759 - slave.sync_controller - INFO - 同步成功: offset=0.049995065, delay=0.000082374
+2025-04-17 10:56:46,768 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 10:56:47,770 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:56:47,770 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 10:56:48,771 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:56:48,772 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 10:56:49,773 - slave.network - WARNING - 同步请求超时
+2025-04-17 10:56:49,774 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 10:56:50,014 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 10:56:50,014 - slave.gui - INFO - 应用已关闭
+2025-04-17 11:48:48,611 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 11:48:48,611 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 11:48:48,611 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 11:48:48,611 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 11:48:48,640 - slave.gui - INFO - Slave应用已启动
+2025-04-17 11:48:52,800 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 11:48:52,801 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 11:48:53,803 - slave.network - WARNING - 同步请求超时
+2025-04-17 11:48:53,803 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 11:48:53,805 - slave.network - INFO - 过滤后结果: offset=0.000005841, delay=0.000111461
+2025-04-17 11:48:53,805 - slave.sync_monitor - INFO - 偏移量: 0.000005841 秒, 已达标
+2025-04-17 11:48:53,805 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 11:48:53,805 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:48:53,805 - slave.sync_controller - INFO - 同步成功: offset=0.000005841, delay=0.000111461
+2025-04-17 11:48:58,813 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:48:58,815 - slave.network - INFO - 过滤后结果: offset=0.000011206, delay=0.000082970
+2025-04-17 11:48:58,815 - slave.sync_monitor - INFO - 偏移量: 0.000011206 秒, 已达标
+2025-04-17 11:48:58,815 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:48:58,816 - slave.sync_controller - INFO - 同步成功: offset=0.000011206, delay=0.000082970
+2025-04-17 11:49:03,822 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:03,824 - slave.network - INFO - 过滤后结果: offset=0.000003576, delay=0.000089407
+2025-04-17 11:49:03,824 - slave.sync_monitor - INFO - 偏移量: 0.000003576 秒, 已达标
+2025-04-17 11:49:03,824 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:03,825 - slave.sync_controller - INFO - 同步成功: offset=0.000003576, delay=0.000089407
+2025-04-17 11:49:08,831 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:08,833 - slave.network - INFO - 过滤后结果: offset=-0.000012398, delay=0.000100851
+2025-04-17 11:49:08,834 - slave.clock - INFO - 检测到误差符号变化 (0.000004 -> -0.000012)，重置PID积分项。
+2025-04-17 11:49:08,834 - slave.sync_monitor - INFO - 偏移量: -0.000012398 秒, 已达标
+2025-04-17 11:49:08,834 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:08,834 - slave.sync_controller - INFO - 同步成功: offset=-0.000012398, delay=0.000100851
+2025-04-17 11:49:13,846 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:13,848 - slave.network - INFO - 过滤后结果: offset=-0.000002861, delay=0.000096083
+2025-04-17 11:49:13,848 - slave.sync_monitor - INFO - 偏移量: -0.000002861 秒, 已达标
+2025-04-17 11:49:13,848 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:13,848 - slave.sync_controller - INFO - 同步成功: offset=-0.000002861, delay=0.000096083
+2025-04-17 11:49:18,856 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:18,858 - slave.network - INFO - 过滤后结果: offset=0.000005364, delay=0.000031352
+2025-04-17 11:49:18,858 - slave.clock - INFO - 检测到误差符号变化 (-0.000003 -> 0.000005)，重置PID积分项。
+2025-04-17 11:49:18,858 - slave.sync_monitor - INFO - 偏移量: 0.000005364 秒, 已达标
+2025-04-17 11:49:18,858 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:18,858 - slave.sync_controller - INFO - 同步成功: offset=0.000005364, delay=0.000031352
+2025-04-17 11:49:23,867 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:23,868 - slave.network - INFO - 过滤后结果: offset=0.050028682, delay=0.000062585
+2025-04-17 11:49:23,868 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:23,869 - slave.sync_controller - WARNING - 偏移量过大 (0.050029秒)，已直接调整时钟时间
+2025-04-17 11:49:23,869 - slave.sync_monitor - INFO - 偏移量: 0.050028682 秒, 未达标
+2025-04-17 11:49:23,869 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:23,869 - slave.sync_controller - INFO - 同步成功: offset=0.050028682, delay=0.000062585
+2025-04-17 11:49:28,880 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:28,882 - slave.network - INFO - 过滤后结果: offset=0.049995780, delay=0.000069261
+2025-04-17 11:49:28,883 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:28,883 - slave.sync_controller - WARNING - 偏移量过大 (0.049996秒)，已直接调整时钟时间
+2025-04-17 11:49:28,883 - slave.sync_monitor - INFO - 偏移量: 0.049995780 秒, 未达标
+2025-04-17 11:49:28,883 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:28,883 - slave.sync_controller - INFO - 同步成功: offset=0.049995780, delay=0.000069261
+2025-04-17 11:49:33,892 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:33,894 - slave.network - INFO - 过滤后结果: offset=0.050011992, delay=0.000089526
+2025-04-17 11:49:33,894 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:33,894 - slave.sync_controller - WARNING - 偏移量过大 (0.050012秒)，已直接调整时钟时间
+2025-04-17 11:49:33,894 - slave.sync_monitor - INFO - 偏移量: 0.050011992 秒, 未达标
+2025-04-17 11:49:33,895 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:33,895 - slave.sync_controller - INFO - 同步成功: offset=0.050011992, delay=0.000089526
+2025-04-17 11:49:38,902 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:38,904 - slave.network - INFO - 过滤后结果: offset=0.049977541, delay=0.000074863
+2025-04-17 11:49:38,904 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:38,904 - slave.sync_controller - WARNING - 偏移量过大 (0.049978秒)，已直接调整时钟时间
+2025-04-17 11:49:38,904 - slave.sync_monitor - INFO - 偏移量: 0.049977541 秒, 未达标
+2025-04-17 11:49:38,904 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:38,905 - slave.sync_controller - INFO - 同步成功: offset=0.049977541, delay=0.000074863
+2025-04-17 11:49:43,914 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:43,916 - slave.network - INFO - 过滤后结果: offset=0.050000668, delay=0.000017166
+2025-04-17 11:49:43,916 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:43,916 - slave.sync_controller - WARNING - 偏移量过大 (0.050001秒)，已直接调整时钟时间
+2025-04-17 11:49:43,916 - slave.sync_monitor - INFO - 偏移量: 0.050000668 秒, 未达标
+2025-04-17 11:49:43,916 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:43,916 - slave.sync_controller - INFO - 同步成功: offset=0.050000668, delay=0.000017166
+2025-04-17 11:49:48,925 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:48,928 - slave.network - INFO - 过滤后结果: offset=0.049992800, delay=0.000091314
+2025-04-17 11:49:48,928 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:48,928 - slave.sync_controller - WARNING - 偏移量过大 (0.049993秒)，已直接调整时钟时间
+2025-04-17 11:49:48,928 - slave.sync_monitor - INFO - 偏移量: 0.049992800 秒, 未达标
+2025-04-17 11:49:48,929 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:48,929 - slave.sync_controller - INFO - 同步成功: offset=0.049992800, delay=0.000091314
+2025-04-17 11:49:53,937 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:53,939 - slave.network - INFO - 过滤后结果: offset=0.050022125, delay=0.000059366
+2025-04-17 11:49:53,939 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:53,939 - slave.sync_controller - WARNING - 偏移量过大 (0.050022秒)，已直接调整时钟时间
+2025-04-17 11:49:53,939 - slave.sync_monitor - INFO - 偏移量: 0.050022125 秒, 未达标
+2025-04-17 11:49:53,940 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:53,940 - slave.sync_controller - INFO - 同步成功: offset=0.050022125, delay=0.000059366
+2025-04-17 11:49:58,949 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:49:58,950 - slave.network - INFO - 过滤后结果: offset=0.050000072, delay=0.000017762
+2025-04-17 11:49:58,950 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:49:58,950 - slave.sync_controller - WARNING - 偏移量过大 (0.050000秒)，已直接调整时钟时间
+2025-04-17 11:49:58,950 - slave.sync_monitor - INFO - 偏移量: 0.050000072 秒, 未达标
+2025-04-17 11:49:58,950 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:49:58,950 - slave.sync_controller - INFO - 同步成功: offset=0.050000072, delay=0.000017762
+2025-04-17 11:50:03,960 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:03,962 - slave.network - INFO - 过滤后结果: offset=0.050004363, delay=0.000071406
+2025-04-17 11:50:03,962 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:03,962 - slave.sync_controller - WARNING - 偏移量过大 (0.050004秒)，已直接调整时钟时间
+2025-04-17 11:50:03,963 - slave.sync_monitor - INFO - 偏移量: 0.050004363 秒, 未达标
+2025-04-17 11:50:03,963 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:03,963 - slave.sync_controller - INFO - 同步成功: offset=0.050004363, delay=0.000071406
+2025-04-17 11:50:08,972 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:08,974 - slave.network - INFO - 过滤后结果: offset=0.049974799, delay=0.000053287
+2025-04-17 11:50:08,974 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:08,974 - slave.sync_controller - WARNING - 偏移量过大 (0.049975秒)，已直接调整时钟时间
+2025-04-17 11:50:08,974 - slave.sync_monitor - INFO - 偏移量: 0.049974799 秒, 未达标
+2025-04-17 11:50:08,974 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:08,974 - slave.sync_controller - INFO - 同步成功: offset=0.049974799, delay=0.000053287
+2025-04-17 11:50:13,983 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:13,985 - slave.network - INFO - 过滤后结果: offset=0.049976707, delay=0.000064492
+2025-04-17 11:50:13,985 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:13,985 - slave.sync_controller - WARNING - 偏移量过大 (0.049977秒)，已直接调整时钟时间
+2025-04-17 11:50:13,985 - slave.sync_monitor - INFO - 偏移量: 0.049976707 秒, 未达标
+2025-04-17 11:50:13,986 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:13,986 - slave.sync_controller - INFO - 同步成功: offset=0.049976707, delay=0.000064492
+2025-04-17 11:50:18,995 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:18,996 - slave.network - INFO - 过滤后结果: offset=0.049998283, delay=0.000025988
+2025-04-17 11:50:18,996 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:18,997 - slave.sync_controller - WARNING - 偏移量过大 (0.049998秒)，已直接调整时钟时间
+2025-04-17 11:50:18,997 - slave.sync_monitor - INFO - 偏移量: 0.049998283 秒, 未达标
+2025-04-17 11:50:18,997 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:18,997 - slave.sync_controller - INFO - 同步成功: offset=0.049998283, delay=0.000025988
+2025-04-17 11:50:24,007 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:24,009 - slave.network - INFO - 过滤后结果: offset=0.049996972, delay=0.000028968
+2025-04-17 11:50:24,009 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:24,009 - slave.sync_controller - WARNING - 偏移量过大 (0.049997秒)，已直接调整时钟时间
+2025-04-17 11:50:24,009 - slave.sync_monitor - INFO - 偏移量: 0.049996972 秒, 未达标
+2025-04-17 11:50:24,009 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:24,009 - slave.sync_controller - INFO - 同步成功: offset=0.049996972, delay=0.000028968
+2025-04-17 11:50:29,017 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:29,019 - slave.network - INFO - 过滤后结果: offset=0.050007582, delay=0.000093222
+2025-04-17 11:50:29,019 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:29,019 - slave.sync_controller - WARNING - 偏移量过大 (0.050008秒)，已直接调整时钟时间
+2025-04-17 11:50:29,020 - slave.sync_monitor - INFO - 偏移量: 0.050007582 秒, 未达标
+2025-04-17 11:50:29,020 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:29,020 - slave.sync_controller - INFO - 同步成功: offset=0.050007582, delay=0.000093222
+2025-04-17 11:50:34,027 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:34,031 - slave.network - INFO - 过滤后结果: offset=0.050006509, delay=0.000047565
+2025-04-17 11:50:34,032 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:34,032 - slave.sync_controller - WARNING - 偏移量过大 (0.050007秒)，已直接调整时钟时间
+2025-04-17 11:50:34,032 - slave.sync_monitor - INFO - 偏移量: 0.050006509 秒, 未达标
+2025-04-17 11:50:34,032 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:34,032 - slave.sync_controller - INFO - 同步成功: offset=0.050006509, delay=0.000047565
+2025-04-17 11:50:39,040 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:50:39,042 - slave.network - INFO - 过滤后结果: offset=0.049962401, delay=0.000070214
+2025-04-17 11:50:39,042 - slave.clock - INFO - 手动调整时钟偏移: -0.050秒，已重置PID控制器状态
+2025-04-17 11:50:39,042 - slave.sync_controller - WARNING - 偏移量过大 (0.049962秒)，已直接调整时钟时间
+2025-04-17 11:50:39,042 - slave.sync_monitor - INFO - 偏移量: 0.049962401 秒, 未达标
+2025-04-17 11:50:39,043 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:50:39,043 - slave.sync_controller - INFO - 同步成功: offset=0.049962401, delay=0.000070214
+2025-04-17 11:50:42,547 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 11:50:45,177 - slave.gui - INFO - 应用已关闭
+2025-04-17 11:51:45,904 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 11:51:45,905 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 11:51:45,905 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 11:51:45,905 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 11:51:45,935 - slave.gui - INFO - Slave应用已启动
+2025-04-17 11:52:10,740 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 11:52:10,741 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 11:52:10,745 - slave.network - INFO - 过滤后结果: offset=112.314277411, delay=0.000071287
+2025-04-17 11:52:10,746 - slave.clock - INFO - 手动调整时钟偏移: -112.314秒，已重置PID控制器状态
+2025-04-17 11:52:10,746 - slave.sync_controller - WARNING - 偏移量过大 (112.314277秒)，已直接调整时钟时间
+2025-04-17 11:52:10,746 - slave.sync_monitor - INFO - 偏移量: 112.314277411 秒, 未达标
+2025-04-17 11:52:10,746 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 11:52:10,746 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:52:10,746 - slave.sync_controller - INFO - 同步成功: offset=112.314277411, delay=0.000071287
+2025-04-17 11:52:15,753 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:52:15,755 - slave.network - INFO - 过滤后结果: offset=112.314263582, delay=0.000095606
+2025-04-17 11:52:15,755 - slave.clock - INFO - 手动调整时钟偏移: -112.314秒，已重置PID控制器状态
+2025-04-17 11:52:15,755 - slave.sync_controller - WARNING - 偏移量过大 (112.314264秒)，已直接调整时钟时间
+2025-04-17 11:52:15,755 - slave.sync_monitor - INFO - 偏移量: 112.314263582 秒, 未达标
+2025-04-17 11:52:15,756 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:52:15,756 - slave.sync_controller - INFO - 同步成功: offset=112.314263582, delay=0.000095606
+2025-04-17 11:52:20,764 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:52:20,765 - slave.network - INFO - 过滤后结果: offset=112.314280033, delay=0.000015736
+2025-04-17 11:52:20,765 - slave.clock - INFO - 手动调整时钟偏移: -112.314秒，已重置PID控制器状态
+2025-04-17 11:52:20,765 - slave.sync_controller - WARNING - 偏移量过大 (112.314280秒)，已直接调整时钟时间
+2025-04-17 11:52:20,765 - slave.sync_monitor - INFO - 偏移量: 112.314280033 秒, 未达标
+2025-04-17 11:52:20,766 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:52:20,766 - slave.sync_controller - INFO - 同步成功: offset=112.314280033, delay=0.000015736
+2025-04-17 11:52:23,271 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 11:53:45,216 - slave.gui - INFO - 应用已关闭
+2025-04-17 11:54:11,691 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 11:54:11,691 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 11:54:11,691 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 11:54:11,691 - slave.sync_monitor - INFO - 偏移量阈值: 1000.0 秒
+2025-04-17 11:54:11,728 - slave.gui - INFO - Slave应用已启动
+2025-04-17 11:54:18,846 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 11:54:18,846 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 11:54:18,849 - slave.network - INFO - 过滤后结果: offset=60.000015855, delay=0.000039220
+2025-04-17 11:54:18,849 - slave.clock - INFO - 手动调整时钟偏移: -60.000秒
+2025-04-17 11:54:18,849 - slave.sync_controller - INFO - 偏移量过大 (60.000秒)，已直接调整时钟时间
+2025-04-17 11:54:18,849 - slave.sync_monitor - INFO - 偏移量: 60.000015855 秒, 已达标
+2025-04-17 11:54:18,849 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 11:54:18,849 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:54:18,849 - slave.sync_controller - INFO - 同步成功: offset=60.000015855, delay=0.000039220
+2025-04-17 11:54:23,857 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 11:54:23,859 - slave.network - INFO - 过滤后结果: offset=59.999992967, delay=0.000034451
+2025-04-17 11:54:23,859 - slave.clock - INFO - 手动调整时钟偏移: -60.000秒
+2025-04-17 11:54:23,859 - slave.sync_controller - INFO - 偏移量过大 (60.000秒)，已直接调整时钟时间
+2025-04-17 11:54:23,859 - slave.sync_monitor - INFO - 偏移量: 59.999992967 秒, 已达标
+2025-04-17 11:54:23,859 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 11:54:23,859 - slave.sync_controller - INFO - 同步成功: offset=59.999992967, delay=0.000034451
+2025-04-17 11:54:26,364 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 11:54:27,069 - slave.gui - INFO - 应用已关闭
+2025-04-17 11:59:57,895 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 11:59:57,895 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 11:59:57,895 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 11:59:57,895 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 11:59:57,923 - slave.gui - INFO - Slave应用已启动
+2025-04-17 12:00:09,428 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 12:00:09,429 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 12:00:09,431 - slave.network - INFO - 过滤后结果: offset=59.999999046, delay=0.000069380
+2025-04-17 12:00:09,431 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:09,431 - slave.sync_controller - WARNING - 偏移量为 59.999999秒，已直接调整时钟时间
+2025-04-17 12:00:09,431 - slave.sync_monitor - INFO - 偏移量: 59.999999046 秒, 未达标
+2025-04-17 12:00:09,431 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 12:00:09,431 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:09,431 - slave.sync_controller - INFO - 同步成功: offset=59.999999046, delay=0.000069380
+2025-04-17 12:00:14,438 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:14,440 - slave.network - INFO - 过滤后结果: offset=60.000001550, delay=0.000072122
+2025-04-17 12:00:14,441 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:14,441 - slave.sync_controller - WARNING - 偏移量为 60.000002秒，已直接调整时钟时间
+2025-04-17 12:00:14,441 - slave.sync_monitor - INFO - 偏移量: 60.000001550 秒, 未达标
+2025-04-17 12:00:14,441 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:14,441 - slave.sync_controller - INFO - 同步成功: offset=60.000001550, delay=0.000072122
+2025-04-17 12:00:19,448 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:19,450 - slave.network - INFO - 过滤后结果: offset=60.000019789, delay=0.000104904
+2025-04-17 12:00:19,451 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:19,451 - slave.sync_controller - WARNING - 偏移量为 60.000020秒，已直接调整时钟时间
+2025-04-17 12:00:19,451 - slave.sync_monitor - INFO - 偏移量: 60.000019789 秒, 未达标
+2025-04-17 12:00:19,451 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:19,451 - slave.sync_controller - INFO - 同步成功: offset=60.000019789, delay=0.000104904
+2025-04-17 12:00:24,459 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:24,460 - slave.network - INFO - 过滤后结果: offset=60.000001907, delay=0.000077724
+2025-04-17 12:00:24,461 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:24,461 - slave.sync_controller - WARNING - 偏移量为 60.000002秒，已直接调整时钟时间
+2025-04-17 12:00:24,461 - slave.sync_monitor - INFO - 偏移量: 60.000001907 秒, 未达标
+2025-04-17 12:00:24,461 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:24,461 - slave.sync_controller - INFO - 同步成功: offset=60.000001907, delay=0.000077724
+2025-04-17 12:00:29,469 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:29,471 - slave.network - INFO - 过滤后结果: offset=60.000001550, delay=0.000077128
+2025-04-17 12:00:29,471 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:29,471 - slave.sync_controller - WARNING - 偏移量为 60.000002秒，已直接调整时钟时间
+2025-04-17 12:00:29,471 - slave.sync_monitor - INFO - 偏移量: 60.000001550 秒, 未达标
+2025-04-17 12:00:29,471 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:29,471 - slave.sync_controller - INFO - 同步成功: offset=60.000001550, delay=0.000077128
+2025-04-17 12:00:34,478 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:34,480 - slave.network - INFO - 过滤后结果: offset=60.000000954, delay=0.000087023
+2025-04-17 12:00:34,480 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:34,480 - slave.sync_controller - WARNING - 偏移量为 60.000001秒，已直接调整时钟时间
+2025-04-17 12:00:34,480 - slave.sync_monitor - INFO - 偏移量: 60.000000954 秒, 未达标
+2025-04-17 12:00:34,480 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:34,481 - slave.sync_controller - INFO - 同步成功: offset=60.000000954, delay=0.000087023
+2025-04-17 12:00:39,490 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:39,492 - slave.network - INFO - 过滤后结果: offset=60.000000238, delay=0.000077486
+2025-04-17 12:00:39,492 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:39,492 - slave.sync_controller - WARNING - 偏移量为 60.000000秒，已直接调整时钟时间
+2025-04-17 12:00:39,492 - slave.sync_monitor - INFO - 偏移量: 60.000000238 秒, 未达标
+2025-04-17 12:00:39,492 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:39,493 - slave.sync_controller - INFO - 同步成功: offset=60.000000238, delay=0.000077486
+2025-04-17 12:00:44,501 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:44,503 - slave.network - INFO - 过滤后结果: offset=60.000007629, delay=0.000080824
+2025-04-17 12:00:44,503 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:44,503 - slave.sync_controller - WARNING - 偏移量为 60.000008秒，已直接调整时钟时间
+2025-04-17 12:00:44,503 - slave.sync_monitor - INFO - 偏移量: 60.000007629 秒, 未达标
+2025-04-17 12:00:44,504 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:44,504 - slave.sync_controller - INFO - 同步成功: offset=60.000007629, delay=0.000080824
+2025-04-17 12:00:49,511 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:49,514 - slave.network - INFO - 过滤后结果: offset=59.999951720, delay=0.000087857
+2025-04-17 12:00:49,514 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:00:49,514 - slave.sync_controller - WARNING - 偏移量为 59.999952秒，已直接调整时钟时间
+2025-04-17 12:00:49,514 - slave.sync_monitor - INFO - 偏移量: 59.999951720 秒, 未达标
+2025-04-17 12:00:49,515 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:49,515 - slave.sync_controller - INFO - 同步成功: offset=59.999951720, delay=0.000087857
+2025-04-17 12:00:54,523 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:00:54,525 - slave.network - INFO - 过滤后结果: offset=0.000000715, delay=0.000031233
+2025-04-17 12:00:54,525 - slave.sync_monitor - INFO - 偏移量: 0.000000715 秒, 已达标
+2025-04-17 12:00:54,525 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:00:54,526 - slave.sync_controller - INFO - 同步成功: offset=0.000000715, delay=0.000031233
+2025-04-17 12:00:59,533 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:01:00,535 - slave.network - WARNING - 同步请求超时
+2025-04-17 12:01:00,535 - slave.network - WARNING - 轮次 1/6: 同步失败
+2025-04-17 12:01:01,537 - slave.network - WARNING - 同步请求超时
+2025-04-17 12:01:01,537 - slave.network - WARNING - 轮次 2/6: 同步失败
+2025-04-17 12:01:02,538 - slave.network - WARNING - 同步请求超时
+2025-04-17 12:01:02,538 - slave.network - WARNING - 轮次 3/6: 同步失败
+2025-04-17 12:01:03,539 - slave.network - WARNING - 同步请求超时
+2025-04-17 12:01:03,539 - slave.network - WARNING - 轮次 4/6: 同步失败
+2025-04-17 12:01:04,540 - slave.network - WARNING - 同步请求超时
+2025-04-17 12:01:04,540 - slave.network - WARNING - 轮次 5/6: 同步失败
+2025-04-17 12:01:05,542 - slave.network - WARNING - 同步请求超时
+2025-04-17 12:01:05,542 - slave.network - WARNING - 轮次 6/6: 同步失败
+2025-04-17 12:01:05,543 - slave.network - ERROR - 所有同步轮次均失败
+2025-04-17 12:01:05,543 - slave.sync_controller - WARNING - 同步失败
+2025-04-17 12:01:05,543 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:01:05,543 - slave.sync_monitor - INFO - 主节点状态变更: 离线
+2025-04-17 12:01:09,551 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 12:01:09,552 - slave.gui - INFO - 应用已关闭
+2025-04-17 12:50:39,350 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 12:50:39,350 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 12:50:39,350 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 12:50:39,350 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 12:50:39,399 - slave.gui - INFO - Slave应用已启动
+2025-04-17 12:50:46,142 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 12:50:46,142 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 12:50:46,144 - slave.network - INFO - 过滤后结果: offset=60.000004649, delay=0.000035405
+2025-04-17 12:50:46,144 - slave.sync_controller - WARNING - 检测到大幅偏移变化: 60.000005秒，可能Master时间已调整
+2025-04-17 12:50:46,144 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:50:46,145 - slave.sync_controller - WARNING - 偏移量为 60.000005秒，已直接调整时钟时间
+2025-04-17 12:50:46,145 - slave.sync_monitor - INFO - 偏移量: 60.000004649 秒, 未达标
+2025-04-17 12:50:46,145 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 12:50:46,145 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:50:46,145 - slave.sync_controller - INFO - 同步成功: offset=60.000004649, delay=0.000035405
+2025-04-17 12:50:51,155 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:50:51,158 - slave.network - INFO - 过滤后结果: offset=0.000000834, delay=0.000079036
+2025-04-17 12:50:51,158 - slave.sync_controller - WARNING - 检测到大幅偏移变化: 60.000004秒，可能Master时间已调整
+2025-04-17 12:50:51,158 - slave.sync_monitor - INFO - 偏移量: 0.000000834 秒, 已达标
+2025-04-17 12:50:51,158 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:50:51,158 - slave.sync_controller - INFO - 同步成功: offset=0.000000834, delay=0.000079036
+2025-04-17 12:50:56,166 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:50:56,169 - slave.network - INFO - 过滤后结果: offset=-0.000020266, delay=0.000082731
+2025-04-17 12:50:56,169 - slave.clock - INFO - 检测到误差符号变化 (0.000001 -> -0.000020)，重置PID积分项。
+2025-04-17 12:50:56,170 - slave.sync_monitor - INFO - 偏移量: -0.000020266 秒, 已达标
+2025-04-17 12:50:56,170 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:50:56,170 - slave.sync_controller - INFO - 同步成功: offset=-0.000020266, delay=0.000082731
+2025-04-17 12:51:01,179 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:51:01,181 - slave.network - INFO - 过滤后结果: offset=0.000617623, delay=0.000080228
+2025-04-17 12:51:01,181 - slave.clock - INFO - 检测到误差符号变化 (-0.000020 -> 0.000618)，重置PID积分项。
+2025-04-17 12:51:01,181 - slave.sync_monitor - INFO - 偏移量: 0.000617623 秒, 已达标
+2025-04-17 12:51:01,181 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:51:01,181 - slave.sync_controller - INFO - 同步成功: offset=0.000617623, delay=0.000080228
+2025-04-17 12:51:06,189 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:51:06,191 - slave.network - INFO - 过滤后结果: offset=-0.023282409, delay=0.000059724
+2025-04-17 12:51:06,191 - slave.clock - INFO - 检测到误差符号变化 (0.000618 -> -0.023282)，重置PID积分项。
+2025-04-17 12:51:06,191 - slave.sync_monitor - INFO - 偏移量: -0.023282409 秒, 未达标
+2025-04-17 12:51:06,191 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:51:06,191 - slave.sync_controller - INFO - 同步成功: offset=-0.023282409, delay=0.000059724
+2025-04-17 12:51:10,698 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 12:51:10,698 - slave.gui - INFO - 应用已关闭

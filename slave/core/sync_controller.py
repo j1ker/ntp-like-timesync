@@ -46,7 +46,8 @@ class SyncController:
         """
         self.software_clock = software_clock
         self.sync_monitor = sync_monitor
-        self.network_client = NetworkClient(log_file)
+        # 将软件时钟传递给NetworkClient
+        self.network_client = NetworkClient(software_clock, log_file)
         
         self.sync_thread = None
         self.running = False
@@ -56,6 +57,10 @@ class SyncController:
         self.last_sync_time = 0
         self.sync_success_count = 0
         self.sync_fail_count = 0
+        
+        # 偏移量跟踪
+        self.previous_offset = 0.0  # 上次同步偏移量
+        self.large_offset_threshold = 5.0  # 大偏移阈值（秒）
         
         # 设置日志记录器
         self.logger = setup_logger('slave.sync_controller', log_file)
@@ -75,6 +80,7 @@ class SyncController:
         # 重置状态
         self.sync_success_count = 0
         self.sync_fail_count = 0
+        self.previous_offset = 0.0
         
         # 创建并启动同步线程
         self.sync_thread = threading.Thread(
@@ -168,18 +174,31 @@ class SyncController:
         # 解析结果
         timestamps, filtered_offset, filtered_delay = result
         
-        # 根据偏移量大小决定调整方式
-        if abs(filtered_offset) > 10.0:
-            # 偏移量过大，直接调整时间而不是依赖PID
-            self.software_clock.set_time_offset(-filtered_offset)  # 负值是因为要减去偏移
-            self.logger.info(f"偏移量过大 ({filtered_offset:.3f}秒)，已直接调整时钟时间")
-        else:
-            # 偏移量在可接受范围内，使用PID驯化
-            self.software_clock.discipline(filtered_offset)
+        # 记录原始偏移量供日志和监控使用
+        raw_offset = filtered_offset
         
-        # 更新同步监控器
+        # 检测是否存在异常大的偏移变化
+        offset_change = abs(filtered_offset - self.previous_offset)
+        if offset_change > self.large_offset_threshold:
+            # 偏移量变化过大，可能是Master时间被手动调整了
+            self.logger.warning(f"检测到大幅偏移变化: {offset_change:.6f}秒，可能Master时间已调整")
+        
+        # 更新上次偏移量记录
+        self.previous_offset = filtered_offset
+        
+        # 根据偏移量大小决定调整方式
+        if abs(filtered_offset) > 0.5:  # 超过0.5秒采用直接调整
+            # 偏移量较大，直接调整时间而不是依赖PID
+            self.software_clock.set_time_offset(filtered_offset)  # 正值表示需要增加Slave时间
+            self.logger.warning(f"偏移量为 {filtered_offset:.6f}秒，已直接调整时钟时间")
+        else:
+            # 偏移量在较小范围内，使用PID驯化
+            self.software_clock.discipline(filtered_offset)
+            self.logger.debug(f"使用PID控制器调整时钟频率，当前偏移: {filtered_offset:.6f}秒")
+        
+        # 更新同步监控器 - 注意我们传递原始偏移以便监控系统正确显示偏移
         current_timestamp_ms = self.software_clock.current_timestamp_ms()
-        self.sync_monitor.add_offset_record(current_timestamp_ms, filtered_offset)
+        self.sync_monitor.add_offset_record(current_timestamp_ms, raw_offset, filtered_delay)
         self.sync_monitor.update_master_online_status(True)
         
         # 设置状态为已同步

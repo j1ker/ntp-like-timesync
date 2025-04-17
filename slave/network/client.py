@@ -17,7 +17,7 @@ import random
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-from common.protocol import create_request_packet, parse_reply_packet, calculate_offset_delay
+from common.protocol import parse_reply_packet, calculate_offset_delay
 from common.config import MASTER_IP, SYNC_PORT, SYNC_TIMEOUT, MAX_SEQUENCE
 from common.utils.logger import setup_logger
 
@@ -28,15 +28,17 @@ class NetworkClient:
     发送同步请求到Master，接收响应并计算时钟偏移量。
     """
     
-    def __init__(self, log_file=None):
+    def __init__(self, software_clock, log_file=None):
         """初始化网络客户端
         
         Args:
+            software_clock: SoftwareClock实例，用于获取软件时钟时间
             log_file: 日志文件路径
         """
         self.client_socket = None
         self.server_addr = (MASTER_IP, SYNC_PORT)
         self.sequence = random.randint(0, MAX_SEQUENCE)
+        self.software_clock = software_clock
         
         # 设置日志记录器
         self.logger = setup_logger('slave.network', log_file)
@@ -66,6 +68,20 @@ class NetworkClient:
             self.client_socket.close()
             self.client_socket = None
     
+    def create_request_packet(self, sequence):
+        """创建同步请求数据包
+        
+        Args:
+            sequence: 序列号
+            
+        Returns:
+            tuple: (bytes, float) 编码后的数据包字节和发送时间t1
+        """
+        # 使用软件时钟获取t1，而不是系统时钟
+        t1 = self.software_clock.current_time_val()
+        packet = struct.pack('>BHddd', 0x01, sequence, t1, 0.0, 0.0)
+        return packet, t1
+    
     def send_sync_request(self):
         """发送同步请求并接收响应
         
@@ -82,8 +98,8 @@ class NetworkClient:
             # 递增序列号
             self.sequence = (self.sequence + 1) % MAX_SEQUENCE
             
-            # 创建请求包并记录发送时间T1
-            request_packet, t1 = create_request_packet(self.sequence)
+            # 创建请求包并记录发送时间T1 - 使用我们自己的方法获取软件时钟时间
+            request_packet, t1 = self.create_request_packet(self.sequence)
             
             # 发送请求
             self.client_socket.sendto(request_packet, self.server_addr)
@@ -91,7 +107,8 @@ class NetworkClient:
             # 接收响应
             try:
                 data, addr = self.client_socket.recvfrom(1024)
-                t4 = time.time()  # 记录接收时间T4
+                # 使用软件时钟记录接收时间T4，而不是系统时钟
+                t4 = self.software_clock.current_time_val()
                 
                 # 解析响应包
                 result = parse_reply_packet(data)

@@ -58,6 +58,8 @@ class TimeSource:
     def adjust_reference_time(self, seconds_offset):
         """调整当前参考时间
         
+        此方法只简单调整内部时钟的基准时间，不影响同步过程
+        
         Args:
             seconds_offset: 要调整的秒数（正数为增加，负数为减少）
             
@@ -66,6 +68,7 @@ class TimeSource:
         """
         # 更新初始系统时间以反映偏移
         self.init_system_time += seconds_offset
+        
         return self.current_time()
     
     def current_time(self):

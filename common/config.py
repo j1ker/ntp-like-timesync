@@ -23,10 +23,10 @@ PID_KI = 0.5             # 积分系数
 PID_KD = 0.1             # 微分系数
 PID_MAX_INTEGRAL = 1.0   # 积分项上限(防止积分饱和)
 PID_MIN_INTEGRAL = -1.0  # 积分项下限
-MAX_RATE_ADJUSTMENT = 0.01  # 最大频率调整量
+MAX_RATE_ADJUSTMENT = 1  # 最大频率调整量
 
 # 状态阈值
-SYNC_THRESHOLD = 1000.0   # 同步阈值(秒)，低于此值认为已同步
+SYNC_THRESHOLD = 0.001   # 同步阈值(秒)，低于此值认为已同步，由原来的1000秒改为1毫秒
 OFFLINE_TIMEOUT = 15     # 主节点离线超时(秒)
 
 # 图表显示设置

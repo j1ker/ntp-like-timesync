@@ -9,6 +9,8 @@ Slave同步监控器模块
 
 import time
 import datetime
+import math
+import statistics
 from collections import deque
 from threading import Lock
 from PyQt5.QtCore import QObject, pyqtSignal
@@ -50,6 +52,23 @@ class SyncMonitor(QObject):
         
         # 偏移量历史记录（时间戳毫秒，偏移量秒）
         self.offset_history = deque(maxlen=CHART_MAX_POINTS)
+        
+        # 延迟历史记录
+        self.delay_history = deque(maxlen=CHART_MAX_POINTS)
+        
+        # 性能指标
+        self.performance_metrics = {
+            'accuracy': 0.0,             # 时间准确度 (ms)
+            'stability': 0.0,            # 时间稳定度 (标准差, ms)
+            'precision': 0.0,            # 授时精度 (最大偏差, ms)
+            'avg_delay': 0.0,            # 平均网络延迟 (ms)
+            'sync_success_rate': 0.0,    # 同步成功率 (%)
+            'last_update_time': 0        # 上次更新时间
+        }
+        
+        # 同步统计数据
+        self.total_sync_attempts = 0
+        self.successful_sync_count = 0
         
         # 日志缓冲
         self.log_buffer = deque(maxlen=1000)
@@ -98,12 +117,13 @@ class SyncMonitor(QObject):
                 # 发射信号
                 self.sync_status_changed.emit(status)
     
-    def add_offset_record(self, timestamp_ms, offset):
+    def add_offset_record(self, timestamp_ms, offset, delay=None):
         """添加偏移量记录
         
         Args:
             timestamp_ms: 毫秒级时间戳
             offset: 偏移量（秒）
+            delay: 网络延迟（秒），如果提供则也记录
         """
         with self.lock:
             # 更新最近偏移量
@@ -113,10 +133,79 @@ class SyncMonitor(QObject):
             # 添加到历史记录
             self.offset_history.append((timestamp_ms, offset))
             
+            # 如果提供了延迟，也记录
+            if delay is not None:
+                self.delay_history.append((timestamp_ms, delay))
+            
+            # 更新同步统计
+            self.total_sync_attempts += 1
+            
             # 判断是否同步达标
             in_sync = abs(offset) < SYNC_THRESHOLD
+            if in_sync:
+                self.successful_sync_count += 1
+                
             status_text = "已达标" if in_sync else "未达标"
             self._add_log(f"偏移量: {offset:.9f} 秒, {status_text}")
+            
+            # 更新性能指标
+            self._update_performance_metrics()
+    
+    def _update_performance_metrics(self):
+        """更新性能指标"""
+        if len(self.offset_history) < 2:
+            return
+            
+        # 获取最近的偏移量数据（转换为毫秒）
+        recent_offsets = [offset * 1000 for _, offset in self.offset_history]
+        
+        # 时间准确度 - 最近偏移量的绝对值
+        self.performance_metrics['accuracy'] = abs(recent_offsets[-1])
+        
+        # 时间稳定度 - 偏移量的标准差
+        if len(recent_offsets) >= 3:
+            self.performance_metrics['stability'] = statistics.stdev(recent_offsets)
+        else:
+            self.performance_metrics['stability'] = 0.0
+            
+        # 授时精度 - 最大偏差
+        max_deviation = max(abs(offset) for offset in recent_offsets)
+        self.performance_metrics['precision'] = max_deviation
+        
+        # 平均网络延迟
+        if self.delay_history:
+            delays_ms = [delay * 1000 for _, delay in self.delay_history]
+            self.performance_metrics['avg_delay'] = sum(delays_ms) / len(delays_ms)
+        
+        # 同步成功率
+        if self.total_sync_attempts > 0:
+            self.performance_metrics['sync_success_rate'] = (self.successful_sync_count / self.total_sync_attempts) * 100
+        
+        # 更新时间
+        self.performance_metrics['last_update_time'] = time.time()
+    
+    def reset_performance_metrics(self):
+        """重置性能指标"""
+        with self.lock:
+            self.total_sync_attempts = 0
+            self.successful_sync_count = 0
+            self.performance_metrics = {
+                'accuracy': 0.0,
+                'stability': 0.0,
+                'precision': 0.0,
+                'avg_delay': 0.0,
+                'sync_success_rate': 0.0,
+                'last_update_time': 0
+            }
+    
+    def get_performance_metrics(self):
+        """获取性能指标
+        
+        Returns:
+            dict: 性能指标字典
+        """
+        with self.lock:
+            return self.performance_metrics.copy()
     
     def get_offset_history(self):
         """获取偏移量历史记录

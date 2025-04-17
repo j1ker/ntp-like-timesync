@@ -108,3 +108,156 @@
 2025-04-16 17:16:26,378 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> ERROR
 2025-04-16 17:16:30,888 - slave.sync_controller - INFO - 同步控制器已停止
 2025-04-16 17:16:33,006 - slave.gui - INFO - 应用已关闭
+2025-04-17 12:10:27,658 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 12:10:27,660 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 12:10:27,660 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 12:10:27,660 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 12:10:27,687 - slave.gui - INFO - Slave应用已启动
+2025-04-17 12:11:12,059 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 12:11:12,059 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 12:11:12,063 - slave.network - INFO - 过滤后结果: offset=59.999912381, delay=0.000115514
+2025-04-17 12:11:12,063 - slave.sync_controller - WARNING - 检测到异常偏移变化: 上次 0.000000 -> 当前 59.999912
+2025-04-17 12:11:12,063 - slave.sync_controller - INFO - 首次检测到大偏移，将在下次同步确认
+2025-04-17 12:11:12,063 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:12,063 - slave.sync_controller - WARNING - 偏移量为 59.999912秒，已直接调整时钟时间
+2025-04-17 12:11:12,063 - slave.sync_monitor - INFO - 偏移量: 59.999912381 秒, 未达标
+2025-04-17 12:11:12,063 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 12:11:12,063 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:12,064 - slave.sync_controller - INFO - 同步成功: offset=59.999912381, delay=0.000115514
+2025-04-17 12:11:17,072 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:11:17,075 - slave.network - INFO - 过滤后结果: offset=59.999949574, delay=0.000163913
+2025-04-17 12:11:17,076 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:17,076 - slave.sync_controller - WARNING - 偏移量为 59.999950秒，已直接调整时钟时间
+2025-04-17 12:11:17,076 - slave.sync_monitor - INFO - 偏移量: 59.999949574 秒, 未达标
+2025-04-17 12:11:17,076 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:17,076 - slave.sync_controller - INFO - 同步成功: offset=59.999949574, delay=0.000163913
+2025-04-17 12:11:22,087 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:11:22,089 - slave.network - INFO - 过滤后结果: offset=59.999975204, delay=0.000057697
+2025-04-17 12:11:22,089 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:22,090 - slave.sync_controller - WARNING - 偏移量为 59.999975秒，已直接调整时钟时间
+2025-04-17 12:11:22,090 - slave.sync_monitor - INFO - 偏移量: 59.999975204 秒, 未达标
+2025-04-17 12:11:22,090 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:22,090 - slave.sync_controller - INFO - 同步成功: offset=59.999975204, delay=0.000057697
+2025-04-17 12:11:27,098 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:11:27,100 - slave.network - INFO - 过滤后结果: offset=60.000023007, delay=0.000042319
+2025-04-17 12:11:27,100 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:27,100 - slave.sync_controller - WARNING - 偏移量为 60.000023秒，已直接调整时钟时间
+2025-04-17 12:11:27,100 - slave.sync_monitor - INFO - 偏移量: 60.000023007 秒, 未达标
+2025-04-17 12:11:27,100 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:27,101 - slave.sync_controller - INFO - 同步成功: offset=60.000023007, delay=0.000042319
+2025-04-17 12:11:32,108 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:11:32,110 - slave.network - INFO - 过滤后结果: offset=60.000000715, delay=0.000018358
+2025-04-17 12:11:32,110 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:32,110 - slave.sync_controller - WARNING - 偏移量为 60.000001秒，已直接调整时钟时间
+2025-04-17 12:11:32,110 - slave.sync_monitor - INFO - 偏移量: 60.000000715 秒, 未达标
+2025-04-17 12:11:32,110 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:32,110 - slave.sync_controller - INFO - 同步成功: offset=60.000000715, delay=0.000018358
+2025-04-17 12:11:37,119 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:11:37,121 - slave.network - INFO - 过滤后结果: offset=60.000004411, delay=0.000095963
+2025-04-17 12:11:37,121 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:37,121 - slave.sync_controller - WARNING - 偏移量为 60.000004秒，已直接调整时钟时间
+2025-04-17 12:11:37,121 - slave.sync_monitor - INFO - 偏移量: 60.000004411 秒, 未达标
+2025-04-17 12:11:37,122 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:37,122 - slave.sync_controller - INFO - 同步成功: offset=60.000004411, delay=0.000095963
+2025-04-17 12:11:42,129 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:11:42,132 - slave.network - INFO - 过滤后结果: offset=60.000005364, delay=0.000090003
+2025-04-17 12:11:42,132 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:11:42,132 - slave.sync_controller - WARNING - 偏移量为 60.000005秒，已直接调整时钟时间
+2025-04-17 12:11:42,133 - slave.sync_monitor - INFO - 偏移量: 60.000005364 秒, 未达标
+2025-04-17 12:11:42,133 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:11:42,133 - slave.sync_controller - INFO - 同步成功: offset=60.000005364, delay=0.000090003
+2025-04-17 12:11:44,137 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 12:11:44,868 - slave.gui - INFO - 应用已关闭
+2025-04-17 12:19:08,335 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 12:19:08,336 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 12:19:08,336 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 12:19:08,336 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 12:19:08,368 - slave.gui - INFO - Slave应用已启动
+2025-04-17 12:19:44,215 - slave.sync_controller - INFO - 同步控制器已启动
+2025-04-17 12:19:44,215 - slave.sync_monitor - INFO - 同步状态变更: STOPPED -> SYNCING
+2025-04-17 12:19:44,221 - slave.network - INFO - 过滤后结果: offset=59.999996424, delay=0.000028133
+2025-04-17 12:19:44,221 - slave.sync_controller - WARNING - 检测到大幅偏移变化: 59.999996秒，可能Master时间已调整
+2025-04-17 12:19:44,221 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:19:44,221 - slave.sync_controller - WARNING - 偏移量为 59.999996秒，已直接调整时钟时间
+2025-04-17 12:19:44,222 - slave.sync_monitor - INFO - 偏移量: 59.999996424 秒, 未达标
+2025-04-17 12:19:44,222 - slave.sync_monitor - INFO - 主节点状态变更: 在线
+2025-04-17 12:19:44,222 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:19:44,222 - slave.sync_controller - INFO - 同步成功: offset=59.999996424, delay=0.000028133
+2025-04-17 12:19:49,231 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:19:49,232 - slave.network - INFO - 过滤后结果: offset=60.000002861, delay=0.000018358
+2025-04-17 12:19:49,233 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:19:49,233 - slave.sync_controller - WARNING - 偏移量为 60.000003秒，已直接调整时钟时间
+2025-04-17 12:19:49,233 - slave.sync_monitor - INFO - 偏移量: 60.000002861 秒, 未达标
+2025-04-17 12:19:49,233 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:19:49,233 - slave.sync_controller - INFO - 同步成功: offset=60.000002861, delay=0.000018358
+2025-04-17 12:19:54,242 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:19:54,244 - slave.network - INFO - 过滤后结果: offset=59.999992371, delay=0.000076056
+2025-04-17 12:19:54,244 - slave.clock - INFO - 手动调整时钟偏移: 60.000秒，已重置PID控制器状态
+2025-04-17 12:19:54,244 - slave.sync_controller - WARNING - 偏移量为 59.999992秒，已直接调整时钟时间
+2025-04-17 12:19:54,244 - slave.sync_monitor - INFO - 偏移量: 59.999992371 秒, 未达标
+2025-04-17 12:19:54,244 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:19:54,245 - slave.sync_controller - INFO - 同步成功: offset=59.999992371, delay=0.000076056
+2025-04-17 12:19:59,252 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:19:59,254 - slave.network - INFO - 过滤后结果: offset=0.000002503, delay=0.000095725
+2025-04-17 12:19:59,254 - slave.sync_controller - WARNING - 检测到大幅偏移变化: 59.999990秒，可能Master时间已调整
+2025-04-17 12:19:59,254 - slave.sync_monitor - INFO - 偏移量: 0.000002503 秒, 已达标
+2025-04-17 12:19:59,255 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:19:59,255 - slave.sync_controller - INFO - 同步成功: offset=0.000002503, delay=0.000095725
+2025-04-17 12:20:04,264 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:04,266 - slave.network - INFO - 过滤后结果: offset=0.000007629, delay=0.000033140
+2025-04-17 12:20:04,266 - slave.sync_monitor - INFO - 偏移量: 0.000007629 秒, 已达标
+2025-04-17 12:20:04,266 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:04,267 - slave.sync_controller - INFO - 同步成功: offset=0.000007629, delay=0.000033140
+2025-04-17 12:20:09,273 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:09,275 - slave.network - INFO - 过滤后结果: offset=-0.000002503, delay=0.000077367
+2025-04-17 12:20:09,275 - slave.clock - INFO - 检测到误差符号变化 (0.000008 -> -0.000003)，重置PID积分项。
+2025-04-17 12:20:09,275 - slave.sync_monitor - INFO - 偏移量: -0.000002503 秒, 已达标
+2025-04-17 12:20:09,275 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:09,275 - slave.sync_controller - INFO - 同步成功: offset=-0.000002503, delay=0.000077367
+2025-04-17 12:20:14,284 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:14,286 - slave.network - INFO - 过滤后结果: offset=-0.000005126, delay=0.000091434
+2025-04-17 12:20:14,287 - slave.sync_monitor - INFO - 偏移量: -0.000005126 秒, 已达标
+2025-04-17 12:20:14,287 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:14,287 - slave.sync_controller - INFO - 同步成功: offset=-0.000005126, delay=0.000091434
+2025-04-17 12:20:19,295 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:19,297 - slave.network - INFO - 过滤后结果: offset=0.000008464, delay=0.000092387
+2025-04-17 12:20:19,297 - slave.clock - INFO - 检测到误差符号变化 (-0.000005 -> 0.000008)，重置PID积分项。
+2025-04-17 12:20:19,297 - slave.sync_monitor - INFO - 偏移量: 0.000008464 秒, 已达标
+2025-04-17 12:20:19,298 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:19,298 - slave.sync_controller - INFO - 同步成功: offset=0.000008464, delay=0.000092387
+2025-04-17 12:20:24,307 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:24,308 - slave.network - INFO - 过滤后结果: offset=-0.000004053, delay=0.000022411
+2025-04-17 12:20:24,309 - slave.clock - INFO - 检测到误差符号变化 (0.000008 -> -0.000004)，重置PID积分项。
+2025-04-17 12:20:24,309 - slave.sync_monitor - INFO - 偏移量: -0.000004053 秒, 已达标
+2025-04-17 12:20:24,309 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:24,309 - slave.sync_controller - INFO - 同步成功: offset=-0.000004053, delay=0.000022411
+2025-04-17 12:20:29,316 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:29,318 - slave.network - INFO - 过滤后结果: offset=-0.000019193, delay=0.000097394
+2025-04-17 12:20:29,318 - slave.sync_monitor - INFO - 偏移量: -0.000019193 秒, 已达标
+2025-04-17 12:20:29,318 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:29,319 - slave.sync_controller - INFO - 同步成功: offset=-0.000019193, delay=0.000097394
+2025-04-17 12:20:34,327 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:34,329 - slave.network - INFO - 过滤后结果: offset=-0.000031829, delay=0.000057101
+2025-04-17 12:20:34,329 - slave.sync_monitor - INFO - 偏移量: -0.000031829 秒, 已达标
+2025-04-17 12:20:34,329 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:34,329 - slave.sync_controller - INFO - 同步成功: offset=-0.000031829, delay=0.000057101
+2025-04-17 12:20:39,341 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:39,343 - slave.network - INFO - 过滤后结果: offset=0.000009656, delay=0.000100970
+2025-04-17 12:20:39,343 - slave.clock - INFO - 检测到误差符号变化 (-0.000032 -> 0.000010)，重置PID积分项。
+2025-04-17 12:20:39,344 - slave.sync_monitor - INFO - 偏移量: 0.000009656 秒, 已达标
+2025-04-17 12:20:39,344 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:39,344 - slave.sync_controller - INFO - 同步成功: offset=0.000009656, delay=0.000100970
+2025-04-17 12:20:44,352 - slave.sync_monitor - INFO - 同步状态变更: SYNCHRONIZED -> SYNCING
+2025-04-17 12:20:44,354 - slave.network - INFO - 过滤后结果: offset=-0.000003576, delay=0.000080585
+2025-04-17 12:20:44,355 - slave.clock - INFO - 检测到误差符号变化 (0.000010 -> -0.000004)，重置PID积分项。
+2025-04-17 12:20:44,355 - slave.sync_monitor - INFO - 偏移量: -0.000003576 秒, 已达标
+2025-04-17 12:20:44,355 - slave.sync_monitor - INFO - 同步状态变更: SYNCING -> SYNCHRONIZED
+2025-04-17 12:20:44,355 - slave.sync_controller - INFO - 同步成功: offset=-0.000003576, delay=0.000080585
+2025-04-17 12:20:45,357 - slave.sync_controller - INFO - 同步控制器已停止
+2025-04-17 12:28:02,471 - slave.clock - INFO - 软件时钟已初始化
+2025-04-17 12:28:02,472 - slave.sync_monitor - INFO - 同步监控器已初始化
+2025-04-17 12:28:02,472 - slave.sync_monitor - INFO - 同步监控器已启动
+2025-04-17 12:28:02,472 - slave.sync_monitor - INFO - 偏移量阈值: 0.001 秒
+2025-04-17 12:28:02,525 - slave.gui - INFO - Slave应用已启动
+2025-04-17 12:50:24,938 - slave.gui - INFO - 应用已关闭
+2025-04-17 12:50:27,994 - slave.gui - INFO - 应用已关闭
